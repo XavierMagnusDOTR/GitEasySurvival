@@ -18,3 +18,4 @@
 *.log filter=lfs diff=lfs merge=lfs -text
 *.dmp filter=lfs diff=lfs merge=lfs -text
 *.sav filter=lfs diff=lfs merge=lfs -text
+*.fbx filter=lfs diff=lfs merge=lfs -text
