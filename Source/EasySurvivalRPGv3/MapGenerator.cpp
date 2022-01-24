@@ -41,12 +41,22 @@ void AMapGenerator::GenerateMapVariations()
 	if (UseHorizontalCrawler)
 	{	
 	for(int i = 0; i< HorizontalCrawlerCount;i++)
-	{HorizontalCrawler(FVector2D(mapX/2, mapY/2), FVector2D(0, 0), FVector2D(mapX, mapY), SeedValue);}
+	{
+	if(Hposition == Bottom)
+	{HorizontalCrawler(FVector2D(0, mapY / 2), FVector2D(0, 0), FVector2D(mapX, mapY), SeedValue);}
+	else{HorizontalCrawler(FVector2D(mapX / 2, mapY / 2), FVector2D(0, 0), FVector2D(mapX, mapY), SeedValue);}
+	}
 	}
 	if (UseVerticalCrawler)
 	{
-	for(int i = 0; i < VerticalCrawlerCount; i++)
-	{VerticalCrawler(FVector2D(mapX / 2, mapY / 2), FVector2D(0, 0), FVector2D(mapX, mapY), SeedValue); }
+		for (int i = 0; i < VerticalCrawlerCount; i++)
+		{
+		if (Vposition == Bottom)
+		{
+			VerticalCrawler(FVector2D(mapX / 2, 0), FVector2D(0, 0), FVector2D(mapX, mapY), SeedValue);
+		}
+		else { HorizontalCrawler(FVector2D(mapX / 2, mapY / 2), FVector2D(0, 0), FVector2D(mapX, mapY), SeedValue); }
+		}
 	}
 }
 
@@ -55,41 +65,46 @@ void AMapGenerator::HorizontalCrawler(FVector2D startingposition, FVector2D boun
 
 	bool done = false;
 	int loopcount = 0;
+
+	seed.GenerateNewSeed();
+	UE_LOG(LogTemp, Warning, TEXT("HCrawlerCalled"))
 	while (!done)
 	{
-
-		UE_LOG(LogTemp, Warning, TEXT("Seed value is: %i"), seed.GetCurrentSeed())
 		currentmap.Add(startingposition, 0);
 		loopcount++;
 		float x = seed.RandRange(0,1);
 		if(x > HCrawlerDeviationChance)
-		{startingposition.X += seed.RandRange(-1, 1);}
+		{startingposition.X += seed.RandRange(0, 1);}
 		else{startingposition.Y += seed.RandRange(-1, 1);}
 
-		done = (startingposition.X < boundarymin.X || startingposition.Y  < boundarymin.Y || startingposition.X > boundarymax.X || startingposition.Y > boundarymax.Y || loopcount > maxSteps);
+		done = (startingposition.X < boundarymin.X || startingposition.Y  < boundarymin.Y || startingposition.X > boundarymax.X+2 || startingposition.Y > boundarymax.Y+2 || loopcount > maxSteps);
 	}
+
 }
 
 void AMapGenerator::VerticalCrawler(FVector2D startingposition, FVector2D boundarymin, FVector2D boundarymax, FRandomStream seed)
 {
 
 	bool done = false;
+
+	seed.GenerateNewSeed();
+	UE_LOG(LogTemp, Warning, TEXT("VCrawlerCalled"))
 	int loopcount = 0;
 	while (!done)
 	{
 
-		UE_LOG(LogTemp, Warning, TEXT("Seed value is: %i"), seed.GetCurrentSeed())
 		currentmap.Add(startingposition, 0);
 		loopcount++;
 		float x = seed.RandRange(0, 1);
 		if (x > VCrawlerDeviationChance)
 		{
-			startingposition.Y += seed.RandRange(-1, 1);
+			startingposition.Y += seed.RandRange(0, 1);
 		}
 		else { startingposition.X += seed.RandRange(-1, 1); }
 
-		done = (startingposition.X < boundarymin.X || startingposition.Y  < boundarymin.Y || startingposition.X > boundarymax.X || startingposition.Y > boundarymax.Y || loopcount > maxSteps);
+		done = (startingposition.X < boundarymin.X || startingposition.Y  < boundarymin.Y || startingposition.X > boundarymax.X+2 || startingposition.Y > boundarymax.Y+2 || loopcount > maxSteps);
 	}
+
 }
 
 TMap<FVector2D, int> AMapGenerator::GetMap()

@@ -8,6 +8,15 @@
 #include "Kismet/KismetMathLibrary.h"
 #include "MapGenerator.generated.h"
 
+UENUM()
+enum CrawlerStartPosition
+{
+	Bottom     UMETA(DisplayName = "Bottom"),
+	Middle      UMETA(DisplayName = "Middle"),
+};
+
+
+
 UCLASS()
 class EASYSURVIVALRPGV3_API AMapGenerator : public AActor
 {
@@ -47,13 +56,15 @@ public:
 	UFUNCTION(BlueprintCallable)
 	TMap<FVector2D, int> GetMap();
 
+
 	UPROPERTY(EditAnywhere)
 	bool UseHorizontalCrawler = false;
 	UPROPERTY(EditAnywhere)
 	int HorizontalCrawlerCount = 2;
 	UPROPERTY(EditAnywhere)
 	float HCrawlerDeviationChance = .7; 
-
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TEnumAsByte<CrawlerStartPosition> Hposition;
 
 	UPROPERTY(EditAnywhere)
 	bool UseVerticalCrawler = false;
@@ -61,4 +72,9 @@ public:
 	int VerticalCrawlerCount = 2;
 	UPROPERTY(EditAnywhere)
 	float VCrawlerDeviationChance = .7;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TEnumAsByte<CrawlerStartPosition> Vposition;
+
+
 };
