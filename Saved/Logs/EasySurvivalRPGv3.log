@@ -31569,3 +31569,1978 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.01.24-02.39.06:053][132]AssetCheck: New page: Asset Save: multiple assets
 [2022.01.24-02.39.06:053][132]LogContentValidation: Display: Validating World /Game/XM/Maps/ArenaTestZone.ArenaTestZone
 [2022.01.24-02.39.06:053][132]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/XM/Maps/ArenaTestZone_BuiltData.ArenaTestZone_BuiltData
+[2022.01.24-02.41.26:364][313]LogTemp: Repeating last play command: Simulate
+[2022.01.24-02.41.26:368][313]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.24-02.41.26:369][313]PIE: New page: SIE session: ArenaTestZone (Jan 23, 2022, 12:41:26 PM)
+[2022.01.24-02.41.26:369][313]LogPlayLevel: Creating play world package: /Game/XM/Maps/UEDPIE_0_ArenaTestZone
+[2022.01.24-02.41.26:375][313]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005960s)
+[2022.01.24-02.41.26:375][313]LogAIModule: Creating AISystem for world ArenaTestZone
+[2022.01.24-02.41.26:376][313]LogPlayLevel: PIE: World Init took: (0.000834s)
+[2022.01.24-02.41.26:376][313]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/XM/Maps/ArenaTestZone.ArenaTestZone to /Game/XM/Maps/UEDPIE_0_ArenaTestZone.ArenaTestZone (0.006903s)
+[2022.01.24-02.41.26:395][313]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2022.01.24-02.41.26:397][313]LogAudio: Display: Creating Audio Device:                 Id: 56, Scope: Unique, Realtime: True
+[2022.01.24-02.41.26:397][313]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.24-02.41.26:397][313]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.24-02.41.26:397][313]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.24-02.41.26:397][313]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.24-02.41.26:397][313]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.24-02.41.26:397][313]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.24-02.41.26:397][313]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.24-02.41.26:397][313]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.24-02.41.26:397][313]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.01.24-02.41.26:397][313]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.01.24-02.41.26:397][313]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.01.24-02.41.26:397][313]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.24-02.41.26:402][313]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.24-02.41.26:402][313]LogAudioMixer: Display: 1: FrontRight
+[2022.01.24-02.41.26:410][313]LogAudioMixer: Display: Using Audio Device U32J59x (NVIDIA High Definition Audio)
+[2022.01.24-02.41.26:410][313]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.24-02.41.26:410][313]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.24-02.41.26:410][313]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.24-02.41.26:411][313]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.24-02.41.26:411][313]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.24-02.41.26:411][313]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.24-02.41.26:412][313]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.24-02.41.26:412][313]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.24-02.41.26:412][313]LogInit: FAudioDevice initialized.
+[2022.01.24-02.41.26:412][313]LogAudio: Display: Audio Device (ID: 56) registered with world 'ArenaTestZone'.
+[2022.01.24-02.41.26:416][313]LogLoad: Game class is 'BP_GameMode_Game_C'
+[2022.01.24-02.41.26:417][313]LogWorld: Bringing World /Game/XM/Maps/UEDPIE_0_ArenaTestZone.ArenaTestZone up for play (max tick rate 0) at 2022.01.23-19.41.26
+[2022.01.24-02.41.26:418][313]LogWorld: Bringing up level for play took: 0.000712
+[2022.01.24-02.41.26:418][313]LogOnline: OSS: Creating online subsystem instance for: :Context_58
+[2022.01.24-02.41.26:419][313]LogTemp: Warning: The value of i is: 0
+[2022.01.24-02.41.26:419][313]LogTemp: Warning: The value of i is: 1
+[2022.01.24-02.41.26:419][313]LogTemp: Warning: The value of i is: 2
+[2022.01.24-02.41.26:419][313]LogTemp: Warning: The value of i is: 3
+[2022.01.24-02.41.26:419][313]LogTemp: Warning: The value of i is: 4
+[2022.01.24-02.41.26:419][313]LogTemp: Warning: The value of i is: 5
+[2022.01.24-02.41.26:420][313]LogTemp: Warning: The value of i is: 6
+[2022.01.24-02.41.26:420][313]LogTemp: Warning: The value of i is: 7
+[2022.01.24-02.41.26:420][313]LogTemp: Warning: The value of i is: 8
+[2022.01.24-02.41.26:420][313]LogTemp: Warning: The value of i is: 9
+[2022.01.24-02.41.26:420][313]LogTemp: Warning: The value of i is: 10
+[2022.01.24-02.41.26:420][313]LogTemp: Warning: The value of i is: 11
+[2022.01.24-02.41.26:420][313]LogTemp: Warning: The value of i is: 12
+[2022.01.24-02.41.26:420][313]LogTemp: Warning: The value of i is: 13
+[2022.01.24-02.41.26:420][313]LogTemp: Warning: The value of i is: 14
+[2022.01.24-02.41.26:420][313]LogTemp: Warning: The value of i is: 15
+[2022.01.24-02.41.26:420][313]LogTemp: Warning: The value of i is: 16
+[2022.01.24-02.41.26:420][313]LogTemp: Warning: The value of i is: 17
+[2022.01.24-02.41.26:420][313]LogTemp: Warning: The value of i is: 18
+[2022.01.24-02.41.26:420][313]LogTemp: Warning: The value of i is: 19
+[2022.01.24-02.41.26:420][313]LogTemp: Warning: The value of i is: 20
+[2022.01.24-02.41.26:420][313]LogTemp: Warning: The value of i is: 21
+[2022.01.24-02.41.26:420][313]LogTemp: Warning: The value of i is: 22
+[2022.01.24-02.41.26:420][313]LogTemp: Warning: The value of i is: 23
+[2022.01.24-02.41.26:420][313]LogTemp: Warning: The value of i is: 24
+[2022.01.24-02.41.26:420][313]LogTemp: Warning: The value of i is: 25
+[2022.01.24-02.41.26:420][313]LogTemp: Warning: The value of i is: 26
+[2022.01.24-02.41.26:420][313]LogTemp: Warning: The value of i is: 27
+[2022.01.24-02.41.26:420][313]LogTemp: Warning: The value of i is: 28
+[2022.01.24-02.41.26:420][313]LogTemp: Warning: The value of i is: 29
+[2022.01.24-02.41.26:420][313]LogTemp: Warning: The value of i is: 30
+[2022.01.24-02.41.26:420][313]LogTemp: Warning: The value of i is: 31
+[2022.01.24-02.41.26:420][313]LogTemp: Warning: The value of i is: 32
+[2022.01.24-02.41.26:420][313]LogTemp: Warning: The value of i is: 33
+[2022.01.24-02.41.26:420][313]LogTemp: Warning: The value of i is: 34
+[2022.01.24-02.41.26:420][313]LogTemp: Warning: The value of i is: 35
+[2022.01.24-02.41.26:420][313]LogTemp: Warning: The value of i is: 36
+[2022.01.24-02.41.26:420][313]LogTemp: Warning: The value of i is: 37
+[2022.01.24-02.41.26:420][313]LogTemp: Warning: The value of i is: 38
+[2022.01.24-02.41.26:421][313]LogTemp: Warning: The value of i is: 39
+[2022.01.24-02.41.26:421][313]LogTemp: Warning: The value of i is: 40
+[2022.01.24-02.41.26:421][313]LogTemp: Warning: The value of i is: 41
+[2022.01.24-02.41.26:421][313]LogTemp: Warning: The value of i is: 42
+[2022.01.24-02.41.26:421][313]LogTemp: Warning: The value of i is: 43
+[2022.01.24-02.41.26:421][313]LogTemp: Warning: The value of i is: 44
+[2022.01.24-02.41.26:421][313]LogTemp: Warning: HCrawlerCalled
+[2022.01.24-02.41.26:421][313]LogTemp: Warning: HCrawlerCalled
+[2022.01.24-02.41.26:421][313]LogTemp: Warning: HCrawlerCalled
+[2022.01.24-02.41.26:421][313]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-02.41.26:421][313]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-02.41.26:421][313]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-02.41.26:421][313]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-02.41.26:606][313]Cmd: r.VolumetricCloud.DistanceToSampleMaxCount 4.0
+[2022.01.24-02.41.26:606][313]r.VolumetricCloud.DistanceToSampleMaxCount = "4"
+[2022.01.24-02.41.26:607][313]Cmd: r.VolumetricRenderTarget.Mode 2
+[2022.01.24-02.41.26:607][313]r.VolumetricRenderTarget.Mode = "2"
+[2022.01.24-02.41.26:607][313]Cmd: r.VolumetricRenderTarget 1
+[2022.01.24-02.41.26:607][313]r.VolumetricRenderTarget = "1"
+[2022.01.24-02.41.26:607][313]Cmd: r.LightFunctionQuality 1
+[2022.01.24-02.41.26:607][313]r.LightFunctionQuality = "1"
+[2022.01.24-02.41.26:607][313]Cmd: r.SkyLight.RealTimeReflectionCapture 1
+[2022.01.24-02.41.26:607][313]r.SkyLight.RealTimeReflectionCapture = "1"
+[2022.01.24-02.41.26:607][313]Cmd: r.SkyLight.RealTimeReflectionCapture.TimeSlice 1
+[2022.01.24-02.41.26:607][313]r.SkyLight.RealTimeReflectionCapture.TimeSlice = "1"
+[2022.01.24-02.41.26:607][313]Cmd: r.EyeAdaptation.BlackHistogramBucketInfluence 0.5
+[2022.01.24-02.41.26:607][313]r.EyeAdaptation.BlackHistogramBucketInfluence = "0.5"
+[2022.01.24-02.41.26:609][313]PIE: Server logged in
+[2022.01.24-02.41.26:610][313]PIE: Play in editor total start time 0.242 seconds.
+[2022.01.24-02.41.27:315][313]Cmd: r.VolumetricFog.GridPixelSize 64
+[2022.01.24-02.41.27:315][313]r.VolumetricFog.GridPixelSize = "64"
+[2022.01.24-02.41.36:699][719]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.24-02.41.36:699][719]LogWorld: BeginTearingDown for /Game/XM/Maps/UEDPIE_0_ArenaTestZone
+[2022.01.24-02.41.36:700][719]LogWorld: UWorld::CleanupWorld for ArenaTestZone, bSessionEnded=true, bCleanupResources=true
+[2022.01.24-02.41.36:705][719]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.24-02.41.36:713][719]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.24-02.41.36:724][719]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.24-02.41.36:743][719]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.01.24-02.41.36:744][719]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.24-02.41.36:745][719]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.24-02.41.36:746][719]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.24-02.41.36:756][719]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2022.01.24-02.41.37:700][720]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2022.01.24-02.49.07:835][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2022.01.24-02.49.07:878][ 65]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Saved/ArenaTestZone_Auto6C1A0979C4C4A011E9B5957AF1FE62243.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Saved/Autosaves/Game/XM/Maps/ArenaTestZone_Auto6.umap'
+[2022.01.24-02.49.07:892][ 65]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/XM/Maps/ArenaTestZone' took 0.079
+[2022.01.24-02.49.07:893][ 65]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.079
+[2022.01.24-02.58.08:823][796]LogTemp: Repeating last play command: Simulate
+[2022.01.24-02.58.08:828][796]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.24-02.58.08:828][796]PIE: New page: SIE session: ArenaTestZone (Jan 23, 2022, 12:58:08 PM)
+[2022.01.24-02.58.08:828][796]LogPlayLevel: Creating play world package: /Game/XM/Maps/UEDPIE_0_ArenaTestZone
+[2022.01.24-02.58.08:834][796]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006376s)
+[2022.01.24-02.58.08:835][796]LogAIModule: Creating AISystem for world ArenaTestZone
+[2022.01.24-02.58.08:835][796]LogPlayLevel: PIE: World Init took: (0.001001s)
+[2022.01.24-02.58.08:835][796]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/XM/Maps/ArenaTestZone.ArenaTestZone to /Game/XM/Maps/UEDPIE_0_ArenaTestZone.ArenaTestZone (0.007503s)
+[2022.01.24-02.58.08:854][796]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2022.01.24-02.58.08:857][796]LogAudio: Display: Creating Audio Device:                 Id: 57, Scope: Unique, Realtime: True
+[2022.01.24-02.58.08:857][796]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.24-02.58.08:857][796]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.24-02.58.08:857][796]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.24-02.58.08:857][796]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.24-02.58.08:857][796]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.24-02.58.08:857][796]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.24-02.58.08:857][796]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.24-02.58.08:858][796]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.24-02.58.08:858][796]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.01.24-02.58.08:858][796]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.01.24-02.58.08:858][796]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.01.24-02.58.08:858][796]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.24-02.58.08:863][796]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.24-02.58.08:863][796]LogAudioMixer: Display: 1: FrontRight
+[2022.01.24-02.58.08:872][796]LogAudioMixer: Display: Using Audio Device U32J59x (NVIDIA High Definition Audio)
+[2022.01.24-02.58.08:872][796]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.24-02.58.08:872][796]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.24-02.58.08:872][796]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.24-02.58.08:873][796]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.24-02.58.08:873][796]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.24-02.58.08:873][796]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.24-02.58.08:874][796]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.24-02.58.08:874][796]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.24-02.58.08:874][796]LogInit: FAudioDevice initialized.
+[2022.01.24-02.58.08:874][796]LogAudio: Display: Audio Device (ID: 57) registered with world 'ArenaTestZone'.
+[2022.01.24-02.58.08:886][796]LogLoad: Game class is 'BP_GameMode_Game_C'
+[2022.01.24-02.58.08:888][796]LogWorld: Bringing World /Game/XM/Maps/UEDPIE_0_ArenaTestZone.ArenaTestZone up for play (max tick rate 0) at 2022.01.23-19.58.08
+[2022.01.24-02.58.08:888][796]LogWorld: Bringing up level for play took: 0.001322
+[2022.01.24-02.58.08:889][796]LogOnline: OSS: Creating online subsystem instance for: :Context_59
+[2022.01.24-02.58.08:891][796]LogTemp: Warning: The value of i is: 0
+[2022.01.24-02.58.08:891][796]LogTemp: Warning: The value of i is: 1
+[2022.01.24-02.58.08:891][796]LogTemp: Warning: The value of i is: 2
+[2022.01.24-02.58.08:891][796]LogTemp: Warning: The value of i is: 3
+[2022.01.24-02.58.08:891][796]LogTemp: Warning: The value of i is: 4
+[2022.01.24-02.58.08:891][796]LogTemp: Warning: The value of i is: 5
+[2022.01.24-02.58.08:891][796]LogTemp: Warning: The value of i is: 6
+[2022.01.24-02.58.08:891][796]LogTemp: Warning: The value of i is: 7
+[2022.01.24-02.58.08:891][796]LogTemp: Warning: The value of i is: 8
+[2022.01.24-02.58.08:891][796]LogTemp: Warning: The value of i is: 9
+[2022.01.24-02.58.08:891][796]LogTemp: Warning: The value of i is: 10
+[2022.01.24-02.58.08:891][796]LogTemp: Warning: The value of i is: 11
+[2022.01.24-02.58.08:891][796]LogTemp: Warning: The value of i is: 12
+[2022.01.24-02.58.08:891][796]LogTemp: Warning: The value of i is: 13
+[2022.01.24-02.58.08:891][796]LogTemp: Warning: The value of i is: 14
+[2022.01.24-02.58.08:892][796]LogTemp: Warning: The value of i is: 15
+[2022.01.24-02.58.08:892][796]LogTemp: Warning: The value of i is: 16
+[2022.01.24-02.58.08:892][796]LogTemp: Warning: The value of i is: 17
+[2022.01.24-02.58.08:892][796]LogTemp: Warning: The value of i is: 18
+[2022.01.24-02.58.08:892][796]LogTemp: Warning: The value of i is: 19
+[2022.01.24-02.58.08:892][796]LogTemp: Warning: The value of i is: 20
+[2022.01.24-02.58.08:892][796]LogTemp: Warning: The value of i is: 21
+[2022.01.24-02.58.08:892][796]LogTemp: Warning: The value of i is: 22
+[2022.01.24-02.58.08:892][796]LogTemp: Warning: The value of i is: 23
+[2022.01.24-02.58.08:892][796]LogTemp: Warning: The value of i is: 24
+[2022.01.24-02.58.08:892][796]LogTemp: Warning: The value of i is: 25
+[2022.01.24-02.58.08:892][796]LogTemp: Warning: The value of i is: 26
+[2022.01.24-02.58.08:892][796]LogTemp: Warning: The value of i is: 27
+[2022.01.24-02.58.08:892][796]LogTemp: Warning: The value of i is: 28
+[2022.01.24-02.58.08:892][796]LogTemp: Warning: The value of i is: 29
+[2022.01.24-02.58.08:892][796]LogTemp: Warning: The value of i is: 30
+[2022.01.24-02.58.08:892][796]LogTemp: Warning: The value of i is: 31
+[2022.01.24-02.58.08:892][796]LogTemp: Warning: The value of i is: 32
+[2022.01.24-02.58.08:892][796]LogTemp: Warning: The value of i is: 33
+[2022.01.24-02.58.08:892][796]LogTemp: Warning: The value of i is: 34
+[2022.01.24-02.58.08:892][796]LogTemp: Warning: The value of i is: 35
+[2022.01.24-02.58.08:892][796]LogTemp: Warning: The value of i is: 36
+[2022.01.24-02.58.08:892][796]LogTemp: Warning: The value of i is: 37
+[2022.01.24-02.58.08:892][796]LogTemp: Warning: The value of i is: 38
+[2022.01.24-02.58.08:892][796]LogTemp: Warning: The value of i is: 39
+[2022.01.24-02.58.08:892][796]LogTemp: Warning: The value of i is: 40
+[2022.01.24-02.58.08:892][796]LogTemp: Warning: The value of i is: 41
+[2022.01.24-02.58.08:892][796]LogTemp: Warning: The value of i is: 42
+[2022.01.24-02.58.08:892][796]LogTemp: Warning: The value of i is: 43
+[2022.01.24-02.58.08:892][796]LogTemp: Warning: The value of i is: 44
+[2022.01.24-02.58.08:892][796]LogTemp: Warning: HCrawlerCalled
+[2022.01.24-02.58.08:893][796]LogTemp: Warning: HCrawlerCalled
+[2022.01.24-02.58.08:893][796]LogTemp: Warning: HCrawlerCalled
+[2022.01.24-02.58.08:893][796]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-02.58.08:893][796]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-02.58.08:893][796]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-02.58.08:893][796]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-02.58.09:080][796]Cmd: r.VolumetricCloud.DistanceToSampleMaxCount 4.0
+[2022.01.24-02.58.09:080][796]r.VolumetricCloud.DistanceToSampleMaxCount = "4"
+[2022.01.24-02.58.09:080][796]Cmd: r.VolumetricRenderTarget.Mode 2
+[2022.01.24-02.58.09:080][796]r.VolumetricRenderTarget.Mode = "2"
+[2022.01.24-02.58.09:080][796]Cmd: r.VolumetricRenderTarget 1
+[2022.01.24-02.58.09:080][796]r.VolumetricRenderTarget = "1"
+[2022.01.24-02.58.09:081][796]Cmd: r.LightFunctionQuality 1
+[2022.01.24-02.58.09:081][796]r.LightFunctionQuality = "1"
+[2022.01.24-02.58.09:081][796]Cmd: r.SkyLight.RealTimeReflectionCapture 1
+[2022.01.24-02.58.09:081][796]r.SkyLight.RealTimeReflectionCapture = "1"
+[2022.01.24-02.58.09:081][796]Cmd: r.SkyLight.RealTimeReflectionCapture.TimeSlice 1
+[2022.01.24-02.58.09:081][796]r.SkyLight.RealTimeReflectionCapture.TimeSlice = "1"
+[2022.01.24-02.58.09:081][796]Cmd: r.EyeAdaptation.BlackHistogramBucketInfluence 0.5
+[2022.01.24-02.58.09:081][796]r.EyeAdaptation.BlackHistogramBucketInfluence = "0.5"
+[2022.01.24-02.58.09:083][796]PIE: Server logged in
+[2022.01.24-02.58.09:083][796]PIE: Play in editor total start time 0.257 seconds.
+[2022.01.24-02.58.09:823][796]Cmd: r.VolumetricFog.GridPixelSize 64
+[2022.01.24-02.58.09:823][796]r.VolumetricFog.GridPixelSize = "64"
+[2022.01.24-02.58.13:888][943]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.24-02.58.13:888][943]LogWorld: BeginTearingDown for /Game/XM/Maps/UEDPIE_0_ArenaTestZone
+[2022.01.24-02.58.13:889][943]LogWorld: UWorld::CleanupWorld for ArenaTestZone, bSessionEnded=true, bCleanupResources=true
+[2022.01.24-02.58.13:893][943]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.24-02.58.13:917][943]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.24-02.58.13:927][943]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.24-02.58.13:946][943]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.24-02.58.13:946][943]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.24-02.58.13:947][943]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.24-02.58.13:961][943]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2022.01.24-02.58.14:929][944]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2022.01.24-03.04.17:415][678]LogTemp: Repeating last play command: Simulate
+[2022.01.24-03.04.17:421][678]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.24-03.04.17:421][678]PIE: New page: SIE session: ArenaTestZone (Jan 23, 2022, 1:04:17 PM)
+[2022.01.24-03.04.17:421][678]LogPlayLevel: Creating play world package: /Game/XM/Maps/UEDPIE_0_ArenaTestZone
+[2022.01.24-03.04.17:432][678]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011136s)
+[2022.01.24-03.04.17:433][678]LogAIModule: Creating AISystem for world ArenaTestZone
+[2022.01.24-03.04.17:433][678]LogPlayLevel: PIE: World Init took: (0.001004s)
+[2022.01.24-03.04.17:433][678]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/XM/Maps/ArenaTestZone.ArenaTestZone to /Game/XM/Maps/UEDPIE_0_ArenaTestZone.ArenaTestZone (0.012258s)
+[2022.01.24-03.04.17:453][678]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2022.01.24-03.04.17:456][678]LogAudio: Display: Creating Audio Device:                 Id: 58, Scope: Unique, Realtime: True
+[2022.01.24-03.04.17:456][678]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.24-03.04.17:456][678]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.24-03.04.17:456][678]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.24-03.04.17:456][678]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.24-03.04.17:456][678]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.24-03.04.17:456][678]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.24-03.04.17:456][678]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.24-03.04.17:456][678]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.24-03.04.17:457][678]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.01.24-03.04.17:457][678]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.01.24-03.04.17:457][678]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.01.24-03.04.17:457][678]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.24-03.04.17:461][678]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.24-03.04.17:461][678]LogAudioMixer: Display: 1: FrontRight
+[2022.01.24-03.04.17:469][678]LogAudioMixer: Display: Using Audio Device U32J59x (NVIDIA High Definition Audio)
+[2022.01.24-03.04.17:470][678]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.24-03.04.17:470][678]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.24-03.04.17:470][678]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.24-03.04.17:470][678]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.24-03.04.17:470][678]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.24-03.04.17:470][678]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.24-03.04.17:471][678]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.24-03.04.17:471][678]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.24-03.04.17:471][678]LogInit: FAudioDevice initialized.
+[2022.01.24-03.04.17:471][678]LogAudio: Display: Audio Device (ID: 58) registered with world 'ArenaTestZone'.
+[2022.01.24-03.04.17:479][678]LogLoad: Game class is 'BP_GameMode_Game_C'
+[2022.01.24-03.04.17:480][678]LogWorld: Bringing World /Game/XM/Maps/UEDPIE_0_ArenaTestZone.ArenaTestZone up for play (max tick rate 0) at 2022.01.23-20.04.17
+[2022.01.24-03.04.17:481][678]LogWorld: Bringing up level for play took: 0.001281
+[2022.01.24-03.04.17:481][678]LogOnline: OSS: Creating online subsystem instance for: :Context_60
+[2022.01.24-03.04.17:483][678]LogTemp: Warning: The value of i is: 0
+[2022.01.24-03.04.17:484][678]LogTemp: Warning: The value of i is: 1
+[2022.01.24-03.04.17:484][678]LogTemp: Warning: The value of i is: 2
+[2022.01.24-03.04.17:484][678]LogTemp: Warning: The value of i is: 3
+[2022.01.24-03.04.17:484][678]LogTemp: Warning: The value of i is: 4
+[2022.01.24-03.04.17:484][678]LogTemp: Warning: The value of i is: 5
+[2022.01.24-03.04.17:484][678]LogTemp: Warning: The value of i is: 6
+[2022.01.24-03.04.17:484][678]LogTemp: Warning: The value of i is: 7
+[2022.01.24-03.04.17:484][678]LogTemp: Warning: The value of i is: 8
+[2022.01.24-03.04.17:484][678]LogTemp: Warning: The value of i is: 9
+[2022.01.24-03.04.17:484][678]LogTemp: Warning: The value of i is: 10
+[2022.01.24-03.04.17:484][678]LogTemp: Warning: The value of i is: 11
+[2022.01.24-03.04.17:484][678]LogTemp: Warning: The value of i is: 12
+[2022.01.24-03.04.17:484][678]LogTemp: Warning: The value of i is: 13
+[2022.01.24-03.04.17:484][678]LogTemp: Warning: The value of i is: 14
+[2022.01.24-03.04.17:484][678]LogTemp: Warning: The value of i is: 15
+[2022.01.24-03.04.17:484][678]LogTemp: Warning: The value of i is: 16
+[2022.01.24-03.04.17:484][678]LogTemp: Warning: The value of i is: 17
+[2022.01.24-03.04.17:484][678]LogTemp: Warning: The value of i is: 18
+[2022.01.24-03.04.17:484][678]LogTemp: Warning: The value of i is: 19
+[2022.01.24-03.04.17:484][678]LogTemp: Warning: The value of i is: 20
+[2022.01.24-03.04.17:484][678]LogTemp: Warning: The value of i is: 21
+[2022.01.24-03.04.17:484][678]LogTemp: Warning: The value of i is: 22
+[2022.01.24-03.04.17:484][678]LogTemp: Warning: The value of i is: 23
+[2022.01.24-03.04.17:484][678]LogTemp: Warning: The value of i is: 24
+[2022.01.24-03.04.17:484][678]LogTemp: Warning: The value of i is: 25
+[2022.01.24-03.04.17:484][678]LogTemp: Warning: The value of i is: 26
+[2022.01.24-03.04.17:484][678]LogTemp: Warning: The value of i is: 27
+[2022.01.24-03.04.17:484][678]LogTemp: Warning: The value of i is: 28
+[2022.01.24-03.04.17:484][678]LogTemp: Warning: The value of i is: 29
+[2022.01.24-03.04.17:484][678]LogTemp: Warning: The value of i is: 30
+[2022.01.24-03.04.17:484][678]LogTemp: Warning: The value of i is: 31
+[2022.01.24-03.04.17:484][678]LogTemp: Warning: The value of i is: 32
+[2022.01.24-03.04.17:484][678]LogTemp: Warning: The value of i is: 33
+[2022.01.24-03.04.17:484][678]LogTemp: Warning: The value of i is: 34
+[2022.01.24-03.04.17:485][678]LogTemp: Warning: The value of i is: 35
+[2022.01.24-03.04.17:485][678]LogTemp: Warning: The value of i is: 36
+[2022.01.24-03.04.17:485][678]LogTemp: Warning: The value of i is: 37
+[2022.01.24-03.04.17:485][678]LogTemp: Warning: The value of i is: 38
+[2022.01.24-03.04.17:485][678]LogTemp: Warning: The value of i is: 39
+[2022.01.24-03.04.17:485][678]LogTemp: Warning: The value of i is: 40
+[2022.01.24-03.04.17:485][678]LogTemp: Warning: The value of i is: 41
+[2022.01.24-03.04.17:485][678]LogTemp: Warning: The value of i is: 42
+[2022.01.24-03.04.17:485][678]LogTemp: Warning: The value of i is: 43
+[2022.01.24-03.04.17:485][678]LogTemp: Warning: The value of i is: 44
+[2022.01.24-03.04.17:485][678]LogTemp: Warning: HCrawlerCalled
+[2022.01.24-03.04.17:485][678]LogTemp: Warning: HCrawlerCalled
+[2022.01.24-03.04.17:485][678]LogTemp: Warning: HCrawlerCalled
+[2022.01.24-03.04.17:485][678]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.04.17:485][678]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.04.17:485][678]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.04.17:485][678]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.04.17:666][678]Cmd: r.VolumetricCloud.DistanceToSampleMaxCount 4.0
+[2022.01.24-03.04.17:666][678]r.VolumetricCloud.DistanceToSampleMaxCount = "4"
+[2022.01.24-03.04.17:667][678]Cmd: r.VolumetricRenderTarget.Mode 2
+[2022.01.24-03.04.17:667][678]r.VolumetricRenderTarget.Mode = "2"
+[2022.01.24-03.04.17:667][678]Cmd: r.VolumetricRenderTarget 1
+[2022.01.24-03.04.17:667][678]r.VolumetricRenderTarget = "1"
+[2022.01.24-03.04.17:667][678]Cmd: r.LightFunctionQuality 1
+[2022.01.24-03.04.17:667][678]r.LightFunctionQuality = "1"
+[2022.01.24-03.04.17:667][678]Cmd: r.SkyLight.RealTimeReflectionCapture 1
+[2022.01.24-03.04.17:667][678]r.SkyLight.RealTimeReflectionCapture = "1"
+[2022.01.24-03.04.17:667][678]Cmd: r.SkyLight.RealTimeReflectionCapture.TimeSlice 1
+[2022.01.24-03.04.17:667][678]r.SkyLight.RealTimeReflectionCapture.TimeSlice = "1"
+[2022.01.24-03.04.17:667][678]Cmd: r.EyeAdaptation.BlackHistogramBucketInfluence 0.5
+[2022.01.24-03.04.17:667][678]r.EyeAdaptation.BlackHistogramBucketInfluence = "0.5"
+[2022.01.24-03.04.17:669][678]PIE: Server logged in
+[2022.01.24-03.04.17:670][678]PIE: Play in editor total start time 0.25 seconds.
+[2022.01.24-03.04.18:437][678]Cmd: r.VolumetricFog.GridPixelSize 64
+[2022.01.24-03.04.18:437][678]r.VolumetricFog.GridPixelSize = "64"
+[2022.01.24-03.05.35:897][255]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.24-03.05.35:897][255]LogWorld: BeginTearingDown for /Game/XM/Maps/UEDPIE_0_ArenaTestZone
+[2022.01.24-03.05.35:898][255]LogWorld: UWorld::CleanupWorld for ArenaTestZone, bSessionEnded=true, bCleanupResources=true
+[2022.01.24-03.05.35:903][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.24-03.05.35:912][255]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.24-03.05.35:922][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.24-03.05.35:941][255]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.24-03.05.35:942][255]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.24-03.05.35:943][255]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.24-03.05.35:951][255]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2022.01.24-03.05.36:892][256]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2022.01.24-03.05.37:548][316]LogTemp: Repeating last play command: Simulate
+[2022.01.24-03.05.37:552][316]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.24-03.05.37:552][316]PIE: New page: SIE session: ArenaTestZone (Jan 23, 2022, 1:05:37 PM)
+[2022.01.24-03.05.37:553][316]LogPlayLevel: Creating play world package: /Game/XM/Maps/UEDPIE_0_ArenaTestZone
+[2022.01.24-03.05.37:559][316]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005913s)
+[2022.01.24-03.05.37:559][316]LogAIModule: Creating AISystem for world ArenaTestZone
+[2022.01.24-03.05.37:560][316]LogPlayLevel: PIE: World Init took: (0.000862s)
+[2022.01.24-03.05.37:560][316]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/XM/Maps/ArenaTestZone.ArenaTestZone to /Game/XM/Maps/UEDPIE_0_ArenaTestZone.ArenaTestZone (0.006905s)
+[2022.01.24-03.05.37:581][316]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2022.01.24-03.05.37:582][316]LogAudio: Display: Creating Audio Device:                 Id: 59, Scope: Unique, Realtime: True
+[2022.01.24-03.05.37:582][316]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.24-03.05.37:582][316]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.24-03.05.37:582][316]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.24-03.05.37:582][316]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.24-03.05.37:582][316]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.24-03.05.37:582][316]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.24-03.05.37:582][316]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.24-03.05.37:582][316]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.24-03.05.37:583][316]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.01.24-03.05.37:583][316]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.01.24-03.05.37:583][316]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.01.24-03.05.37:583][316]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.24-03.05.37:590][316]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.24-03.05.37:590][316]LogAudioMixer: Display: 1: FrontRight
+[2022.01.24-03.05.37:615][316]LogAudioMixer: Display: Using Audio Device U32J59x (NVIDIA High Definition Audio)
+[2022.01.24-03.05.37:615][316]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.24-03.05.37:615][316]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.24-03.05.37:615][316]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.24-03.05.37:615][316]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.24-03.05.37:615][316]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.24-03.05.37:615][316]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.24-03.05.37:616][316]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.24-03.05.37:616][316]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.24-03.05.37:616][316]LogInit: FAudioDevice initialized.
+[2022.01.24-03.05.37:617][316]LogAudio: Display: Audio Device (ID: 59) registered with world 'ArenaTestZone'.
+[2022.01.24-03.05.37:627][316]LogLoad: Game class is 'BP_GameMode_Game_C'
+[2022.01.24-03.05.37:628][316]LogWorld: Bringing World /Game/XM/Maps/UEDPIE_0_ArenaTestZone.ArenaTestZone up for play (max tick rate 0) at 2022.01.23-20.05.37
+[2022.01.24-03.05.37:629][316]LogWorld: Bringing up level for play took: 0.001349
+[2022.01.24-03.05.37:629][316]LogOnline: OSS: Creating online subsystem instance for: :Context_61
+[2022.01.24-03.05.37:631][316]LogTemp: Warning: The value of i is: 0
+[2022.01.24-03.05.37:631][316]LogTemp: Warning: The value of i is: 1
+[2022.01.24-03.05.37:631][316]LogTemp: Warning: The value of i is: 2
+[2022.01.24-03.05.37:631][316]LogTemp: Warning: The value of i is: 3
+[2022.01.24-03.05.37:631][316]LogTemp: Warning: The value of i is: 4
+[2022.01.24-03.05.37:631][316]LogTemp: Warning: The value of i is: 5
+[2022.01.24-03.05.37:631][316]LogTemp: Warning: The value of i is: 6
+[2022.01.24-03.05.37:631][316]LogTemp: Warning: The value of i is: 7
+[2022.01.24-03.05.37:631][316]LogTemp: Warning: The value of i is: 8
+[2022.01.24-03.05.37:631][316]LogTemp: Warning: The value of i is: 9
+[2022.01.24-03.05.37:631][316]LogTemp: Warning: The value of i is: 10
+[2022.01.24-03.05.37:631][316]LogTemp: Warning: The value of i is: 11
+[2022.01.24-03.05.37:631][316]LogTemp: Warning: The value of i is: 12
+[2022.01.24-03.05.37:631][316]LogTemp: Warning: The value of i is: 13
+[2022.01.24-03.05.37:631][316]LogTemp: Warning: The value of i is: 14
+[2022.01.24-03.05.37:631][316]LogTemp: Warning: The value of i is: 15
+[2022.01.24-03.05.37:631][316]LogTemp: Warning: The value of i is: 16
+[2022.01.24-03.05.37:631][316]LogTemp: Warning: The value of i is: 17
+[2022.01.24-03.05.37:631][316]LogTemp: Warning: The value of i is: 18
+[2022.01.24-03.05.37:631][316]LogTemp: Warning: The value of i is: 19
+[2022.01.24-03.05.37:631][316]LogTemp: Warning: The value of i is: 20
+[2022.01.24-03.05.37:631][316]LogTemp: Warning: The value of i is: 21
+[2022.01.24-03.05.37:631][316]LogTemp: Warning: The value of i is: 22
+[2022.01.24-03.05.37:631][316]LogTemp: Warning: The value of i is: 23
+[2022.01.24-03.05.37:631][316]LogTemp: Warning: The value of i is: 24
+[2022.01.24-03.05.37:631][316]LogTemp: Warning: The value of i is: 25
+[2022.01.24-03.05.37:631][316]LogTemp: Warning: The value of i is: 26
+[2022.01.24-03.05.37:631][316]LogTemp: Warning: The value of i is: 27
+[2022.01.24-03.05.37:631][316]LogTemp: Warning: The value of i is: 28
+[2022.01.24-03.05.37:631][316]LogTemp: Warning: The value of i is: 29
+[2022.01.24-03.05.37:632][316]LogTemp: Warning: The value of i is: 30
+[2022.01.24-03.05.37:632][316]LogTemp: Warning: The value of i is: 31
+[2022.01.24-03.05.37:632][316]LogTemp: Warning: The value of i is: 32
+[2022.01.24-03.05.37:632][316]LogTemp: Warning: The value of i is: 33
+[2022.01.24-03.05.37:632][316]LogTemp: Warning: The value of i is: 34
+[2022.01.24-03.05.37:632][316]LogTemp: Warning: The value of i is: 35
+[2022.01.24-03.05.37:632][316]LogTemp: Warning: The value of i is: 36
+[2022.01.24-03.05.37:632][316]LogTemp: Warning: The value of i is: 37
+[2022.01.24-03.05.37:632][316]LogTemp: Warning: The value of i is: 38
+[2022.01.24-03.05.37:632][316]LogTemp: Warning: The value of i is: 39
+[2022.01.24-03.05.37:632][316]LogTemp: Warning: The value of i is: 40
+[2022.01.24-03.05.37:632][316]LogTemp: Warning: The value of i is: 41
+[2022.01.24-03.05.37:632][316]LogTemp: Warning: The value of i is: 42
+[2022.01.24-03.05.37:632][316]LogTemp: Warning: The value of i is: 43
+[2022.01.24-03.05.37:632][316]LogTemp: Warning: The value of i is: 44
+[2022.01.24-03.05.37:632][316]LogTemp: Warning: HCrawlerCalled
+[2022.01.24-03.05.37:632][316]LogTemp: Warning: HCrawlerCalled
+[2022.01.24-03.05.37:632][316]LogTemp: Warning: HCrawlerCalled
+[2022.01.24-03.05.37:632][316]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.05.37:632][316]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.05.37:632][316]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.05.37:632][316]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.05.37:800][316]Cmd: r.VolumetricCloud.DistanceToSampleMaxCount 4.0
+[2022.01.24-03.05.37:800][316]r.VolumetricCloud.DistanceToSampleMaxCount = "4"
+[2022.01.24-03.05.37:800][316]Cmd: r.VolumetricRenderTarget.Mode 2
+[2022.01.24-03.05.37:800][316]r.VolumetricRenderTarget.Mode = "2"
+[2022.01.24-03.05.37:800][316]Cmd: r.VolumetricRenderTarget 1
+[2022.01.24-03.05.37:800][316]r.VolumetricRenderTarget = "1"
+[2022.01.24-03.05.37:801][316]Cmd: r.LightFunctionQuality 1
+[2022.01.24-03.05.37:801][316]r.LightFunctionQuality = "1"
+[2022.01.24-03.05.37:801][316]Cmd: r.SkyLight.RealTimeReflectionCapture 1
+[2022.01.24-03.05.37:801][316]r.SkyLight.RealTimeReflectionCapture = "1"
+[2022.01.24-03.05.37:801][316]Cmd: r.SkyLight.RealTimeReflectionCapture.TimeSlice 1
+[2022.01.24-03.05.37:801][316]r.SkyLight.RealTimeReflectionCapture.TimeSlice = "1"
+[2022.01.24-03.05.37:801][316]Cmd: r.EyeAdaptation.BlackHistogramBucketInfluence 0.5
+[2022.01.24-03.05.37:801][316]r.EyeAdaptation.BlackHistogramBucketInfluence = "0.5"
+[2022.01.24-03.05.37:803][316]PIE: Server logged in
+[2022.01.24-03.05.37:803][316]PIE: Play in editor total start time 0.252 seconds.
+[2022.01.24-03.05.38:526][316]Cmd: r.VolumetricFog.GridPixelSize 64
+[2022.01.24-03.05.38:526][316]r.VolumetricFog.GridPixelSize = "64"
+[2022.01.24-03.05.40:789][381]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.24-03.05.40:789][381]LogWorld: BeginTearingDown for /Game/XM/Maps/UEDPIE_0_ArenaTestZone
+[2022.01.24-03.05.40:791][381]LogWorld: UWorld::CleanupWorld for ArenaTestZone, bSessionEnded=true, bCleanupResources=true
+[2022.01.24-03.05.40:796][381]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.24-03.05.40:807][381]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.24-03.05.40:817][381]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.24-03.05.40:835][381]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.24-03.05.40:836][381]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.24-03.05.40:836][381]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.24-03.05.40:846][381]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2022.01.24-03.05.41:764][382]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2022.01.24-03.05.42:503][454]LogTemp: Repeating last play command: Simulate
+[2022.01.24-03.05.42:513][454]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.24-03.05.42:513][454]PIE: New page: SIE session: ArenaTestZone (Jan 23, 2022, 1:05:42 PM)
+[2022.01.24-03.05.42:513][454]LogPlayLevel: Creating play world package: /Game/XM/Maps/UEDPIE_0_ArenaTestZone
+[2022.01.24-03.05.42:534][454]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021284s)
+[2022.01.24-03.05.42:536][454]LogAIModule: Creating AISystem for world ArenaTestZone
+[2022.01.24-03.05.42:536][454]LogPlayLevel: PIE: World Init took: (0.001404s)
+[2022.01.24-03.05.42:536][454]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/XM/Maps/ArenaTestZone.ArenaTestZone to /Game/XM/Maps/UEDPIE_0_ArenaTestZone.ArenaTestZone (0.022845s)
+[2022.01.24-03.05.42:555][454]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2022.01.24-03.05.42:557][454]LogAudio: Display: Creating Audio Device:                 Id: 60, Scope: Unique, Realtime: True
+[2022.01.24-03.05.42:557][454]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.24-03.05.42:557][454]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.24-03.05.42:557][454]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.24-03.05.42:557][454]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.24-03.05.42:557][454]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.24-03.05.42:557][454]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.24-03.05.42:557][454]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.24-03.05.42:557][454]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.24-03.05.42:557][454]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.01.24-03.05.42:557][454]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.01.24-03.05.42:557][454]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.01.24-03.05.42:557][454]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.24-03.05.42:562][454]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.24-03.05.42:562][454]LogAudioMixer: Display: 1: FrontRight
+[2022.01.24-03.05.42:569][454]LogAudioMixer: Display: Using Audio Device U32J59x (NVIDIA High Definition Audio)
+[2022.01.24-03.05.42:569][454]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.24-03.05.42:569][454]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.24-03.05.42:569][454]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.24-03.05.42:570][454]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.24-03.05.42:570][454]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.24-03.05.42:570][454]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.24-03.05.42:570][454]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.24-03.05.42:570][454]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.24-03.05.42:570][454]LogInit: FAudioDevice initialized.
+[2022.01.24-03.05.42:571][454]LogAudio: Display: Audio Device (ID: 60) registered with world 'ArenaTestZone'.
+[2022.01.24-03.05.42:580][454]LogLoad: Game class is 'BP_GameMode_Game_C'
+[2022.01.24-03.05.42:581][454]LogWorld: Bringing World /Game/XM/Maps/UEDPIE_0_ArenaTestZone.ArenaTestZone up for play (max tick rate 0) at 2022.01.23-20.05.42
+[2022.01.24-03.05.42:582][454]LogWorld: Bringing up level for play took: 0.000674
+[2022.01.24-03.05.42:582][454]LogOnline: OSS: Creating online subsystem instance for: :Context_62
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 0
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 1
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 2
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 3
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 4
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 5
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 6
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 7
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 8
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 9
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 10
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 11
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 12
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 13
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 14
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 15
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 16
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 17
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 18
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 19
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 20
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 21
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 22
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 23
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 24
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 25
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 26
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 27
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 28
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 29
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 30
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 31
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 32
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 33
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 34
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 35
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 36
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 37
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 38
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 39
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 40
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 41
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 42
+[2022.01.24-03.05.42:583][454]LogTemp: Warning: The value of i is: 43
+[2022.01.24-03.05.42:584][454]LogTemp: Warning: The value of i is: 44
+[2022.01.24-03.05.42:584][454]LogTemp: Warning: HCrawlerCalled
+[2022.01.24-03.05.42:584][454]LogTemp: Warning: HCrawlerCalled
+[2022.01.24-03.05.42:584][454]LogTemp: Warning: HCrawlerCalled
+[2022.01.24-03.05.42:584][454]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.05.42:584][454]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.05.42:584][454]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.05.42:584][454]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.05.42:752][454]Cmd: r.VolumetricCloud.DistanceToSampleMaxCount 4.0
+[2022.01.24-03.05.42:752][454]r.VolumetricCloud.DistanceToSampleMaxCount = "4"
+[2022.01.24-03.05.42:752][454]Cmd: r.VolumetricRenderTarget.Mode 2
+[2022.01.24-03.05.42:752][454]r.VolumetricRenderTarget.Mode = "2"
+[2022.01.24-03.05.42:752][454]Cmd: r.VolumetricRenderTarget 1
+[2022.01.24-03.05.42:752][454]r.VolumetricRenderTarget = "1"
+[2022.01.24-03.05.42:753][454]Cmd: r.LightFunctionQuality 1
+[2022.01.24-03.05.42:753][454]r.LightFunctionQuality = "1"
+[2022.01.24-03.05.42:753][454]Cmd: r.SkyLight.RealTimeReflectionCapture 1
+[2022.01.24-03.05.42:753][454]r.SkyLight.RealTimeReflectionCapture = "1"
+[2022.01.24-03.05.42:753][454]Cmd: r.SkyLight.RealTimeReflectionCapture.TimeSlice 1
+[2022.01.24-03.05.42:753][454]r.SkyLight.RealTimeReflectionCapture.TimeSlice = "1"
+[2022.01.24-03.05.42:753][454]Cmd: r.EyeAdaptation.BlackHistogramBucketInfluence 0.5
+[2022.01.24-03.05.42:753][454]r.EyeAdaptation.BlackHistogramBucketInfluence = "0.5"
+[2022.01.24-03.05.42:755][454]PIE: Server logged in
+[2022.01.24-03.05.42:756][454]PIE: Play in editor total start time 0.244 seconds.
+[2022.01.24-03.05.43:474][454]Cmd: r.VolumetricFog.GridPixelSize 64
+[2022.01.24-03.05.43:474][454]r.VolumetricFog.GridPixelSize = "64"
+[2022.01.24-03.05.45:627][520]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.24-03.05.45:627][520]LogWorld: BeginTearingDown for /Game/XM/Maps/UEDPIE_0_ArenaTestZone
+[2022.01.24-03.05.45:628][520]LogWorld: UWorld::CleanupWorld for ArenaTestZone, bSessionEnded=true, bCleanupResources=true
+[2022.01.24-03.05.45:633][520]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.24-03.05.45:640][520]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.24-03.05.45:650][520]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.24-03.05.45:674][520]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.24-03.05.45:674][520]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.24-03.05.45:675][520]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.24-03.05.45:683][520]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2022.01.24-03.05.46:618][521]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2022.01.24-03.05.47:332][588]LogTemp: Repeating last play command: Simulate
+[2022.01.24-03.05.47:341][588]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.24-03.05.47:342][588]PIE: New page: SIE session: ArenaTestZone (Jan 23, 2022, 1:05:47 PM)
+[2022.01.24-03.05.47:342][588]LogPlayLevel: Creating play world package: /Game/XM/Maps/UEDPIE_0_ArenaTestZone
+[2022.01.24-03.05.47:360][588]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018407s)
+[2022.01.24-03.05.47:361][588]LogAIModule: Creating AISystem for world ArenaTestZone
+[2022.01.24-03.05.47:361][588]LogPlayLevel: PIE: World Init took: (0.000810s)
+[2022.01.24-03.05.47:361][588]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/XM/Maps/ArenaTestZone.ArenaTestZone to /Game/XM/Maps/UEDPIE_0_ArenaTestZone.ArenaTestZone (0.019381s)
+[2022.01.24-03.05.47:379][588]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2022.01.24-03.05.47:381][588]LogAudio: Display: Creating Audio Device:                 Id: 61, Scope: Unique, Realtime: True
+[2022.01.24-03.05.47:381][588]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.24-03.05.47:381][588]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.24-03.05.47:381][588]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.24-03.05.47:381][588]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.24-03.05.47:381][588]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.24-03.05.47:381][588]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.24-03.05.47:381][588]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.24-03.05.47:381][588]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.24-03.05.47:381][588]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.01.24-03.05.47:381][588]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.01.24-03.05.47:381][588]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.01.24-03.05.47:381][588]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.24-03.05.47:385][588]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.24-03.05.47:386][588]LogAudioMixer: Display: 1: FrontRight
+[2022.01.24-03.05.47:393][588]LogAudioMixer: Display: Using Audio Device U32J59x (NVIDIA High Definition Audio)
+[2022.01.24-03.05.47:393][588]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.24-03.05.47:393][588]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.24-03.05.47:393][588]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.24-03.05.47:393][588]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.24-03.05.47:393][588]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.24-03.05.47:393][588]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.24-03.05.47:394][588]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.24-03.05.47:394][588]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.24-03.05.47:394][588]LogInit: FAudioDevice initialized.
+[2022.01.24-03.05.47:394][588]LogAudio: Display: Audio Device (ID: 61) registered with world 'ArenaTestZone'.
+[2022.01.24-03.05.47:404][588]LogLoad: Game class is 'BP_GameMode_Game_C'
+[2022.01.24-03.05.47:405][588]LogWorld: Bringing World /Game/XM/Maps/UEDPIE_0_ArenaTestZone.ArenaTestZone up for play (max tick rate 0) at 2022.01.23-20.05.47
+[2022.01.24-03.05.47:406][588]LogWorld: Bringing up level for play took: 0.000705
+[2022.01.24-03.05.47:406][588]LogOnline: OSS: Creating online subsystem instance for: :Context_63
+[2022.01.24-03.05.47:407][588]LogTemp: Warning: The value of i is: 0
+[2022.01.24-03.05.47:407][588]LogTemp: Warning: The value of i is: 1
+[2022.01.24-03.05.47:407][588]LogTemp: Warning: The value of i is: 2
+[2022.01.24-03.05.47:407][588]LogTemp: Warning: The value of i is: 3
+[2022.01.24-03.05.47:407][588]LogTemp: Warning: The value of i is: 4
+[2022.01.24-03.05.47:407][588]LogTemp: Warning: The value of i is: 5
+[2022.01.24-03.05.47:407][588]LogTemp: Warning: The value of i is: 6
+[2022.01.24-03.05.47:407][588]LogTemp: Warning: The value of i is: 7
+[2022.01.24-03.05.47:407][588]LogTemp: Warning: The value of i is: 8
+[2022.01.24-03.05.47:407][588]LogTemp: Warning: The value of i is: 9
+[2022.01.24-03.05.47:407][588]LogTemp: Warning: The value of i is: 10
+[2022.01.24-03.05.47:407][588]LogTemp: Warning: The value of i is: 11
+[2022.01.24-03.05.47:407][588]LogTemp: Warning: The value of i is: 12
+[2022.01.24-03.05.47:407][588]LogTemp: Warning: The value of i is: 13
+[2022.01.24-03.05.47:407][588]LogTemp: Warning: The value of i is: 14
+[2022.01.24-03.05.47:407][588]LogTemp: Warning: The value of i is: 15
+[2022.01.24-03.05.47:407][588]LogTemp: Warning: The value of i is: 16
+[2022.01.24-03.05.47:407][588]LogTemp: Warning: The value of i is: 17
+[2022.01.24-03.05.47:407][588]LogTemp: Warning: The value of i is: 18
+[2022.01.24-03.05.47:407][588]LogTemp: Warning: The value of i is: 19
+[2022.01.24-03.05.47:407][588]LogTemp: Warning: The value of i is: 20
+[2022.01.24-03.05.47:407][588]LogTemp: Warning: The value of i is: 21
+[2022.01.24-03.05.47:407][588]LogTemp: Warning: The value of i is: 22
+[2022.01.24-03.05.47:407][588]LogTemp: Warning: The value of i is: 23
+[2022.01.24-03.05.47:407][588]LogTemp: Warning: The value of i is: 24
+[2022.01.24-03.05.47:407][588]LogTemp: Warning: The value of i is: 25
+[2022.01.24-03.05.47:407][588]LogTemp: Warning: The value of i is: 26
+[2022.01.24-03.05.47:407][588]LogTemp: Warning: The value of i is: 27
+[2022.01.24-03.05.47:407][588]LogTemp: Warning: The value of i is: 28
+[2022.01.24-03.05.47:407][588]LogTemp: Warning: The value of i is: 29
+[2022.01.24-03.05.47:407][588]LogTemp: Warning: The value of i is: 30
+[2022.01.24-03.05.47:407][588]LogTemp: Warning: The value of i is: 31
+[2022.01.24-03.05.47:407][588]LogTemp: Warning: The value of i is: 32
+[2022.01.24-03.05.47:407][588]LogTemp: Warning: The value of i is: 33
+[2022.01.24-03.05.47:407][588]LogTemp: Warning: The value of i is: 34
+[2022.01.24-03.05.47:407][588]LogTemp: Warning: The value of i is: 35
+[2022.01.24-03.05.47:407][588]LogTemp: Warning: The value of i is: 36
+[2022.01.24-03.05.47:407][588]LogTemp: Warning: The value of i is: 37
+[2022.01.24-03.05.47:407][588]LogTemp: Warning: The value of i is: 38
+[2022.01.24-03.05.47:408][588]LogTemp: Warning: The value of i is: 39
+[2022.01.24-03.05.47:408][588]LogTemp: Warning: The value of i is: 40
+[2022.01.24-03.05.47:408][588]LogTemp: Warning: The value of i is: 41
+[2022.01.24-03.05.47:408][588]LogTemp: Warning: The value of i is: 42
+[2022.01.24-03.05.47:408][588]LogTemp: Warning: The value of i is: 43
+[2022.01.24-03.05.47:408][588]LogTemp: Warning: The value of i is: 44
+[2022.01.24-03.05.47:408][588]LogTemp: Warning: HCrawlerCalled
+[2022.01.24-03.05.47:408][588]LogTemp: Warning: HCrawlerCalled
+[2022.01.24-03.05.47:408][588]LogTemp: Warning: HCrawlerCalled
+[2022.01.24-03.05.47:408][588]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.05.47:408][588]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.05.47:408][588]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.05.47:408][588]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.05.47:575][588]Cmd: r.VolumetricCloud.DistanceToSampleMaxCount 4.0
+[2022.01.24-03.05.47:575][588]r.VolumetricCloud.DistanceToSampleMaxCount = "4"
+[2022.01.24-03.05.47:575][588]Cmd: r.VolumetricRenderTarget.Mode 2
+[2022.01.24-03.05.47:575][588]r.VolumetricRenderTarget.Mode = "2"
+[2022.01.24-03.05.47:575][588]Cmd: r.VolumetricRenderTarget 1
+[2022.01.24-03.05.47:576][588]r.VolumetricRenderTarget = "1"
+[2022.01.24-03.05.47:576][588]Cmd: r.LightFunctionQuality 1
+[2022.01.24-03.05.47:576][588]r.LightFunctionQuality = "1"
+[2022.01.24-03.05.47:576][588]Cmd: r.SkyLight.RealTimeReflectionCapture 1
+[2022.01.24-03.05.47:576][588]r.SkyLight.RealTimeReflectionCapture = "1"
+[2022.01.24-03.05.47:576][588]Cmd: r.SkyLight.RealTimeReflectionCapture.TimeSlice 1
+[2022.01.24-03.05.47:576][588]r.SkyLight.RealTimeReflectionCapture.TimeSlice = "1"
+[2022.01.24-03.05.47:576][588]Cmd: r.EyeAdaptation.BlackHistogramBucketInfluence 0.5
+[2022.01.24-03.05.47:576][588]r.EyeAdaptation.BlackHistogramBucketInfluence = "0.5"
+[2022.01.24-03.05.47:578][588]PIE: Server logged in
+[2022.01.24-03.05.47:578][588]PIE: Play in editor total start time 0.239 seconds.
+[2022.01.24-03.05.48:283][588]Cmd: r.VolumetricFog.GridPixelSize 64
+[2022.01.24-03.05.48:283][588]r.VolumetricFog.GridPixelSize = "64"
+[2022.01.24-03.05.50:297][648]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.24-03.05.50:297][648]LogWorld: BeginTearingDown for /Game/XM/Maps/UEDPIE_0_ArenaTestZone
+[2022.01.24-03.05.50:298][648]LogWorld: UWorld::CleanupWorld for ArenaTestZone, bSessionEnded=true, bCleanupResources=true
+[2022.01.24-03.05.50:303][648]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.24-03.05.50:309][648]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.24-03.05.50:319][648]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.24-03.05.50:344][648]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.24-03.05.50:344][648]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.24-03.05.50:345][648]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.24-03.05.50:353][648]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2022.01.24-03.05.51:300][649]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2022.01.24-03.07.06:797][633]LogTemp: Repeating last play command: Simulate
+[2022.01.24-03.07.06:802][633]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.24-03.07.06:802][633]PIE: New page: SIE session: ArenaTestZone (Jan 23, 2022, 1:07:06 PM)
+[2022.01.24-03.07.06:802][633]LogPlayLevel: Creating play world package: /Game/XM/Maps/UEDPIE_0_ArenaTestZone
+[2022.01.24-03.07.06:809][633]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006865s)
+[2022.01.24-03.07.06:810][633]LogAIModule: Creating AISystem for world ArenaTestZone
+[2022.01.24-03.07.06:810][633]LogPlayLevel: PIE: World Init took: (0.000896s)
+[2022.01.24-03.07.06:810][633]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/XM/Maps/ArenaTestZone.ArenaTestZone to /Game/XM/Maps/UEDPIE_0_ArenaTestZone.ArenaTestZone (0.007874s)
+[2022.01.24-03.07.06:830][633]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2022.01.24-03.07.06:832][633]LogAudio: Display: Creating Audio Device:                 Id: 62, Scope: Unique, Realtime: True
+[2022.01.24-03.07.06:832][633]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.24-03.07.06:832][633]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.24-03.07.06:832][633]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.24-03.07.06:832][633]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.24-03.07.06:832][633]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.24-03.07.06:832][633]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.24-03.07.06:832][633]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.24-03.07.06:832][633]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.24-03.07.06:833][633]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.01.24-03.07.06:833][633]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.01.24-03.07.06:833][633]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.01.24-03.07.06:833][633]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.24-03.07.06:837][633]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.24-03.07.06:837][633]LogAudioMixer: Display: 1: FrontRight
+[2022.01.24-03.07.06:845][633]LogAudioMixer: Display: Using Audio Device U32J59x (NVIDIA High Definition Audio)
+[2022.01.24-03.07.06:845][633]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.24-03.07.06:845][633]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.24-03.07.06:845][633]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.24-03.07.06:845][633]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.24-03.07.06:845][633]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.24-03.07.06:845][633]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.24-03.07.06:846][633]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.24-03.07.06:846][633]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.24-03.07.06:846][633]LogInit: FAudioDevice initialized.
+[2022.01.24-03.07.06:846][633]LogAudio: Display: Audio Device (ID: 62) registered with world 'ArenaTestZone'.
+[2022.01.24-03.07.06:853][633]LogLoad: Game class is 'BP_GameMode_Game_C'
+[2022.01.24-03.07.06:854][633]LogWorld: Bringing World /Game/XM/Maps/UEDPIE_0_ArenaTestZone.ArenaTestZone up for play (max tick rate 0) at 2022.01.23-20.07.06
+[2022.01.24-03.07.06:854][633]LogWorld: Bringing up level for play took: 0.000684
+[2022.01.24-03.07.06:854][633]LogOnline: OSS: Creating online subsystem instance for: :Context_64
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 0
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 1
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 2
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 3
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 4
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 5
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 6
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 7
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 8
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 9
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 10
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 11
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 12
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 13
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 14
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 15
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 16
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 17
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 18
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 19
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 20
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 21
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 22
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 23
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 24
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 25
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 26
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 27
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 28
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 29
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 30
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 31
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 32
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 33
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 34
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 35
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 36
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 37
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 38
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 39
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 40
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 41
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 42
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 43
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: The value of i is: 44
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.07.06:856][633]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.07.07:050][633]Cmd: r.VolumetricCloud.DistanceToSampleMaxCount 4.0
+[2022.01.24-03.07.07:050][633]r.VolumetricCloud.DistanceToSampleMaxCount = "4"
+[2022.01.24-03.07.07:050][633]Cmd: r.VolumetricRenderTarget.Mode 2
+[2022.01.24-03.07.07:050][633]r.VolumetricRenderTarget.Mode = "2"
+[2022.01.24-03.07.07:050][633]Cmd: r.VolumetricRenderTarget 1
+[2022.01.24-03.07.07:050][633]r.VolumetricRenderTarget = "1"
+[2022.01.24-03.07.07:051][633]Cmd: r.LightFunctionQuality 1
+[2022.01.24-03.07.07:051][633]r.LightFunctionQuality = "1"
+[2022.01.24-03.07.07:051][633]Cmd: r.SkyLight.RealTimeReflectionCapture 1
+[2022.01.24-03.07.07:051][633]r.SkyLight.RealTimeReflectionCapture = "1"
+[2022.01.24-03.07.07:051][633]Cmd: r.SkyLight.RealTimeReflectionCapture.TimeSlice 1
+[2022.01.24-03.07.07:051][633]r.SkyLight.RealTimeReflectionCapture.TimeSlice = "1"
+[2022.01.24-03.07.07:051][633]Cmd: r.EyeAdaptation.BlackHistogramBucketInfluence 0.5
+[2022.01.24-03.07.07:051][633]r.EyeAdaptation.BlackHistogramBucketInfluence = "0.5"
+[2022.01.24-03.07.07:053][633]PIE: Server logged in
+[2022.01.24-03.07.07:053][633]PIE: Play in editor total start time 0.253 seconds.
+[2022.01.24-03.07.07:744][633]Cmd: r.VolumetricFog.GridPixelSize 64
+[2022.01.24-03.07.07:744][633]r.VolumetricFog.GridPixelSize = "64"
+[2022.01.24-03.07.12:397][808]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.24-03.07.12:397][808]LogWorld: BeginTearingDown for /Game/XM/Maps/UEDPIE_0_ArenaTestZone
+[2022.01.24-03.07.12:398][808]LogWorld: UWorld::CleanupWorld for ArenaTestZone, bSessionEnded=true, bCleanupResources=true
+[2022.01.24-03.07.12:403][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.24-03.07.12:412][808]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.24-03.07.12:422][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.24-03.07.12:443][808]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.24-03.07.12:443][808]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.24-03.07.12:444][808]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.24-03.07.12:452][808]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2022.01.24-03.07.13:392][809]LogPlayLevel: Display: Destroying online subsystem :Context_64
+[2022.01.24-03.07.17:630][286]LogTemp: Repeating last play command: Simulate
+[2022.01.24-03.07.17:634][286]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.24-03.07.17:634][286]PIE: New page: SIE session: ArenaTestZone (Jan 23, 2022, 1:07:17 PM)
+[2022.01.24-03.07.17:634][286]LogPlayLevel: Creating play world package: /Game/XM/Maps/UEDPIE_0_ArenaTestZone
+[2022.01.24-03.07.17:641][286]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006311s)
+[2022.01.24-03.07.17:641][286]LogAIModule: Creating AISystem for world ArenaTestZone
+[2022.01.24-03.07.17:642][286]LogPlayLevel: PIE: World Init took: (0.000801s)
+[2022.01.24-03.07.17:642][286]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/XM/Maps/ArenaTestZone.ArenaTestZone to /Game/XM/Maps/UEDPIE_0_ArenaTestZone.ArenaTestZone (0.007215s)
+[2022.01.24-03.07.17:661][286]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2022.01.24-03.07.17:662][286]LogAudio: Display: Creating Audio Device:                 Id: 63, Scope: Unique, Realtime: True
+[2022.01.24-03.07.17:663][286]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.24-03.07.17:663][286]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.24-03.07.17:663][286]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.24-03.07.17:663][286]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.24-03.07.17:663][286]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.24-03.07.17:663][286]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.24-03.07.17:663][286]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.24-03.07.17:663][286]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.24-03.07.17:663][286]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.01.24-03.07.17:663][286]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.01.24-03.07.17:663][286]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.01.24-03.07.17:663][286]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.24-03.07.17:667][286]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.24-03.07.17:667][286]LogAudioMixer: Display: 1: FrontRight
+[2022.01.24-03.07.17:675][286]LogAudioMixer: Display: Using Audio Device U32J59x (NVIDIA High Definition Audio)
+[2022.01.24-03.07.17:675][286]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.24-03.07.17:675][286]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.24-03.07.17:675][286]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.24-03.07.17:676][286]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.24-03.07.17:676][286]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.24-03.07.17:676][286]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.24-03.07.17:676][286]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.24-03.07.17:677][286]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.24-03.07.17:677][286]LogInit: FAudioDevice initialized.
+[2022.01.24-03.07.17:677][286]LogAudio: Display: Audio Device (ID: 63) registered with world 'ArenaTestZone'.
+[2022.01.24-03.07.17:686][286]LogLoad: Game class is 'BP_GameMode_Game_C'
+[2022.01.24-03.07.17:688][286]LogWorld: Bringing World /Game/XM/Maps/UEDPIE_0_ArenaTestZone.ArenaTestZone up for play (max tick rate 0) at 2022.01.23-20.07.17
+[2022.01.24-03.07.17:688][286]LogWorld: Bringing up level for play took: 0.001233
+[2022.01.24-03.07.17:688][286]LogOnline: OSS: Creating online subsystem instance for: :Context_65
+[2022.01.24-03.07.17:690][286]LogTemp: Warning: The value of i is: 0
+[2022.01.24-03.07.17:690][286]LogTemp: Warning: The value of i is: 1
+[2022.01.24-03.07.17:690][286]LogTemp: Warning: The value of i is: 2
+[2022.01.24-03.07.17:690][286]LogTemp: Warning: The value of i is: 3
+[2022.01.24-03.07.17:690][286]LogTemp: Warning: The value of i is: 4
+[2022.01.24-03.07.17:690][286]LogTemp: Warning: The value of i is: 5
+[2022.01.24-03.07.17:691][286]LogTemp: Warning: The value of i is: 6
+[2022.01.24-03.07.17:691][286]LogTemp: Warning: The value of i is: 7
+[2022.01.24-03.07.17:691][286]LogTemp: Warning: The value of i is: 8
+[2022.01.24-03.07.17:691][286]LogTemp: Warning: The value of i is: 9
+[2022.01.24-03.07.17:691][286]LogTemp: Warning: The value of i is: 10
+[2022.01.24-03.07.17:691][286]LogTemp: Warning: The value of i is: 11
+[2022.01.24-03.07.17:691][286]LogTemp: Warning: The value of i is: 12
+[2022.01.24-03.07.17:691][286]LogTemp: Warning: The value of i is: 13
+[2022.01.24-03.07.17:691][286]LogTemp: Warning: The value of i is: 14
+[2022.01.24-03.07.17:691][286]LogTemp: Warning: The value of i is: 15
+[2022.01.24-03.07.17:691][286]LogTemp: Warning: The value of i is: 16
+[2022.01.24-03.07.17:691][286]LogTemp: Warning: The value of i is: 17
+[2022.01.24-03.07.17:691][286]LogTemp: Warning: The value of i is: 18
+[2022.01.24-03.07.17:691][286]LogTemp: Warning: The value of i is: 19
+[2022.01.24-03.07.17:691][286]LogTemp: Warning: The value of i is: 20
+[2022.01.24-03.07.17:691][286]LogTemp: Warning: The value of i is: 21
+[2022.01.24-03.07.17:691][286]LogTemp: Warning: The value of i is: 22
+[2022.01.24-03.07.17:691][286]LogTemp: Warning: The value of i is: 23
+[2022.01.24-03.07.17:691][286]LogTemp: Warning: The value of i is: 24
+[2022.01.24-03.07.17:691][286]LogTemp: Warning: The value of i is: 25
+[2022.01.24-03.07.17:691][286]LogTemp: Warning: The value of i is: 26
+[2022.01.24-03.07.17:692][286]LogTemp: Warning: The value of i is: 27
+[2022.01.24-03.07.17:692][286]LogTemp: Warning: The value of i is: 28
+[2022.01.24-03.07.17:692][286]LogTemp: Warning: The value of i is: 29
+[2022.01.24-03.07.17:692][286]LogTemp: Warning: The value of i is: 30
+[2022.01.24-03.07.17:692][286]LogTemp: Warning: The value of i is: 31
+[2022.01.24-03.07.17:692][286]LogTemp: Warning: The value of i is: 32
+[2022.01.24-03.07.17:692][286]LogTemp: Warning: The value of i is: 33
+[2022.01.24-03.07.17:692][286]LogTemp: Warning: The value of i is: 34
+[2022.01.24-03.07.17:692][286]LogTemp: Warning: The value of i is: 35
+[2022.01.24-03.07.17:692][286]LogTemp: Warning: The value of i is: 36
+[2022.01.24-03.07.17:692][286]LogTemp: Warning: The value of i is: 37
+[2022.01.24-03.07.17:692][286]LogTemp: Warning: The value of i is: 38
+[2022.01.24-03.07.17:692][286]LogTemp: Warning: The value of i is: 39
+[2022.01.24-03.07.17:692][286]LogTemp: Warning: The value of i is: 40
+[2022.01.24-03.07.17:692][286]LogTemp: Warning: The value of i is: 41
+[2022.01.24-03.07.17:692][286]LogTemp: Warning: The value of i is: 42
+[2022.01.24-03.07.17:692][286]LogTemp: Warning: The value of i is: 43
+[2022.01.24-03.07.17:692][286]LogTemp: Warning: The value of i is: 44
+[2022.01.24-03.07.17:692][286]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.07.17:692][286]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.07.17:692][286]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.07.17:692][286]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.07.17:897][286]Cmd: r.VolumetricCloud.DistanceToSampleMaxCount 4.0
+[2022.01.24-03.07.17:897][286]r.VolumetricCloud.DistanceToSampleMaxCount = "4"
+[2022.01.24-03.07.17:897][286]Cmd: r.VolumetricRenderTarget.Mode 2
+[2022.01.24-03.07.17:897][286]r.VolumetricRenderTarget.Mode = "2"
+[2022.01.24-03.07.17:897][286]Cmd: r.VolumetricRenderTarget 1
+[2022.01.24-03.07.17:897][286]r.VolumetricRenderTarget = "1"
+[2022.01.24-03.07.17:898][286]Cmd: r.LightFunctionQuality 1
+[2022.01.24-03.07.17:898][286]r.LightFunctionQuality = "1"
+[2022.01.24-03.07.17:898][286]Cmd: r.SkyLight.RealTimeReflectionCapture 1
+[2022.01.24-03.07.17:898][286]r.SkyLight.RealTimeReflectionCapture = "1"
+[2022.01.24-03.07.17:898][286]Cmd: r.SkyLight.RealTimeReflectionCapture.TimeSlice 1
+[2022.01.24-03.07.17:898][286]r.SkyLight.RealTimeReflectionCapture.TimeSlice = "1"
+[2022.01.24-03.07.17:898][286]Cmd: r.EyeAdaptation.BlackHistogramBucketInfluence 0.5
+[2022.01.24-03.07.17:898][286]r.EyeAdaptation.BlackHistogramBucketInfluence = "0.5"
+[2022.01.24-03.07.17:900][286]PIE: Server logged in
+[2022.01.24-03.07.17:901][286]PIE: Play in editor total start time 0.268 seconds.
+[2022.01.24-03.07.18:618][286]Cmd: r.VolumetricFog.GridPixelSize 64
+[2022.01.24-03.07.18:619][286]r.VolumetricFog.GridPixelSize = "64"
+[2022.01.24-03.07.22:247][416]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.24-03.07.22:247][416]LogWorld: BeginTearingDown for /Game/XM/Maps/UEDPIE_0_ArenaTestZone
+[2022.01.24-03.07.22:248][416]LogWorld: UWorld::CleanupWorld for ArenaTestZone, bSessionEnded=true, bCleanupResources=true
+[2022.01.24-03.07.22:254][416]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.24-03.07.22:262][416]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.24-03.07.22:273][416]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.24-03.07.22:292][416]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.24-03.07.22:292][416]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.24-03.07.22:293][416]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.24-03.07.22:310][416]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2022.01.24-03.07.23:232][417]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2022.01.24-03.07.27:746][939]LogTemp: Repeating last play command: Simulate
+[2022.01.24-03.07.27:750][939]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.24-03.07.27:750][939]PIE: New page: SIE session: ArenaTestZone (Jan 23, 2022, 1:07:27 PM)
+[2022.01.24-03.07.27:751][939]LogPlayLevel: Creating play world package: /Game/XM/Maps/UEDPIE_0_ArenaTestZone
+[2022.01.24-03.07.27:757][939]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005865s)
+[2022.01.24-03.07.27:757][939]LogAIModule: Creating AISystem for world ArenaTestZone
+[2022.01.24-03.07.27:757][939]LogPlayLevel: PIE: World Init took: (0.000835s)
+[2022.01.24-03.07.27:757][939]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/XM/Maps/ArenaTestZone.ArenaTestZone to /Game/XM/Maps/UEDPIE_0_ArenaTestZone.ArenaTestZone (0.006804s)
+[2022.01.24-03.07.27:776][939]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2022.01.24-03.07.27:779][939]LogAudio: Display: Creating Audio Device:                 Id: 64, Scope: Unique, Realtime: True
+[2022.01.24-03.07.27:779][939]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.24-03.07.27:779][939]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.24-03.07.27:779][939]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.24-03.07.27:779][939]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.24-03.07.27:779][939]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.24-03.07.27:779][939]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.24-03.07.27:779][939]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.24-03.07.27:779][939]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.24-03.07.27:779][939]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.01.24-03.07.27:779][939]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.01.24-03.07.27:779][939]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.01.24-03.07.27:779][939]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.24-03.07.27:784][939]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.24-03.07.27:784][939]LogAudioMixer: Display: 1: FrontRight
+[2022.01.24-03.07.27:791][939]LogAudioMixer: Display: Using Audio Device U32J59x (NVIDIA High Definition Audio)
+[2022.01.24-03.07.27:792][939]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.24-03.07.27:792][939]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.24-03.07.27:792][939]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.24-03.07.27:792][939]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.24-03.07.27:792][939]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.24-03.07.27:792][939]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.24-03.07.27:793][939]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.24-03.07.27:793][939]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.24-03.07.27:793][939]LogInit: FAudioDevice initialized.
+[2022.01.24-03.07.27:793][939]LogAudio: Display: Audio Device (ID: 64) registered with world 'ArenaTestZone'.
+[2022.01.24-03.07.27:802][939]LogLoad: Game class is 'BP_GameMode_Game_C'
+[2022.01.24-03.07.27:804][939]LogWorld: Bringing World /Game/XM/Maps/UEDPIE_0_ArenaTestZone.ArenaTestZone up for play (max tick rate 0) at 2022.01.23-20.07.27
+[2022.01.24-03.07.27:804][939]LogWorld: Bringing up level for play took: 0.001148
+[2022.01.24-03.07.27:804][939]LogOnline: OSS: Creating online subsystem instance for: :Context_66
+[2022.01.24-03.07.27:806][939]LogTemp: Warning: The value of i is: 0
+[2022.01.24-03.07.27:806][939]LogTemp: Warning: The value of i is: 1
+[2022.01.24-03.07.27:806][939]LogTemp: Warning: The value of i is: 2
+[2022.01.24-03.07.27:806][939]LogTemp: Warning: The value of i is: 3
+[2022.01.24-03.07.27:806][939]LogTemp: Warning: The value of i is: 4
+[2022.01.24-03.07.27:806][939]LogTemp: Warning: The value of i is: 5
+[2022.01.24-03.07.27:807][939]LogTemp: Warning: The value of i is: 6
+[2022.01.24-03.07.27:807][939]LogTemp: Warning: The value of i is: 7
+[2022.01.24-03.07.27:807][939]LogTemp: Warning: The value of i is: 8
+[2022.01.24-03.07.27:807][939]LogTemp: Warning: The value of i is: 9
+[2022.01.24-03.07.27:807][939]LogTemp: Warning: The value of i is: 10
+[2022.01.24-03.07.27:807][939]LogTemp: Warning: The value of i is: 11
+[2022.01.24-03.07.27:807][939]LogTemp: Warning: The value of i is: 12
+[2022.01.24-03.07.27:807][939]LogTemp: Warning: The value of i is: 13
+[2022.01.24-03.07.27:807][939]LogTemp: Warning: The value of i is: 14
+[2022.01.24-03.07.27:807][939]LogTemp: Warning: The value of i is: 15
+[2022.01.24-03.07.27:807][939]LogTemp: Warning: The value of i is: 16
+[2022.01.24-03.07.27:807][939]LogTemp: Warning: The value of i is: 17
+[2022.01.24-03.07.27:807][939]LogTemp: Warning: The value of i is: 18
+[2022.01.24-03.07.27:807][939]LogTemp: Warning: The value of i is: 19
+[2022.01.24-03.07.27:807][939]LogTemp: Warning: The value of i is: 20
+[2022.01.24-03.07.27:807][939]LogTemp: Warning: The value of i is: 21
+[2022.01.24-03.07.27:807][939]LogTemp: Warning: The value of i is: 22
+[2022.01.24-03.07.27:807][939]LogTemp: Warning: The value of i is: 23
+[2022.01.24-03.07.27:807][939]LogTemp: Warning: The value of i is: 24
+[2022.01.24-03.07.27:807][939]LogTemp: Warning: The value of i is: 25
+[2022.01.24-03.07.27:807][939]LogTemp: Warning: The value of i is: 26
+[2022.01.24-03.07.27:807][939]LogTemp: Warning: The value of i is: 27
+[2022.01.24-03.07.27:807][939]LogTemp: Warning: The value of i is: 28
+[2022.01.24-03.07.27:807][939]LogTemp: Warning: The value of i is: 29
+[2022.01.24-03.07.27:807][939]LogTemp: Warning: The value of i is: 30
+[2022.01.24-03.07.27:807][939]LogTemp: Warning: The value of i is: 31
+[2022.01.24-03.07.27:807][939]LogTemp: Warning: The value of i is: 32
+[2022.01.24-03.07.27:807][939]LogTemp: Warning: The value of i is: 33
+[2022.01.24-03.07.27:807][939]LogTemp: Warning: The value of i is: 34
+[2022.01.24-03.07.27:807][939]LogTemp: Warning: The value of i is: 35
+[2022.01.24-03.07.27:808][939]LogTemp: Warning: The value of i is: 36
+[2022.01.24-03.07.27:808][939]LogTemp: Warning: The value of i is: 37
+[2022.01.24-03.07.27:808][939]LogTemp: Warning: The value of i is: 38
+[2022.01.24-03.07.27:808][939]LogTemp: Warning: The value of i is: 39
+[2022.01.24-03.07.27:808][939]LogTemp: Warning: The value of i is: 40
+[2022.01.24-03.07.27:808][939]LogTemp: Warning: The value of i is: 41
+[2022.01.24-03.07.27:808][939]LogTemp: Warning: The value of i is: 42
+[2022.01.24-03.07.27:808][939]LogTemp: Warning: The value of i is: 43
+[2022.01.24-03.07.27:808][939]LogTemp: Warning: The value of i is: 44
+[2022.01.24-03.07.27:808][939]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.07.27:808][939]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.07.27:808][939]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.07.27:808][939]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.07.28:013][939]Cmd: r.VolumetricCloud.DistanceToSampleMaxCount 4.0
+[2022.01.24-03.07.28:013][939]r.VolumetricCloud.DistanceToSampleMaxCount = "4"
+[2022.01.24-03.07.28:013][939]Cmd: r.VolumetricRenderTarget.Mode 2
+[2022.01.24-03.07.28:013][939]r.VolumetricRenderTarget.Mode = "2"
+[2022.01.24-03.07.28:014][939]Cmd: r.VolumetricRenderTarget 1
+[2022.01.24-03.07.28:014][939]r.VolumetricRenderTarget = "1"
+[2022.01.24-03.07.28:014][939]Cmd: r.LightFunctionQuality 1
+[2022.01.24-03.07.28:014][939]r.LightFunctionQuality = "1"
+[2022.01.24-03.07.28:014][939]Cmd: r.SkyLight.RealTimeReflectionCapture 1
+[2022.01.24-03.07.28:014][939]r.SkyLight.RealTimeReflectionCapture = "1"
+[2022.01.24-03.07.28:014][939]Cmd: r.SkyLight.RealTimeReflectionCapture.TimeSlice 1
+[2022.01.24-03.07.28:014][939]r.SkyLight.RealTimeReflectionCapture.TimeSlice = "1"
+[2022.01.24-03.07.28:014][939]Cmd: r.EyeAdaptation.BlackHistogramBucketInfluence 0.5
+[2022.01.24-03.07.28:014][939]r.EyeAdaptation.BlackHistogramBucketInfluence = "0.5"
+[2022.01.24-03.07.28:016][939]PIE: Server logged in
+[2022.01.24-03.07.28:017][939]PIE: Play in editor total start time 0.267 seconds.
+[2022.01.24-03.07.28:723][939]Cmd: r.VolumetricFog.GridPixelSize 64
+[2022.01.24-03.07.28:723][939]r.VolumetricFog.GridPixelSize = "64"
+[2022.01.24-03.07.49:746][ 80]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.24-03.07.49:747][ 80]LogWorld: BeginTearingDown for /Game/XM/Maps/UEDPIE_0_ArenaTestZone
+[2022.01.24-03.07.49:748][ 80]LogWorld: UWorld::CleanupWorld for ArenaTestZone, bSessionEnded=true, bCleanupResources=true
+[2022.01.24-03.07.49:754][ 80]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.24-03.07.49:759][ 80]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.24-03.07.49:770][ 80]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.24-03.07.49:787][ 80]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.24-03.07.49:790][ 80]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.24-03.07.49:791][ 80]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.24-03.07.49:798][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2022.01.24-03.07.50:748][ 81]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2022.01.24-03.07.55:389][617]LogTemp: Repeating last play command: Simulate
+[2022.01.24-03.07.55:393][617]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.24-03.07.55:393][617]PIE: New page: SIE session: ArenaTestZone (Jan 23, 2022, 1:07:55 PM)
+[2022.01.24-03.07.55:393][617]LogPlayLevel: Creating play world package: /Game/XM/Maps/UEDPIE_0_ArenaTestZone
+[2022.01.24-03.07.55:399][617]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005902s)
+[2022.01.24-03.07.55:400][617]LogAIModule: Creating AISystem for world ArenaTestZone
+[2022.01.24-03.07.55:400][617]LogPlayLevel: PIE: World Init took: (0.000801s)
+[2022.01.24-03.07.55:400][617]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/XM/Maps/ArenaTestZone.ArenaTestZone to /Game/XM/Maps/UEDPIE_0_ArenaTestZone.ArenaTestZone (0.006807s)
+[2022.01.24-03.07.55:419][617]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2022.01.24-03.07.55:421][617]LogAudio: Display: Creating Audio Device:                 Id: 65, Scope: Unique, Realtime: True
+[2022.01.24-03.07.55:421][617]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.24-03.07.55:421][617]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.24-03.07.55:421][617]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.24-03.07.55:421][617]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.24-03.07.55:421][617]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.24-03.07.55:421][617]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.24-03.07.55:421][617]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.24-03.07.55:421][617]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.24-03.07.55:422][617]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.01.24-03.07.55:422][617]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.01.24-03.07.55:422][617]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.01.24-03.07.55:422][617]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.24-03.07.55:425][617]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.24-03.07.55:425][617]LogAudioMixer: Display: 1: FrontRight
+[2022.01.24-03.07.55:432][617]LogAudioMixer: Display: Using Audio Device U32J59x (NVIDIA High Definition Audio)
+[2022.01.24-03.07.55:433][617]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.24-03.07.55:433][617]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.24-03.07.55:433][617]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.24-03.07.55:433][617]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.24-03.07.55:433][617]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.24-03.07.55:433][617]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.24-03.07.55:434][617]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.24-03.07.55:434][617]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.24-03.07.55:434][617]LogInit: FAudioDevice initialized.
+[2022.01.24-03.07.55:434][617]LogAudio: Display: Audio Device (ID: 65) registered with world 'ArenaTestZone'.
+[2022.01.24-03.07.55:444][617]LogLoad: Game class is 'BP_GameMode_Game_C'
+[2022.01.24-03.07.55:445][617]LogWorld: Bringing World /Game/XM/Maps/UEDPIE_0_ArenaTestZone.ArenaTestZone up for play (max tick rate 0) at 2022.01.23-20.07.55
+[2022.01.24-03.07.55:446][617]LogWorld: Bringing up level for play took: 0.001163
+[2022.01.24-03.07.55:446][617]LogOnline: OSS: Creating online subsystem instance for: :Context_67
+[2022.01.24-03.07.55:448][617]LogTemp: Warning: The value of i is: 0
+[2022.01.24-03.07.55:448][617]LogTemp: Warning: The value of i is: 1
+[2022.01.24-03.07.55:448][617]LogTemp: Warning: The value of i is: 2
+[2022.01.24-03.07.55:448][617]LogTemp: Warning: The value of i is: 3
+[2022.01.24-03.07.55:448][617]LogTemp: Warning: The value of i is: 4
+[2022.01.24-03.07.55:448][617]LogTemp: Warning: The value of i is: 5
+[2022.01.24-03.07.55:448][617]LogTemp: Warning: The value of i is: 6
+[2022.01.24-03.07.55:448][617]LogTemp: Warning: The value of i is: 7
+[2022.01.24-03.07.55:448][617]LogTemp: Warning: The value of i is: 8
+[2022.01.24-03.07.55:448][617]LogTemp: Warning: The value of i is: 9
+[2022.01.24-03.07.55:448][617]LogTemp: Warning: The value of i is: 10
+[2022.01.24-03.07.55:448][617]LogTemp: Warning: The value of i is: 11
+[2022.01.24-03.07.55:448][617]LogTemp: Warning: The value of i is: 12
+[2022.01.24-03.07.55:448][617]LogTemp: Warning: The value of i is: 13
+[2022.01.24-03.07.55:448][617]LogTemp: Warning: The value of i is: 14
+[2022.01.24-03.07.55:448][617]LogTemp: Warning: The value of i is: 15
+[2022.01.24-03.07.55:448][617]LogTemp: Warning: The value of i is: 16
+[2022.01.24-03.07.55:448][617]LogTemp: Warning: The value of i is: 17
+[2022.01.24-03.07.55:448][617]LogTemp: Warning: The value of i is: 18
+[2022.01.24-03.07.55:448][617]LogTemp: Warning: The value of i is: 19
+[2022.01.24-03.07.55:448][617]LogTemp: Warning: The value of i is: 20
+[2022.01.24-03.07.55:448][617]LogTemp: Warning: The value of i is: 21
+[2022.01.24-03.07.55:448][617]LogTemp: Warning: The value of i is: 22
+[2022.01.24-03.07.55:448][617]LogTemp: Warning: The value of i is: 23
+[2022.01.24-03.07.55:449][617]LogTemp: Warning: The value of i is: 24
+[2022.01.24-03.07.55:449][617]LogTemp: Warning: The value of i is: 25
+[2022.01.24-03.07.55:449][617]LogTemp: Warning: The value of i is: 26
+[2022.01.24-03.07.55:449][617]LogTemp: Warning: The value of i is: 27
+[2022.01.24-03.07.55:449][617]LogTemp: Warning: The value of i is: 28
+[2022.01.24-03.07.55:449][617]LogTemp: Warning: The value of i is: 29
+[2022.01.24-03.07.55:449][617]LogTemp: Warning: The value of i is: 30
+[2022.01.24-03.07.55:449][617]LogTemp: Warning: The value of i is: 31
+[2022.01.24-03.07.55:449][617]LogTemp: Warning: The value of i is: 32
+[2022.01.24-03.07.55:449][617]LogTemp: Warning: The value of i is: 33
+[2022.01.24-03.07.55:449][617]LogTemp: Warning: The value of i is: 34
+[2022.01.24-03.07.55:449][617]LogTemp: Warning: The value of i is: 35
+[2022.01.24-03.07.55:449][617]LogTemp: Warning: The value of i is: 36
+[2022.01.24-03.07.55:449][617]LogTemp: Warning: The value of i is: 37
+[2022.01.24-03.07.55:449][617]LogTemp: Warning: The value of i is: 38
+[2022.01.24-03.07.55:449][617]LogTemp: Warning: The value of i is: 39
+[2022.01.24-03.07.55:449][617]LogTemp: Warning: The value of i is: 40
+[2022.01.24-03.07.55:449][617]LogTemp: Warning: The value of i is: 41
+[2022.01.24-03.07.55:449][617]LogTemp: Warning: The value of i is: 42
+[2022.01.24-03.07.55:449][617]LogTemp: Warning: The value of i is: 43
+[2022.01.24-03.07.55:449][617]LogTemp: Warning: The value of i is: 44
+[2022.01.24-03.07.55:449][617]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.07.55:449][617]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.07.55:449][617]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.07.55:449][617]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.07.55:647][617]Cmd: r.VolumetricCloud.DistanceToSampleMaxCount 4.0
+[2022.01.24-03.07.55:647][617]r.VolumetricCloud.DistanceToSampleMaxCount = "4"
+[2022.01.24-03.07.55:647][617]Cmd: r.VolumetricRenderTarget.Mode 2
+[2022.01.24-03.07.55:647][617]r.VolumetricRenderTarget.Mode = "2"
+[2022.01.24-03.07.55:647][617]Cmd: r.VolumetricRenderTarget 1
+[2022.01.24-03.07.55:647][617]r.VolumetricRenderTarget = "1"
+[2022.01.24-03.07.55:648][617]Cmd: r.LightFunctionQuality 1
+[2022.01.24-03.07.55:648][617]r.LightFunctionQuality = "1"
+[2022.01.24-03.07.55:648][617]Cmd: r.SkyLight.RealTimeReflectionCapture 1
+[2022.01.24-03.07.55:648][617]r.SkyLight.RealTimeReflectionCapture = "1"
+[2022.01.24-03.07.55:648][617]Cmd: r.SkyLight.RealTimeReflectionCapture.TimeSlice 1
+[2022.01.24-03.07.55:648][617]r.SkyLight.RealTimeReflectionCapture.TimeSlice = "1"
+[2022.01.24-03.07.55:648][617]Cmd: r.EyeAdaptation.BlackHistogramBucketInfluence 0.5
+[2022.01.24-03.07.55:648][617]r.EyeAdaptation.BlackHistogramBucketInfluence = "0.5"
+[2022.01.24-03.07.55:650][617]PIE: Server logged in
+[2022.01.24-03.07.55:650][617]PIE: Play in editor total start time 0.258 seconds.
+[2022.01.24-03.07.56:351][617]Cmd: r.VolumetricFog.GridPixelSize 64
+[2022.01.24-03.07.56:351][617]r.VolumetricFog.GridPixelSize = "64"
+[2022.01.24-03.08.16:258][497]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.24-03.08.16:258][497]LogWorld: BeginTearingDown for /Game/XM/Maps/UEDPIE_0_ArenaTestZone
+[2022.01.24-03.08.16:260][497]LogWorld: UWorld::CleanupWorld for ArenaTestZone, bSessionEnded=true, bCleanupResources=true
+[2022.01.24-03.08.16:270][497]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.24-03.08.16:285][497]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.24-03.08.16:295][497]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.24-03.08.16:314][497]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.01.24-03.08.16:316][497]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.24-03.08.16:317][497]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.24-03.08.16:318][497]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.24-03.08.16:328][497]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2022.01.24-03.08.17:272][498]LogPlayLevel: Display: Destroying online subsystem :Context_67
+[2022.01.24-03.08.45:265][970]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2022.01.24-03.08.45:302][970]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Saved/ArenaTestZone_Auto72E565E404AD15F422F03DE89E7750964.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Saved/Autosaves/Game/XM/Maps/ArenaTestZone_Auto7.umap'
+[2022.01.24-03.08.45:305][970]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/XM/Maps/ArenaTestZone' took 0.059
+[2022.01.24-03.08.45:305][970]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.059
+[2022.01.24-03.09.04:740][143]LogTemp: Repeating last play command: Simulate
+[2022.01.24-03.09.04:744][143]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.24-03.09.04:745][143]PIE: New page: SIE session: ArenaTestZone (Jan 23, 2022, 1:09:04 PM)
+[2022.01.24-03.09.04:745][143]LogPlayLevel: Creating play world package: /Game/XM/Maps/UEDPIE_0_ArenaTestZone
+[2022.01.24-03.09.04:750][143]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005960s)
+[2022.01.24-03.09.04:750][143]LogAIModule: Creating AISystem for world ArenaTestZone
+[2022.01.24-03.09.04:751][143]LogPlayLevel: PIE: World Init took: (0.000819s)
+[2022.01.24-03.09.04:751][143]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/XM/Maps/ArenaTestZone.ArenaTestZone to /Game/XM/Maps/UEDPIE_0_ArenaTestZone.ArenaTestZone (0.006880s)
+[2022.01.24-03.09.04:770][143]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2022.01.24-03.09.04:771][143]LogAudio: Display: Creating Audio Device:                 Id: 66, Scope: Unique, Realtime: True
+[2022.01.24-03.09.04:771][143]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.24-03.09.04:771][143]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.24-03.09.04:771][143]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.24-03.09.04:771][143]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.24-03.09.04:771][143]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.24-03.09.04:771][143]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.24-03.09.04:771][143]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.24-03.09.04:771][143]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.24-03.09.04:771][143]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.01.24-03.09.04:771][143]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.01.24-03.09.04:771][143]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.01.24-03.09.04:771][143]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.24-03.09.04:776][143]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.24-03.09.04:776][143]LogAudioMixer: Display: 1: FrontRight
+[2022.01.24-03.09.04:783][143]LogAudioMixer: Display: Using Audio Device U32J59x (NVIDIA High Definition Audio)
+[2022.01.24-03.09.04:783][143]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.24-03.09.04:784][143]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.24-03.09.04:784][143]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.24-03.09.04:784][143]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.24-03.09.04:784][143]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.24-03.09.04:784][143]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.24-03.09.04:785][143]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.24-03.09.04:785][143]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.24-03.09.04:785][143]LogInit: FAudioDevice initialized.
+[2022.01.24-03.09.04:785][143]LogAudio: Display: Audio Device (ID: 66) registered with world 'ArenaTestZone'.
+[2022.01.24-03.09.04:794][143]LogLoad: Game class is 'BP_GameMode_Game_C'
+[2022.01.24-03.09.04:795][143]LogWorld: Bringing World /Game/XM/Maps/UEDPIE_0_ArenaTestZone.ArenaTestZone up for play (max tick rate 0) at 2022.01.23-20.09.04
+[2022.01.24-03.09.04:796][143]LogWorld: Bringing up level for play took: 0.001287
+[2022.01.24-03.09.04:796][143]LogOnline: OSS: Creating online subsystem instance for: :Context_68
+[2022.01.24-03.09.04:798][143]LogTemp: Warning: The value of i is: 0
+[2022.01.24-03.09.04:798][143]LogTemp: Warning: The value of i is: 1
+[2022.01.24-03.09.04:798][143]LogTemp: Warning: The value of i is: 2
+[2022.01.24-03.09.04:798][143]LogTemp: Warning: The value of i is: 3
+[2022.01.24-03.09.04:798][143]LogTemp: Warning: The value of i is: 4
+[2022.01.24-03.09.04:798][143]LogTemp: Warning: The value of i is: 5
+[2022.01.24-03.09.04:798][143]LogTemp: Warning: The value of i is: 6
+[2022.01.24-03.09.04:798][143]LogTemp: Warning: The value of i is: 7
+[2022.01.24-03.09.04:798][143]LogTemp: Warning: The value of i is: 8
+[2022.01.24-03.09.04:798][143]LogTemp: Warning: The value of i is: 9
+[2022.01.24-03.09.04:798][143]LogTemp: Warning: The value of i is: 10
+[2022.01.24-03.09.04:798][143]LogTemp: Warning: The value of i is: 11
+[2022.01.24-03.09.04:799][143]LogTemp: Warning: The value of i is: 12
+[2022.01.24-03.09.04:799][143]LogTemp: Warning: The value of i is: 13
+[2022.01.24-03.09.04:799][143]LogTemp: Warning: The value of i is: 14
+[2022.01.24-03.09.04:799][143]LogTemp: Warning: The value of i is: 15
+[2022.01.24-03.09.04:799][143]LogTemp: Warning: The value of i is: 16
+[2022.01.24-03.09.04:799][143]LogTemp: Warning: The value of i is: 17
+[2022.01.24-03.09.04:799][143]LogTemp: Warning: The value of i is: 18
+[2022.01.24-03.09.04:799][143]LogTemp: Warning: The value of i is: 19
+[2022.01.24-03.09.04:799][143]LogTemp: Warning: The value of i is: 20
+[2022.01.24-03.09.04:799][143]LogTemp: Warning: The value of i is: 21
+[2022.01.24-03.09.04:799][143]LogTemp: Warning: The value of i is: 22
+[2022.01.24-03.09.04:799][143]LogTemp: Warning: The value of i is: 23
+[2022.01.24-03.09.04:799][143]LogTemp: Warning: The value of i is: 24
+[2022.01.24-03.09.04:799][143]LogTemp: Warning: The value of i is: 25
+[2022.01.24-03.09.04:799][143]LogTemp: Warning: The value of i is: 26
+[2022.01.24-03.09.04:799][143]LogTemp: Warning: The value of i is: 27
+[2022.01.24-03.09.04:799][143]LogTemp: Warning: The value of i is: 28
+[2022.01.24-03.09.04:799][143]LogTemp: Warning: The value of i is: 29
+[2022.01.24-03.09.04:799][143]LogTemp: Warning: The value of i is: 30
+[2022.01.24-03.09.04:799][143]LogTemp: Warning: The value of i is: 31
+[2022.01.24-03.09.04:799][143]LogTemp: Warning: The value of i is: 32
+[2022.01.24-03.09.04:799][143]LogTemp: Warning: The value of i is: 33
+[2022.01.24-03.09.04:799][143]LogTemp: Warning: The value of i is: 34
+[2022.01.24-03.09.04:799][143]LogTemp: Warning: The value of i is: 35
+[2022.01.24-03.09.04:799][143]LogTemp: Warning: The value of i is: 36
+[2022.01.24-03.09.04:799][143]LogTemp: Warning: The value of i is: 37
+[2022.01.24-03.09.04:799][143]LogTemp: Warning: The value of i is: 38
+[2022.01.24-03.09.04:799][143]LogTemp: Warning: The value of i is: 39
+[2022.01.24-03.09.04:799][143]LogTemp: Warning: The value of i is: 40
+[2022.01.24-03.09.04:799][143]LogTemp: Warning: The value of i is: 41
+[2022.01.24-03.09.04:799][143]LogTemp: Warning: The value of i is: 42
+[2022.01.24-03.09.04:799][143]LogTemp: Warning: The value of i is: 43
+[2022.01.24-03.09.04:800][143]LogTemp: Warning: The value of i is: 44
+[2022.01.24-03.09.04:800][143]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.09.04:800][143]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.09.04:800][143]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.09.04:800][143]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.09.04:994][143]Cmd: r.VolumetricCloud.DistanceToSampleMaxCount 4.0
+[2022.01.24-03.09.04:994][143]r.VolumetricCloud.DistanceToSampleMaxCount = "4"
+[2022.01.24-03.09.04:994][143]Cmd: r.VolumetricRenderTarget.Mode 2
+[2022.01.24-03.09.04:994][143]r.VolumetricRenderTarget.Mode = "2"
+[2022.01.24-03.09.04:994][143]Cmd: r.VolumetricRenderTarget 1
+[2022.01.24-03.09.04:994][143]r.VolumetricRenderTarget = "1"
+[2022.01.24-03.09.04:994][143]Cmd: r.LightFunctionQuality 1
+[2022.01.24-03.09.04:994][143]r.LightFunctionQuality = "1"
+[2022.01.24-03.09.04:995][143]Cmd: r.SkyLight.RealTimeReflectionCapture 1
+[2022.01.24-03.09.04:995][143]r.SkyLight.RealTimeReflectionCapture = "1"
+[2022.01.24-03.09.04:995][143]Cmd: r.SkyLight.RealTimeReflectionCapture.TimeSlice 1
+[2022.01.24-03.09.04:995][143]r.SkyLight.RealTimeReflectionCapture.TimeSlice = "1"
+[2022.01.24-03.09.04:995][143]Cmd: r.EyeAdaptation.BlackHistogramBucketInfluence 0.5
+[2022.01.24-03.09.04:995][143]r.EyeAdaptation.BlackHistogramBucketInfluence = "0.5"
+[2022.01.24-03.09.04:997][143]PIE: Server logged in
+[2022.01.24-03.09.04:997][143]PIE: Play in editor total start time 0.254 seconds.
+[2022.01.24-03.09.05:720][143]Cmd: r.VolumetricFog.GridPixelSize 64
+[2022.01.24-03.09.05:720][143]r.VolumetricFog.GridPixelSize = "64"
+[2022.01.24-03.09.16:676][589]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.24-03.09.16:676][589]LogWorld: BeginTearingDown for /Game/XM/Maps/UEDPIE_0_ArenaTestZone
+[2022.01.24-03.09.16:677][589]LogWorld: UWorld::CleanupWorld for ArenaTestZone, bSessionEnded=true, bCleanupResources=true
+[2022.01.24-03.09.16:683][589]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.24-03.09.16:693][589]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.24-03.09.16:703][589]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.24-03.09.16:727][589]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.24-03.09.16:727][589]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.24-03.09.16:728][589]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.24-03.09.16:735][589]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2022.01.24-03.09.17:641][590]LogPlayLevel: Display: Destroying online subsystem :Context_68
+[2022.01.24-03.09.22:204][112]LogTemp: Repeating last play command: Simulate
+[2022.01.24-03.09.22:208][112]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.24-03.09.22:208][112]PIE: New page: SIE session: ArenaTestZone (Jan 23, 2022, 1:09:22 PM)
+[2022.01.24-03.09.22:208][112]LogPlayLevel: Creating play world package: /Game/XM/Maps/UEDPIE_0_ArenaTestZone
+[2022.01.24-03.09.22:214][112]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005970s)
+[2022.01.24-03.09.22:215][112]LogAIModule: Creating AISystem for world ArenaTestZone
+[2022.01.24-03.09.22:215][112]LogPlayLevel: PIE: World Init took: (0.000815s)
+[2022.01.24-03.09.22:215][112]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/XM/Maps/ArenaTestZone.ArenaTestZone to /Game/XM/Maps/UEDPIE_0_ArenaTestZone.ArenaTestZone (0.006887s)
+[2022.01.24-03.09.22:234][112]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2022.01.24-03.09.22:236][112]LogAudio: Display: Creating Audio Device:                 Id: 67, Scope: Unique, Realtime: True
+[2022.01.24-03.09.22:236][112]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.24-03.09.22:236][112]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.24-03.09.22:236][112]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.24-03.09.22:236][112]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.24-03.09.22:236][112]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.24-03.09.22:236][112]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.24-03.09.22:236][112]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.24-03.09.22:236][112]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.24-03.09.22:237][112]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.01.24-03.09.22:237][112]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.01.24-03.09.22:237][112]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.01.24-03.09.22:237][112]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.24-03.09.22:241][112]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.24-03.09.22:241][112]LogAudioMixer: Display: 1: FrontRight
+[2022.01.24-03.09.22:248][112]LogAudioMixer: Display: Using Audio Device U32J59x (NVIDIA High Definition Audio)
+[2022.01.24-03.09.22:249][112]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.24-03.09.22:249][112]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.24-03.09.22:249][112]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.24-03.09.22:249][112]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.24-03.09.22:249][112]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.24-03.09.22:249][112]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.24-03.09.22:250][112]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.24-03.09.22:250][112]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.24-03.09.22:250][112]LogInit: FAudioDevice initialized.
+[2022.01.24-03.09.22:250][112]LogAudio: Display: Audio Device (ID: 67) registered with world 'ArenaTestZone'.
+[2022.01.24-03.09.22:259][112]LogLoad: Game class is 'BP_GameMode_Game_C'
+[2022.01.24-03.09.22:260][112]LogWorld: Bringing World /Game/XM/Maps/UEDPIE_0_ArenaTestZone.ArenaTestZone up for play (max tick rate 0) at 2022.01.23-20.09.22
+[2022.01.24-03.09.22:261][112]LogWorld: Bringing up level for play took: 0.001278
+[2022.01.24-03.09.22:261][112]LogOnline: OSS: Creating online subsystem instance for: :Context_69
+[2022.01.24-03.09.22:263][112]LogTemp: Warning: The value of i is: 0
+[2022.01.24-03.09.22:263][112]LogTemp: Warning: The value of i is: 1
+[2022.01.24-03.09.22:263][112]LogTemp: Warning: The value of i is: 2
+[2022.01.24-03.09.22:263][112]LogTemp: Warning: The value of i is: 3
+[2022.01.24-03.09.22:263][112]LogTemp: Warning: The value of i is: 4
+[2022.01.24-03.09.22:263][112]LogTemp: Warning: The value of i is: 5
+[2022.01.24-03.09.22:263][112]LogTemp: Warning: The value of i is: 6
+[2022.01.24-03.09.22:263][112]LogTemp: Warning: The value of i is: 7
+[2022.01.24-03.09.22:263][112]LogTemp: Warning: The value of i is: 8
+[2022.01.24-03.09.22:263][112]LogTemp: Warning: The value of i is: 9
+[2022.01.24-03.09.22:263][112]LogTemp: Warning: The value of i is: 10
+[2022.01.24-03.09.22:263][112]LogTemp: Warning: The value of i is: 11
+[2022.01.24-03.09.22:264][112]LogTemp: Warning: The value of i is: 12
+[2022.01.24-03.09.22:264][112]LogTemp: Warning: The value of i is: 13
+[2022.01.24-03.09.22:264][112]LogTemp: Warning: The value of i is: 14
+[2022.01.24-03.09.22:264][112]LogTemp: Warning: The value of i is: 15
+[2022.01.24-03.09.22:264][112]LogTemp: Warning: The value of i is: 16
+[2022.01.24-03.09.22:264][112]LogTemp: Warning: The value of i is: 17
+[2022.01.24-03.09.22:264][112]LogTemp: Warning: The value of i is: 18
+[2022.01.24-03.09.22:264][112]LogTemp: Warning: The value of i is: 19
+[2022.01.24-03.09.22:264][112]LogTemp: Warning: The value of i is: 20
+[2022.01.24-03.09.22:264][112]LogTemp: Warning: The value of i is: 21
+[2022.01.24-03.09.22:264][112]LogTemp: Warning: The value of i is: 22
+[2022.01.24-03.09.22:264][112]LogTemp: Warning: The value of i is: 23
+[2022.01.24-03.09.22:264][112]LogTemp: Warning: The value of i is: 24
+[2022.01.24-03.09.22:264][112]LogTemp: Warning: The value of i is: 25
+[2022.01.24-03.09.22:264][112]LogTemp: Warning: The value of i is: 26
+[2022.01.24-03.09.22:264][112]LogTemp: Warning: The value of i is: 27
+[2022.01.24-03.09.22:264][112]LogTemp: Warning: The value of i is: 28
+[2022.01.24-03.09.22:264][112]LogTemp: Warning: The value of i is: 29
+[2022.01.24-03.09.22:264][112]LogTemp: Warning: The value of i is: 30
+[2022.01.24-03.09.22:264][112]LogTemp: Warning: The value of i is: 31
+[2022.01.24-03.09.22:264][112]LogTemp: Warning: The value of i is: 32
+[2022.01.24-03.09.22:264][112]LogTemp: Warning: The value of i is: 33
+[2022.01.24-03.09.22:264][112]LogTemp: Warning: The value of i is: 34
+[2022.01.24-03.09.22:264][112]LogTemp: Warning: The value of i is: 35
+[2022.01.24-03.09.22:264][112]LogTemp: Warning: The value of i is: 36
+[2022.01.24-03.09.22:264][112]LogTemp: Warning: The value of i is: 37
+[2022.01.24-03.09.22:264][112]LogTemp: Warning: The value of i is: 38
+[2022.01.24-03.09.22:264][112]LogTemp: Warning: The value of i is: 39
+[2022.01.24-03.09.22:264][112]LogTemp: Warning: The value of i is: 40
+[2022.01.24-03.09.22:264][112]LogTemp: Warning: The value of i is: 41
+[2022.01.24-03.09.22:264][112]LogTemp: Warning: The value of i is: 42
+[2022.01.24-03.09.22:264][112]LogTemp: Warning: The value of i is: 43
+[2022.01.24-03.09.22:264][112]LogTemp: Warning: The value of i is: 44
+[2022.01.24-03.09.22:265][112]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.09.22:265][112]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.09.22:265][112]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.09.22:265][112]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.09.22:464][112]Cmd: r.VolumetricCloud.DistanceToSampleMaxCount 4.0
+[2022.01.24-03.09.22:464][112]r.VolumetricCloud.DistanceToSampleMaxCount = "4"
+[2022.01.24-03.09.22:465][112]Cmd: r.VolumetricRenderTarget.Mode 2
+[2022.01.24-03.09.22:465][112]r.VolumetricRenderTarget.Mode = "2"
+[2022.01.24-03.09.22:465][112]Cmd: r.VolumetricRenderTarget 1
+[2022.01.24-03.09.22:465][112]r.VolumetricRenderTarget = "1"
+[2022.01.24-03.09.22:465][112]Cmd: r.LightFunctionQuality 1
+[2022.01.24-03.09.22:465][112]r.LightFunctionQuality = "1"
+[2022.01.24-03.09.22:465][112]Cmd: r.SkyLight.RealTimeReflectionCapture 1
+[2022.01.24-03.09.22:465][112]r.SkyLight.RealTimeReflectionCapture = "1"
+[2022.01.24-03.09.22:465][112]Cmd: r.SkyLight.RealTimeReflectionCapture.TimeSlice 1
+[2022.01.24-03.09.22:465][112]r.SkyLight.RealTimeReflectionCapture.TimeSlice = "1"
+[2022.01.24-03.09.22:465][112]Cmd: r.EyeAdaptation.BlackHistogramBucketInfluence 0.5
+[2022.01.24-03.09.22:465][112]r.EyeAdaptation.BlackHistogramBucketInfluence = "0.5"
+[2022.01.24-03.09.22:467][112]PIE: Server logged in
+[2022.01.24-03.09.22:467][112]PIE: Play in editor total start time 0.26 seconds.
+[2022.01.24-03.09.23:174][112]Cmd: r.VolumetricFog.GridPixelSize 64
+[2022.01.24-03.09.23:174][112]r.VolumetricFog.GridPixelSize = "64"
+[2022.01.24-03.11.56:169][784]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.24-03.11.56:169][784]LogWorld: BeginTearingDown for /Game/XM/Maps/UEDPIE_0_ArenaTestZone
+[2022.01.24-03.11.56:172][784]LogWorld: UWorld::CleanupWorld for ArenaTestZone, bSessionEnded=true, bCleanupResources=true
+[2022.01.24-03.11.56:186][784]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.24-03.11.56:193][784]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.24-03.11.56:204][784]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.24-03.11.56:222][784]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.24-03.11.56:222][784]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.24-03.11.56:223][784]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.24-03.11.56:242][784]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2022.01.24-03.11.57:184][785]LogPlayLevel: Display: Destroying online subsystem :Context_69
+[2022.01.24-03.11.57:879][849]LogTemp: Repeating last play command: Simulate
+[2022.01.24-03.11.57:888][849]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.24-03.11.57:888][849]PIE: New page: SIE session: ArenaTestZone (Jan 23, 2022, 1:11:57 PM)
+[2022.01.24-03.11.57:889][849]LogPlayLevel: Creating play world package: /Game/XM/Maps/UEDPIE_0_ArenaTestZone
+[2022.01.24-03.11.57:910][849]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021160s)
+[2022.01.24-03.11.57:911][849]LogAIModule: Creating AISystem for world ArenaTestZone
+[2022.01.24-03.11.57:912][849]LogPlayLevel: PIE: World Init took: (0.001584s)
+[2022.01.24-03.11.57:912][849]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/XM/Maps/ArenaTestZone.ArenaTestZone to /Game/XM/Maps/UEDPIE_0_ArenaTestZone.ArenaTestZone (0.022910s)
+[2022.01.24-03.11.57:933][849]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2022.01.24-03.11.57:935][849]LogAudio: Display: Creating Audio Device:                 Id: 68, Scope: Unique, Realtime: True
+[2022.01.24-03.11.57:935][849]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.24-03.11.57:935][849]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.24-03.11.57:935][849]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.24-03.11.57:935][849]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.24-03.11.57:935][849]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.24-03.11.57:935][849]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.24-03.11.57:935][849]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.24-03.11.57:935][849]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.24-03.11.57:936][849]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.01.24-03.11.57:936][849]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.01.24-03.11.57:936][849]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.01.24-03.11.57:936][849]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.24-03.11.57:941][849]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.24-03.11.57:941][849]LogAudioMixer: Display: 1: FrontRight
+[2022.01.24-03.11.57:949][849]LogAudioMixer: Display: Using Audio Device U32J59x (NVIDIA High Definition Audio)
+[2022.01.24-03.11.57:950][849]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.24-03.11.57:950][849]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.24-03.11.57:950][849]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.24-03.11.57:950][849]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.24-03.11.57:950][849]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.24-03.11.57:950][849]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.24-03.11.57:951][849]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.24-03.11.57:951][849]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.24-03.11.57:951][849]LogInit: FAudioDevice initialized.
+[2022.01.24-03.11.57:951][849]LogAudio: Display: Audio Device (ID: 68) registered with world 'ArenaTestZone'.
+[2022.01.24-03.11.57:958][849]LogLoad: Game class is 'BP_GameMode_Game_C'
+[2022.01.24-03.11.57:958][849]LogWorld: Bringing World /Game/XM/Maps/UEDPIE_0_ArenaTestZone.ArenaTestZone up for play (max tick rate 0) at 2022.01.23-20.11.57
+[2022.01.24-03.11.57:959][849]LogWorld: Bringing up level for play took: 0.000752
+[2022.01.24-03.11.57:959][849]LogOnline: OSS: Creating online subsystem instance for: :Context_70
+[2022.01.24-03.11.57:960][849]LogTemp: Warning: The value of i is: 0
+[2022.01.24-03.11.57:960][849]LogTemp: Warning: The value of i is: 1
+[2022.01.24-03.11.57:960][849]LogTemp: Warning: The value of i is: 2
+[2022.01.24-03.11.57:960][849]LogTemp: Warning: The value of i is: 3
+[2022.01.24-03.11.57:960][849]LogTemp: Warning: The value of i is: 4
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 5
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 6
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 7
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 8
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 9
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 10
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 11
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 12
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 13
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 14
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 15
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 16
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 17
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 18
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 19
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 20
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 21
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 22
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 23
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 24
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 25
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 26
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 27
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 28
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 29
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 30
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 31
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 32
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 33
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 34
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 35
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 36
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 37
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 38
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 39
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 40
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 41
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 42
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 43
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: The value of i is: 44
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.11.57:961][849]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.11.58:122][849]Cmd: r.VolumetricCloud.DistanceToSampleMaxCount 4.0
+[2022.01.24-03.11.58:123][849]r.VolumetricCloud.DistanceToSampleMaxCount = "4"
+[2022.01.24-03.11.58:123][849]Cmd: r.VolumetricRenderTarget.Mode 2
+[2022.01.24-03.11.58:123][849]r.VolumetricRenderTarget.Mode = "2"
+[2022.01.24-03.11.58:123][849]Cmd: r.VolumetricRenderTarget 1
+[2022.01.24-03.11.58:123][849]r.VolumetricRenderTarget = "1"
+[2022.01.24-03.11.58:123][849]Cmd: r.LightFunctionQuality 1
+[2022.01.24-03.11.58:123][849]r.LightFunctionQuality = "1"
+[2022.01.24-03.11.58:123][849]Cmd: r.SkyLight.RealTimeReflectionCapture 1
+[2022.01.24-03.11.58:123][849]r.SkyLight.RealTimeReflectionCapture = "1"
+[2022.01.24-03.11.58:123][849]Cmd: r.SkyLight.RealTimeReflectionCapture.TimeSlice 1
+[2022.01.24-03.11.58:123][849]r.SkyLight.RealTimeReflectionCapture.TimeSlice = "1"
+[2022.01.24-03.11.58:123][849]Cmd: r.EyeAdaptation.BlackHistogramBucketInfluence 0.5
+[2022.01.24-03.11.58:123][849]r.EyeAdaptation.BlackHistogramBucketInfluence = "0.5"
+[2022.01.24-03.11.58:125][849]PIE: Server logged in
+[2022.01.24-03.11.58:126][849]PIE: Play in editor total start time 0.238 seconds.
+[2022.01.24-03.11.58:832][849]Cmd: r.VolumetricFog.GridPixelSize 64
+[2022.01.24-03.11.58:832][849]r.VolumetricFog.GridPixelSize = "64"
+[2022.01.24-03.12.03:046][  4]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.24-03.12.03:046][  4]LogWorld: BeginTearingDown for /Game/XM/Maps/UEDPIE_0_ArenaTestZone
+[2022.01.24-03.12.03:047][  4]LogWorld: UWorld::CleanupWorld for ArenaTestZone, bSessionEnded=true, bCleanupResources=true
+[2022.01.24-03.12.03:052][  4]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.24-03.12.03:062][  4]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.24-03.12.03:072][  4]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.24-03.12.03:093][  4]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.24-03.12.03:093][  4]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.24-03.12.03:094][  4]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.24-03.12.03:101][  4]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2022.01.24-03.12.04:063][  5]LogPlayLevel: Display: Destroying online subsystem :Context_70
+[2022.01.24-03.12.06:504][268]LogTemp: Repeating last play command: Simulate
+[2022.01.24-03.12.06:509][268]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.24-03.12.06:509][268]PIE: New page: SIE session: ArenaTestZone (Jan 23, 2022, 1:12:06 PM)
+[2022.01.24-03.12.06:509][268]LogPlayLevel: Creating play world package: /Game/XM/Maps/UEDPIE_0_ArenaTestZone
+[2022.01.24-03.12.06:515][268]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006011s)
+[2022.01.24-03.12.06:516][268]LogAIModule: Creating AISystem for world ArenaTestZone
+[2022.01.24-03.12.06:516][268]LogPlayLevel: PIE: World Init took: (0.000897s)
+[2022.01.24-03.12.06:516][268]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/XM/Maps/ArenaTestZone.ArenaTestZone to /Game/XM/Maps/UEDPIE_0_ArenaTestZone.ArenaTestZone (0.007010s)
+[2022.01.24-03.12.06:535][268]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2022.01.24-03.12.06:537][268]LogAudio: Display: Creating Audio Device:                 Id: 69, Scope: Unique, Realtime: True
+[2022.01.24-03.12.06:537][268]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.24-03.12.06:537][268]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.24-03.12.06:537][268]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.24-03.12.06:537][268]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.24-03.12.06:537][268]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.24-03.12.06:537][268]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.24-03.12.06:537][268]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.24-03.12.06:537][268]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.24-03.12.06:537][268]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.01.24-03.12.06:537][268]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.01.24-03.12.06:537][268]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.01.24-03.12.06:537][268]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.24-03.12.06:542][268]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.24-03.12.06:542][268]LogAudioMixer: Display: 1: FrontRight
+[2022.01.24-03.12.06:549][268]LogAudioMixer: Display: Using Audio Device U32J59x (NVIDIA High Definition Audio)
+[2022.01.24-03.12.06:549][268]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.24-03.12.06:549][268]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.24-03.12.06:549][268]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.24-03.12.06:549][268]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.24-03.12.06:549][268]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.24-03.12.06:549][268]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.24-03.12.06:550][268]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.24-03.12.06:550][268]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.24-03.12.06:550][268]LogInit: FAudioDevice initialized.
+[2022.01.24-03.12.06:550][268]LogAudio: Display: Audio Device (ID: 69) registered with world 'ArenaTestZone'.
+[2022.01.24-03.12.06:556][268]LogLoad: Game class is 'BP_GameMode_Game_C'
+[2022.01.24-03.12.06:557][268]LogWorld: Bringing World /Game/XM/Maps/UEDPIE_0_ArenaTestZone.ArenaTestZone up for play (max tick rate 0) at 2022.01.23-20.12.06
+[2022.01.24-03.12.06:558][268]LogWorld: Bringing up level for play took: 0.001207
+[2022.01.24-03.12.06:558][268]LogOnline: OSS: Creating online subsystem instance for: :Context_71
+[2022.01.24-03.12.06:560][268]LogTemp: Warning: The value of i is: 0
+[2022.01.24-03.12.06:560][268]LogTemp: Warning: The value of i is: 1
+[2022.01.24-03.12.06:560][268]LogTemp: Warning: The value of i is: 2
+[2022.01.24-03.12.06:560][268]LogTemp: Warning: The value of i is: 3
+[2022.01.24-03.12.06:560][268]LogTemp: Warning: The value of i is: 4
+[2022.01.24-03.12.06:560][268]LogTemp: Warning: The value of i is: 5
+[2022.01.24-03.12.06:560][268]LogTemp: Warning: The value of i is: 6
+[2022.01.24-03.12.06:560][268]LogTemp: Warning: The value of i is: 7
+[2022.01.24-03.12.06:561][268]LogTemp: Warning: The value of i is: 8
+[2022.01.24-03.12.06:561][268]LogTemp: Warning: The value of i is: 9
+[2022.01.24-03.12.06:561][268]LogTemp: Warning: The value of i is: 10
+[2022.01.24-03.12.06:561][268]LogTemp: Warning: The value of i is: 11
+[2022.01.24-03.12.06:561][268]LogTemp: Warning: The value of i is: 12
+[2022.01.24-03.12.06:561][268]LogTemp: Warning: The value of i is: 13
+[2022.01.24-03.12.06:561][268]LogTemp: Warning: The value of i is: 14
+[2022.01.24-03.12.06:561][268]LogTemp: Warning: The value of i is: 15
+[2022.01.24-03.12.06:561][268]LogTemp: Warning: The value of i is: 16
+[2022.01.24-03.12.06:561][268]LogTemp: Warning: The value of i is: 17
+[2022.01.24-03.12.06:561][268]LogTemp: Warning: The value of i is: 18
+[2022.01.24-03.12.06:561][268]LogTemp: Warning: The value of i is: 19
+[2022.01.24-03.12.06:561][268]LogTemp: Warning: The value of i is: 20
+[2022.01.24-03.12.06:561][268]LogTemp: Warning: The value of i is: 21
+[2022.01.24-03.12.06:561][268]LogTemp: Warning: The value of i is: 22
+[2022.01.24-03.12.06:561][268]LogTemp: Warning: The value of i is: 23
+[2022.01.24-03.12.06:561][268]LogTemp: Warning: The value of i is: 24
+[2022.01.24-03.12.06:561][268]LogTemp: Warning: The value of i is: 25
+[2022.01.24-03.12.06:561][268]LogTemp: Warning: The value of i is: 26
+[2022.01.24-03.12.06:561][268]LogTemp: Warning: The value of i is: 27
+[2022.01.24-03.12.06:561][268]LogTemp: Warning: The value of i is: 28
+[2022.01.24-03.12.06:561][268]LogTemp: Warning: The value of i is: 29
+[2022.01.24-03.12.06:561][268]LogTemp: Warning: The value of i is: 30
+[2022.01.24-03.12.06:561][268]LogTemp: Warning: The value of i is: 31
+[2022.01.24-03.12.06:561][268]LogTemp: Warning: The value of i is: 32
+[2022.01.24-03.12.06:561][268]LogTemp: Warning: The value of i is: 33
+[2022.01.24-03.12.06:561][268]LogTemp: Warning: The value of i is: 34
+[2022.01.24-03.12.06:561][268]LogTemp: Warning: The value of i is: 35
+[2022.01.24-03.12.06:561][268]LogTemp: Warning: The value of i is: 36
+[2022.01.24-03.12.06:561][268]LogTemp: Warning: The value of i is: 37
+[2022.01.24-03.12.06:561][268]LogTemp: Warning: The value of i is: 38
+[2022.01.24-03.12.06:561][268]LogTemp: Warning: The value of i is: 39
+[2022.01.24-03.12.06:561][268]LogTemp: Warning: The value of i is: 40
+[2022.01.24-03.12.06:561][268]LogTemp: Warning: The value of i is: 41
+[2022.01.24-03.12.06:562][268]LogTemp: Warning: The value of i is: 42
+[2022.01.24-03.12.06:562][268]LogTemp: Warning: The value of i is: 43
+[2022.01.24-03.12.06:562][268]LogTemp: Warning: The value of i is: 44
+[2022.01.24-03.12.06:562][268]LogTemp: Warning: HCrawlerCalled
+[2022.01.24-03.12.06:562][268]LogTemp: Warning: HCrawlerCalled
+[2022.01.24-03.12.06:562][268]LogTemp: Warning: HCrawlerCalled
+[2022.01.24-03.12.06:562][268]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.12.06:562][268]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.12.06:562][268]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.12.06:562][268]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.12.06:747][268]Cmd: r.VolumetricCloud.DistanceToSampleMaxCount 4.0
+[2022.01.24-03.12.06:747][268]r.VolumetricCloud.DistanceToSampleMaxCount = "4"
+[2022.01.24-03.12.06:747][268]Cmd: r.VolumetricRenderTarget.Mode 2
+[2022.01.24-03.12.06:747][268]r.VolumetricRenderTarget.Mode = "2"
+[2022.01.24-03.12.06:747][268]Cmd: r.VolumetricRenderTarget 1
+[2022.01.24-03.12.06:747][268]r.VolumetricRenderTarget = "1"
+[2022.01.24-03.12.06:748][268]Cmd: r.LightFunctionQuality 1
+[2022.01.24-03.12.06:748][268]r.LightFunctionQuality = "1"
+[2022.01.24-03.12.06:748][268]Cmd: r.SkyLight.RealTimeReflectionCapture 1
+[2022.01.24-03.12.06:748][268]r.SkyLight.RealTimeReflectionCapture = "1"
+[2022.01.24-03.12.06:748][268]Cmd: r.SkyLight.RealTimeReflectionCapture.TimeSlice 1
+[2022.01.24-03.12.06:748][268]r.SkyLight.RealTimeReflectionCapture.TimeSlice = "1"
+[2022.01.24-03.12.06:748][268]Cmd: r.EyeAdaptation.BlackHistogramBucketInfluence 0.5
+[2022.01.24-03.12.06:748][268]r.EyeAdaptation.BlackHistogramBucketInfluence = "0.5"
+[2022.01.24-03.12.06:750][268]PIE: Server logged in
+[2022.01.24-03.12.06:750][268]PIE: Play in editor total start time 0.242 seconds.
+[2022.01.24-03.12.07:457][268]Cmd: r.VolumetricFog.GridPixelSize 64
+[2022.01.24-03.12.07:458][268]r.VolumetricFog.GridPixelSize = "64"
+[2022.01.24-03.12.10:666][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.24-03.12.10:666][373]LogWorld: BeginTearingDown for /Game/XM/Maps/UEDPIE_0_ArenaTestZone
+[2022.01.24-03.12.10:667][373]LogWorld: UWorld::CleanupWorld for ArenaTestZone, bSessionEnded=true, bCleanupResources=true
+[2022.01.24-03.12.10:672][373]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.24-03.12.10:680][373]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.24-03.12.10:690][373]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.24-03.12.10:710][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.24-03.12.10:710][373]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.24-03.12.10:710][373]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.24-03.12.10:722][373]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2022.01.24-03.12.11:667][374]LogPlayLevel: Display: Destroying online subsystem :Context_71
+[2022.01.24-03.12.15:430][795]LogTemp: Repeating last play command: Simulate
+[2022.01.24-03.12.15:434][795]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.24-03.12.15:434][795]PIE: New page: SIE session: ArenaTestZone (Jan 23, 2022, 1:12:15 PM)
+[2022.01.24-03.12.15:434][795]LogPlayLevel: Creating play world package: /Game/XM/Maps/UEDPIE_0_ArenaTestZone
+[2022.01.24-03.12.15:440][795]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005981s)
+[2022.01.24-03.12.15:441][795]LogAIModule: Creating AISystem for world ArenaTestZone
+[2022.01.24-03.12.15:441][795]LogPlayLevel: PIE: World Init took: (0.000811s)
+[2022.01.24-03.12.15:441][795]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/XM/Maps/ArenaTestZone.ArenaTestZone to /Game/XM/Maps/UEDPIE_0_ArenaTestZone.ArenaTestZone (0.006899s)
+[2022.01.24-03.12.15:459][795]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2022.01.24-03.12.15:461][795]LogAudio: Display: Creating Audio Device:                 Id: 70, Scope: Unique, Realtime: True
+[2022.01.24-03.12.15:461][795]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.24-03.12.15:461][795]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.24-03.12.15:461][795]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.24-03.12.15:461][795]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.24-03.12.15:461][795]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.24-03.12.15:461][795]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.24-03.12.15:461][795]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.24-03.12.15:461][795]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.24-03.12.15:461][795]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.01.24-03.12.15:461][795]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.01.24-03.12.15:461][795]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.01.24-03.12.15:461][795]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.24-03.12.15:466][795]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.24-03.12.15:466][795]LogAudioMixer: Display: 1: FrontRight
+[2022.01.24-03.12.15:474][795]LogAudioMixer: Display: Using Audio Device U32J59x (NVIDIA High Definition Audio)
+[2022.01.24-03.12.15:474][795]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.24-03.12.15:474][795]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.24-03.12.15:474][795]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.24-03.12.15:474][795]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.24-03.12.15:474][795]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.24-03.12.15:474][795]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.24-03.12.15:475][795]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.24-03.12.15:475][795]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.24-03.12.15:475][795]LogInit: FAudioDevice initialized.
+[2022.01.24-03.12.15:475][795]LogAudio: Display: Audio Device (ID: 70) registered with world 'ArenaTestZone'.
+[2022.01.24-03.12.15:482][795]LogLoad: Game class is 'BP_GameMode_Game_C'
+[2022.01.24-03.12.15:483][795]LogWorld: Bringing World /Game/XM/Maps/UEDPIE_0_ArenaTestZone.ArenaTestZone up for play (max tick rate 0) at 2022.01.23-20.12.15
+[2022.01.24-03.12.15:484][795]LogWorld: Bringing up level for play took: 0.001509
+[2022.01.24-03.12.15:484][795]LogOnline: OSS: Creating online subsystem instance for: :Context_72
+[2022.01.24-03.12.15:486][795]LogTemp: Warning: The value of i is: 0
+[2022.01.24-03.12.15:486][795]LogTemp: Warning: The value of i is: 1
+[2022.01.24-03.12.15:486][795]LogTemp: Warning: The value of i is: 2
+[2022.01.24-03.12.15:486][795]LogTemp: Warning: The value of i is: 3
+[2022.01.24-03.12.15:486][795]LogTemp: Warning: The value of i is: 4
+[2022.01.24-03.12.15:486][795]LogTemp: Warning: The value of i is: 5
+[2022.01.24-03.12.15:486][795]LogTemp: Warning: The value of i is: 6
+[2022.01.24-03.12.15:486][795]LogTemp: Warning: The value of i is: 7
+[2022.01.24-03.12.15:486][795]LogTemp: Warning: The value of i is: 8
+[2022.01.24-03.12.15:486][795]LogTemp: Warning: The value of i is: 9
+[2022.01.24-03.12.15:486][795]LogTemp: Warning: The value of i is: 10
+[2022.01.24-03.12.15:486][795]LogTemp: Warning: The value of i is: 11
+[2022.01.24-03.12.15:486][795]LogTemp: Warning: The value of i is: 12
+[2022.01.24-03.12.15:486][795]LogTemp: Warning: The value of i is: 13
+[2022.01.24-03.12.15:487][795]LogTemp: Warning: The value of i is: 14
+[2022.01.24-03.12.15:487][795]LogTemp: Warning: The value of i is: 15
+[2022.01.24-03.12.15:487][795]LogTemp: Warning: The value of i is: 16
+[2022.01.24-03.12.15:487][795]LogTemp: Warning: The value of i is: 17
+[2022.01.24-03.12.15:487][795]LogTemp: Warning: The value of i is: 18
+[2022.01.24-03.12.15:487][795]LogTemp: Warning: The value of i is: 19
+[2022.01.24-03.12.15:487][795]LogTemp: Warning: The value of i is: 20
+[2022.01.24-03.12.15:487][795]LogTemp: Warning: The value of i is: 21
+[2022.01.24-03.12.15:487][795]LogTemp: Warning: The value of i is: 22
+[2022.01.24-03.12.15:487][795]LogTemp: Warning: The value of i is: 23
+[2022.01.24-03.12.15:487][795]LogTemp: Warning: The value of i is: 24
+[2022.01.24-03.12.15:487][795]LogTemp: Warning: The value of i is: 25
+[2022.01.24-03.12.15:487][795]LogTemp: Warning: The value of i is: 26
+[2022.01.24-03.12.15:487][795]LogTemp: Warning: The value of i is: 27
+[2022.01.24-03.12.15:487][795]LogTemp: Warning: The value of i is: 28
+[2022.01.24-03.12.15:487][795]LogTemp: Warning: The value of i is: 29
+[2022.01.24-03.12.15:487][795]LogTemp: Warning: The value of i is: 30
+[2022.01.24-03.12.15:487][795]LogTemp: Warning: The value of i is: 31
+[2022.01.24-03.12.15:487][795]LogTemp: Warning: The value of i is: 32
+[2022.01.24-03.12.15:487][795]LogTemp: Warning: The value of i is: 33
+[2022.01.24-03.12.15:487][795]LogTemp: Warning: The value of i is: 34
+[2022.01.24-03.12.15:487][795]LogTemp: Warning: The value of i is: 35
+[2022.01.24-03.12.15:487][795]LogTemp: Warning: The value of i is: 36
+[2022.01.24-03.12.15:487][795]LogTemp: Warning: The value of i is: 37
+[2022.01.24-03.12.15:487][795]LogTemp: Warning: The value of i is: 38
+[2022.01.24-03.12.15:487][795]LogTemp: Warning: The value of i is: 39
+[2022.01.24-03.12.15:487][795]LogTemp: Warning: The value of i is: 40
+[2022.01.24-03.12.15:487][795]LogTemp: Warning: The value of i is: 41
+[2022.01.24-03.12.15:487][795]LogTemp: Warning: The value of i is: 42
+[2022.01.24-03.12.15:487][795]LogTemp: Warning: The value of i is: 43
+[2022.01.24-03.12.15:487][795]LogTemp: Warning: The value of i is: 44
+[2022.01.24-03.12.15:488][795]LogTemp: Warning: HCrawlerCalled
+[2022.01.24-03.12.15:488][795]LogTemp: Warning: HCrawlerCalled
+[2022.01.24-03.12.15:488][795]LogTemp: Warning: HCrawlerCalled
+[2022.01.24-03.12.15:488][795]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.12.15:488][795]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.12.15:488][795]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.12.15:488][795]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.12.15:672][795]Cmd: r.VolumetricCloud.DistanceToSampleMaxCount 4.0
+[2022.01.24-03.12.15:672][795]r.VolumetricCloud.DistanceToSampleMaxCount = "4"
+[2022.01.24-03.12.15:672][795]Cmd: r.VolumetricRenderTarget.Mode 2
+[2022.01.24-03.12.15:672][795]r.VolumetricRenderTarget.Mode = "2"
+[2022.01.24-03.12.15:672][795]Cmd: r.VolumetricRenderTarget 1
+[2022.01.24-03.12.15:672][795]r.VolumetricRenderTarget = "1"
+[2022.01.24-03.12.15:672][795]Cmd: r.LightFunctionQuality 1
+[2022.01.24-03.12.15:672][795]r.LightFunctionQuality = "1"
+[2022.01.24-03.12.15:673][795]Cmd: r.SkyLight.RealTimeReflectionCapture 1
+[2022.01.24-03.12.15:673][795]r.SkyLight.RealTimeReflectionCapture = "1"
+[2022.01.24-03.12.15:673][795]Cmd: r.SkyLight.RealTimeReflectionCapture.TimeSlice 1
+[2022.01.24-03.12.15:673][795]r.SkyLight.RealTimeReflectionCapture.TimeSlice = "1"
+[2022.01.24-03.12.15:673][795]Cmd: r.EyeAdaptation.BlackHistogramBucketInfluence 0.5
+[2022.01.24-03.12.15:673][795]r.EyeAdaptation.BlackHistogramBucketInfluence = "0.5"
+[2022.01.24-03.12.15:675][795]PIE: Server logged in
+[2022.01.24-03.12.15:675][795]PIE: Play in editor total start time 0.243 seconds.
+[2022.01.24-03.12.16:394][795]Cmd: r.VolumetricFog.GridPixelSize 64
+[2022.01.24-03.12.16:395][795]r.VolumetricFog.GridPixelSize = "64"
+[2022.01.24-03.12.24:616][138]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.24-03.12.24:616][138]LogWorld: BeginTearingDown for /Game/XM/Maps/UEDPIE_0_ArenaTestZone
+[2022.01.24-03.12.24:617][138]LogWorld: UWorld::CleanupWorld for ArenaTestZone, bSessionEnded=true, bCleanupResources=true
+[2022.01.24-03.12.24:622][138]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.24-03.12.24:632][138]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.24-03.12.24:643][138]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.24-03.12.24:669][138]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.01.24-03.12.24:672][138]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.24-03.12.24:673][138]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.24-03.12.24:675][138]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.24-03.12.24:681][138]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2022.01.24-03.12.25:622][139]LogPlayLevel: Display: Destroying online subsystem :Context_72
+[2022.01.24-03.12.31:146][778]LogTemp: Repeating last play command: Simulate
+[2022.01.24-03.12.31:150][778]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.24-03.12.31:151][778]PIE: New page: SIE session: ArenaTestZone (Jan 23, 2022, 1:12:31 PM)
+[2022.01.24-03.12.31:151][778]LogPlayLevel: Creating play world package: /Game/XM/Maps/UEDPIE_0_ArenaTestZone
+[2022.01.24-03.12.31:157][778]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006281s)
+[2022.01.24-03.12.31:158][778]LogAIModule: Creating AISystem for world ArenaTestZone
+[2022.01.24-03.12.31:158][778]LogPlayLevel: PIE: World Init took: (0.000797s)
+[2022.01.24-03.12.31:158][778]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/XM/Maps/ArenaTestZone.ArenaTestZone to /Game/XM/Maps/UEDPIE_0_ArenaTestZone.ArenaTestZone (0.007180s)
+[2022.01.24-03.12.31:177][778]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2022.01.24-03.12.31:179][778]LogAudio: Display: Creating Audio Device:                 Id: 71, Scope: Unique, Realtime: True
+[2022.01.24-03.12.31:179][778]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.24-03.12.31:179][778]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.24-03.12.31:179][778]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.24-03.12.31:179][778]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.24-03.12.31:179][778]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.24-03.12.31:179][778]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.24-03.12.31:179][778]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.24-03.12.31:179][778]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.24-03.12.31:180][778]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.01.24-03.12.31:180][778]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.01.24-03.12.31:180][778]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.01.24-03.12.31:180][778]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.24-03.12.31:184][778]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.24-03.12.31:184][778]LogAudioMixer: Display: 1: FrontRight
+[2022.01.24-03.12.31:192][778]LogAudioMixer: Display: Using Audio Device U32J59x (NVIDIA High Definition Audio)
+[2022.01.24-03.12.31:192][778]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.24-03.12.31:192][778]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.24-03.12.31:192][778]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.24-03.12.31:193][778]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.24-03.12.31:193][778]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.24-03.12.31:193][778]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.24-03.12.31:198][778]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.24-03.12.31:198][778]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.24-03.12.31:198][778]LogInit: FAudioDevice initialized.
+[2022.01.24-03.12.31:198][778]LogAudio: Display: Audio Device (ID: 71) registered with world 'ArenaTestZone'.
+[2022.01.24-03.12.31:210][778]LogLoad: Game class is 'BP_GameMode_Game_C'
+[2022.01.24-03.12.31:211][778]LogWorld: Bringing World /Game/XM/Maps/UEDPIE_0_ArenaTestZone.ArenaTestZone up for play (max tick rate 0) at 2022.01.23-20.12.31
+[2022.01.24-03.12.31:212][778]LogWorld: Bringing up level for play took: 0.001454
+[2022.01.24-03.12.31:212][778]LogOnline: OSS: Creating online subsystem instance for: :Context_73
+[2022.01.24-03.12.31:214][778]LogTemp: Warning: The value of i is: 0
+[2022.01.24-03.12.31:214][778]LogTemp: Warning: The value of i is: 1
+[2022.01.24-03.12.31:214][778]LogTemp: Warning: The value of i is: 2
+[2022.01.24-03.12.31:214][778]LogTemp: Warning: The value of i is: 3
+[2022.01.24-03.12.31:214][778]LogTemp: Warning: The value of i is: 4
+[2022.01.24-03.12.31:214][778]LogTemp: Warning: The value of i is: 5
+[2022.01.24-03.12.31:214][778]LogTemp: Warning: The value of i is: 6
+[2022.01.24-03.12.31:214][778]LogTemp: Warning: The value of i is: 7
+[2022.01.24-03.12.31:214][778]LogTemp: Warning: The value of i is: 8
+[2022.01.24-03.12.31:214][778]LogTemp: Warning: The value of i is: 9
+[2022.01.24-03.12.31:214][778]LogTemp: Warning: The value of i is: 10
+[2022.01.24-03.12.31:214][778]LogTemp: Warning: The value of i is: 11
+[2022.01.24-03.12.31:214][778]LogTemp: Warning: The value of i is: 12
+[2022.01.24-03.12.31:214][778]LogTemp: Warning: The value of i is: 13
+[2022.01.24-03.12.31:214][778]LogTemp: Warning: The value of i is: 14
+[2022.01.24-03.12.31:214][778]LogTemp: Warning: The value of i is: 15
+[2022.01.24-03.12.31:214][778]LogTemp: Warning: The value of i is: 16
+[2022.01.24-03.12.31:214][778]LogTemp: Warning: The value of i is: 17
+[2022.01.24-03.12.31:214][778]LogTemp: Warning: The value of i is: 18
+[2022.01.24-03.12.31:214][778]LogTemp: Warning: The value of i is: 19
+[2022.01.24-03.12.31:214][778]LogTemp: Warning: The value of i is: 20
+[2022.01.24-03.12.31:214][778]LogTemp: Warning: The value of i is: 21
+[2022.01.24-03.12.31:214][778]LogTemp: Warning: The value of i is: 22
+[2022.01.24-03.12.31:215][778]LogTemp: Warning: The value of i is: 23
+[2022.01.24-03.12.31:215][778]LogTemp: Warning: The value of i is: 24
+[2022.01.24-03.12.31:215][778]LogTemp: Warning: The value of i is: 25
+[2022.01.24-03.12.31:215][778]LogTemp: Warning: The value of i is: 26
+[2022.01.24-03.12.31:215][778]LogTemp: Warning: The value of i is: 27
+[2022.01.24-03.12.31:215][778]LogTemp: Warning: The value of i is: 28
+[2022.01.24-03.12.31:215][778]LogTemp: Warning: The value of i is: 29
+[2022.01.24-03.12.31:215][778]LogTemp: Warning: The value of i is: 30
+[2022.01.24-03.12.31:215][778]LogTemp: Warning: The value of i is: 31
+[2022.01.24-03.12.31:215][778]LogTemp: Warning: The value of i is: 32
+[2022.01.24-03.12.31:215][778]LogTemp: Warning: The value of i is: 33
+[2022.01.24-03.12.31:215][778]LogTemp: Warning: The value of i is: 34
+[2022.01.24-03.12.31:215][778]LogTemp: Warning: The value of i is: 35
+[2022.01.24-03.12.31:215][778]LogTemp: Warning: The value of i is: 36
+[2022.01.24-03.12.31:215][778]LogTemp: Warning: The value of i is: 37
+[2022.01.24-03.12.31:215][778]LogTemp: Warning: The value of i is: 38
+[2022.01.24-03.12.31:215][778]LogTemp: Warning: The value of i is: 39
+[2022.01.24-03.12.31:215][778]LogTemp: Warning: The value of i is: 40
+[2022.01.24-03.12.31:215][778]LogTemp: Warning: The value of i is: 41
+[2022.01.24-03.12.31:215][778]LogTemp: Warning: The value of i is: 42
+[2022.01.24-03.12.31:215][778]LogTemp: Warning: The value of i is: 43
+[2022.01.24-03.12.31:215][778]LogTemp: Warning: The value of i is: 44
+[2022.01.24-03.12.31:215][778]LogTemp: Warning: HCrawlerCalled
+[2022.01.24-03.12.31:215][778]LogTemp: Warning: HCrawlerCalled
+[2022.01.24-03.12.31:215][778]LogTemp: Warning: HCrawlerCalled
+[2022.01.24-03.12.31:215][778]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.12.31:215][778]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.12.31:216][778]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.12.31:216][778]LogTemp: Warning: VCrawlerCalled
+[2022.01.24-03.12.31:384][778]Cmd: r.VolumetricCloud.DistanceToSampleMaxCount 4.0
+[2022.01.24-03.12.31:384][778]r.VolumetricCloud.DistanceToSampleMaxCount = "4"
+[2022.01.24-03.12.31:384][778]Cmd: r.VolumetricRenderTarget.Mode 2
+[2022.01.24-03.12.31:384][778]r.VolumetricRenderTarget.Mode = "2"
+[2022.01.24-03.12.31:384][778]Cmd: r.VolumetricRenderTarget 1
+[2022.01.24-03.12.31:384][778]r.VolumetricRenderTarget = "1"
+[2022.01.24-03.12.31:385][778]Cmd: r.LightFunctionQuality 1
+[2022.01.24-03.12.31:385][778]r.LightFunctionQuality = "1"
+[2022.01.24-03.12.31:385][778]Cmd: r.SkyLight.RealTimeReflectionCapture 1
+[2022.01.24-03.12.31:385][778]r.SkyLight.RealTimeReflectionCapture = "1"
+[2022.01.24-03.12.31:385][778]Cmd: r.SkyLight.RealTimeReflectionCapture.TimeSlice 1
+[2022.01.24-03.12.31:385][778]r.SkyLight.RealTimeReflectionCapture.TimeSlice = "1"
+[2022.01.24-03.12.31:385][778]Cmd: r.EyeAdaptation.BlackHistogramBucketInfluence 0.5
+[2022.01.24-03.12.31:385][778]r.EyeAdaptation.BlackHistogramBucketInfluence = "0.5"
+[2022.01.24-03.12.31:387][778]PIE: Server logged in
+[2022.01.24-03.12.31:387][778]PIE: Play in editor total start time 0.238 seconds.
+[2022.01.24-03.12.32:099][778]Cmd: r.VolumetricFog.GridPixelSize 64
+[2022.01.24-03.12.32:099][778]r.VolumetricFog.GridPixelSize = "64"
+[2022.01.24-03.12.42:742][235]LogEditorViewport: Clicking on Actor (LMB): Tile_BaseBP_C (Tile_BaseBP1105)
+[2022.01.24-03.12.43:451][250]LogEditorViewport: Clicking on Actor (LMB): Tile_BaseBP_C (Tile_BaseBP1104)
+[2022.01.24-03.12.46:966][629]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.24-03.12.46:966][629]LogWorld: BeginTearingDown for /Game/XM/Maps/UEDPIE_0_ArenaTestZone
+[2022.01.24-03.12.46:967][629]LogWorld: UWorld::CleanupWorld for ArenaTestZone, bSessionEnded=true, bCleanupResources=true
+[2022.01.24-03.12.46:971][629]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.24-03.12.46:982][629]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.24-03.12.46:989][629]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.24-03.12.47:012][629]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.24-03.12.47:014][629]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.24-03.12.47:015][629]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.24-03.12.47:022][629]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2022.01.24-03.12.47:456][630]LogPlayLevel: Display: Destroying online subsystem :Context_73
+[2022.01.24-03.12.49:209][798]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2022.01.24-03.12.49:239][798]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Saved/ArenaTestZone2988337C453B024F9FA3FA9430DC5C36.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Content/XM/Maps/ArenaTestZone.umap'
+[2022.01.24-03.12.49:335][798]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Saved/ArenaTestZone_BuiltDataF17D1D7843785202C473DA8EAC3DA28C.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Content/XM/Maps/ArenaTestZone_BuiltData.uasset'
+[2022.01.24-03.12.49:347][798]AssetCheck: New page: Asset Save: multiple assets
+[2022.01.24-03.12.49:347][798]LogContentValidation: Display: Validating World /Game/XM/Maps/ArenaTestZone.ArenaTestZone
+[2022.01.24-03.12.49:347][798]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/XM/Maps/ArenaTestZone_BuiltData.ArenaTestZone_BuiltData
+[2022.01.24-03.36.22:097][481]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2022.01.24-03.36.22:128][481]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Saved/ArenaTestZone7C09252648D01061B7171186DA37AD35.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Content/XM/Maps/ArenaTestZone.umap'
+[2022.01.24-03.36.22:255][481]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Saved/ArenaTestZone_BuiltDataD4774E3B4C74C980AB23D1A4A261329B.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Content/XM/Maps/ArenaTestZone_BuiltData.uasset'
+[2022.01.24-03.36.22:268][481]AssetCheck: New page: Asset Save: multiple assets
+[2022.01.24-03.36.22:268][481]LogContentValidation: Display: Validating World /Game/XM/Maps/ArenaTestZone.ArenaTestZone
+[2022.01.24-03.36.22:268][481]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/XM/Maps/ArenaTestZone_BuiltData.ArenaTestZone_BuiltData
+[2022.01.24-03.36.27:361][583]LogHotReload: New module detected: UE4Editor-EasySurvivalRPGv3-0059.dll
+[2022.01.24-03.36.28:039][586]LogHotReload: Starting Hot-Reload from IDE
+[2022.01.24-03.36.28:125][586]LogClass: CrawlerStartPosition HotReload.
+[2022.01.24-03.36.28:129][586]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'EasySurvivalRPGv3' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2022.01.24-03.36.28:139][586]Display: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2022.01.24-03.36.28:566][586]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0111 seconds. Added 3835 classes and 939 folders.
+[2022.01.24-03.36.28:585][586]Display: HotReload took  0.5s.
+[2022.01.24-03.36.41:224][685]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2022.01.24-03.36.41:256][685]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Saved/ArenaTestZone716243FD40BB95BE3560DBBCD168A2BE.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Content/XM/Maps/ArenaTestZone.umap'
+[2022.01.24-03.36.41:777][685]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Saved/ArenaTestZone_BuiltData50BD12AC4D2F94ECB87A7DA9E516CF46.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Content/XM/Maps/ArenaTestZone_BuiltData.uasset'
+[2022.01.24-03.36.41:788][685]AssetCheck: New page: Asset Save: multiple assets
+[2022.01.24-03.36.41:788][685]LogContentValidation: Display: Validating World /Game/XM/Maps/ArenaTestZone.ArenaTestZone
+[2022.01.24-03.36.41:788][685]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/XM/Maps/ArenaTestZone_BuiltData.ArenaTestZone_BuiltData
+[2022.01.24-03.36.45:402][ 69]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.24-03.36.45:402][ 69]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/2D/Paper2D/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.24-03.36.45:402][ 69]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.24-03.36.45:402][ 69]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.24-03.36.45:402][ 69]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Editor/GeometryMode/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.24-03.36.45:402][ 69]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.24-03.36.45:402][ 69]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/FX/Niagara/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.24-03.36.45:402][ 69]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.24-03.36.45:402][ 69]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosNiagara/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.24-03.36.45:402][ 69]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.24-03.36.45:402][ 69]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.24-03.36.45:402][ 69]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Lumin/MagicLeap/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.24-03.36.45:402][ 69]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/GeometryProcessing/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.24-03.36.45:402][ 69]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.24-03.36.45:402][ 69]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/MotoSynth/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/MotoSynth/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.24-03.36.45:402][ 69]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.24-03.36.45:402][ 69]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.24-03.36.45:402][ 69]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.24-03.36.45:402][ 69]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXR/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXR/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.24-03.36.45:402][ 69]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXREyeTracker/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXREyeTracker/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.24-03.36.45:402][ 69]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXRHandTracking/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXRHandTracking/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.24-03.36.45:402][ 69]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/VirtualProduction/Takes/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.24-03.36.45:402][ 69]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/PostSplashScreen/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.24-03.36.45:402][ 69]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Synthesis/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.24-03.36.45:402][ 69]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.24-03.36.45:402][ 69]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.24-03.36.46:308][ 69]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2022.01.24-03.36.46:339][ 69]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Saved/ArenaTestZone04CB863F47681D4EFB9BB38C33E29D3A.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Content/XM/Maps/ArenaTestZone.umap'
+[2022.01.24-03.36.46:347][ 69]LogFileHelpers: Saving map 'ArenaTestZone' took 0.056
+[2022.01.24-03.36.46:365][ 69]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Saved/ArenaTestZone_BuiltDataF2B2F9E44960B94C08160E93B0527B77.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Content/XM/Maps/ArenaTestZone_BuiltData.uasset'
+[2022.01.24-03.36.55:678][ 69]LogSlate: Window 'Submit Files' being destroyed
+[2022.01.24-03.36.57:535][ 69]LogSourceControl: commit successful: [master ad603e33] TestingEnumAdds
+[2022.01.24-03.36.57:600][ 69]SourceControl: [master ad603e33] TestingEnumAdds
+[2022.01.24-03.36.57:600][ 69]SourceControl:  2 files changed, 3 insertions(+), 3 deletions(-)
+[2022.01.24-03.36.57:607][ 69]SourceControl: Commited [master ad603e33] TestingEnumAdds.
+[2022.01.24-03.36.57:643][ 70]AssetCheck: New page: Asset Save: multiple assets
+[2022.01.24-03.36.57:643][ 70]LogContentValidation: Display: Validating World /Game/XM/Maps/ArenaTestZone.ArenaTestZone
+[2022.01.24-03.36.57:643][ 70]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/XM/Maps/ArenaTestZone_BuiltData.ArenaTestZone_BuiltData
