@@ -3083,3 +3083,506 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.01.31-05.32.35:118][383]LogContentValidation: Display: Validating World /Game/XM/Maps/ArenaTestZone.ArenaTestZone
 [2022.01.31-05.32.35:118][383]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/XM/Maps/ArenaTestZone_BuiltData.ArenaTestZone_BuiltData
 [2022.01.31-05.32.35:118][383]LogContentValidation: Display: Validating Blueprint /Game/XM/ArenaGen/PrimsDrawIn.PrimsDrawIn
+[2022.01.31-05.35.39:347][369]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2022.01.31-05.35.39:379][369]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Saved/ArenaTestZone5C62C08C467A0A8E5B6DD5B553870660.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Content/XM/Maps/ArenaTestZone.umap'
+[2022.01.31-05.35.39:511][369]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Saved/ArenaTestZone_BuiltDataC686D3CD4B86D69DE27F499CEA484C51.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Content/XM/Maps/ArenaTestZone_BuiltData.uasset'
+[2022.01.31-05.35.39:523][369]AssetCheck: New page: Asset Save: multiple assets
+[2022.01.31-05.35.39:523][369]LogContentValidation: Display: Validating World /Game/XM/Maps/ArenaTestZone.ArenaTestZone
+[2022.01.31-05.35.39:523][369]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/XM/Maps/ArenaTestZone_BuiltData.ArenaTestZone_BuiltData
+[2022.01.31-05.35.46:535][179]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.35.46:650][179]LogSlate: Took 0.004309 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.01.31-05.35.52:993][933]Running C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/EasySurvivalRPGv3.uproject" -game -rocket -progress
+[2022.01.31-05.35.53:401][933]Discovering modules, targets and source code for project...
+[2022.01.31-05.35.56:924][933]Binding IntelliSense data...
+[2022.01.31-05.36.03:776][933]Binding IntelliSense data... 100%
+[2022.01.31-05.36.03:776][933]Writing project files...
+[2022.01.31-05.36.07:803][933]Writing project files... 100%
+[2022.01.31-05.36.08:174][933]Candidate modules for hot reload:
+[2022.01.31-05.36.08:174][933]  EasySurvivalRPGv3
+[2022.01.31-05.36.08:174][933]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=EasySurvivalRPGv3,1730 EasySurvivalRPGv3Editor Win64 Development -Project="C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/EasySurvivalRPGv3.uproject" "C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/EasySurvivalRPGv3.uproject"  -IgnoreJunk]
+[2022.01.31-05.36.30:203][933]CompilerResultsLog: New page: Compilation - Jan 30, 2022, 3:36:30 PM
+[2022.01.31-05.36.30:203][933]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Owner\Documents\Unreal Projects\EasySurvivalRPGv3).
+[2022.01.31-05.36.30:203][933]CompilerResultsLog: Creating makefile for EasySurvivalRPGv3Editor (no existing makefile)
+[2022.01.31-05.36.30:203][933]CompilerResultsLog: Parsing headers for EasySurvivalRPGv3Editor
+[2022.01.31-05.36.30:203][933]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Owner\Documents\Unreal Projects\EasySurvivalRPGv3\EasySurvivalRPGv3.uproject" "C:\Users\Owner\Documents\Unreal Projects\EasySurvivalRPGv3\Intermediate\Build\Win64\EasySurvivalRPGv3Editor\Development\EasySurvivalRPGv3Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Owner\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.01.31-05.36.30:203][933]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2022.01.31-05.36.30:203][933]CompilerResultsLog: Reflection code generated for EasySurvivalRPGv3Editor in 9.4017302 seconds
+[2022.01.31-05.36.30:203][933]CompilerResultsLog: Building EasySurvivalRPGv3Editor...
+[2022.01.31-05.36.30:203][933]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.01.31-05.36.30:203][933]CompilerResultsLog: Building 6 actions with 16 processes...
+[2022.01.31-05.36.30:203][933]CompilerResultsLog:   [1/6] EasySurvivalRPGv3.init.gen.cpp
+[2022.01.31-05.36.30:203][933]CompilerResultsLog:   [2/6] PennyCrawler.cpp
+[2022.01.31-05.36.30:203][933]CompilerResultsLog:   [3/6] PennyCrawler.gen.cpp
+[2022.01.31-05.36.30:203][933]CompilerResultsLog:   [4/6] UE4Editor-EasySurvivalRPGv3-1730.lib
+[2022.01.31-05.36.30:203][933]CompilerResultsLog:      Creating library C:\Users\Owner\Documents\Unreal Projects\EasySurvivalRPGv3\Intermediate\Build\Win64\UE4Editor\Development\EasySurvivalRPGv3\UE4Editor-EasySurvivalRPGv3-1730.lib and object C:\Users\Owner\Documents\Unreal Projects\EasySurvivalRPGv3\Intermediate\Build\Win64\UE4Editor\Development\EasySurvivalRPGv3\UE4Editor-EasySurvivalRPGv3-1730.exp
+[2022.01.31-05.36.30:203][933]CompilerResultsLog:   [5/6] UE4Editor-EasySurvivalRPGv3-1730.dll
+[2022.01.31-05.36.30:203][933]CompilerResultsLog:      Creating library C:\Users\Owner\Documents\Unreal Projects\EasySurvivalRPGv3\Intermediate\Build\Win64\UE4Editor\Development\EasySurvivalRPGv3\UE4Editor-EasySurvivalRPGv3-1730.suppressed.lib and object C:\Users\Owner\Documents\Unreal Projects\EasySurvivalRPGv3\Intermediate\Build\Win64\UE4Editor\Development\EasySurvivalRPGv3\UE4Editor-EasySurvivalRPGv3-1730.suppressed.exp
+[2022.01.31-05.36.30:204][933]CompilerResultsLog:   [6/6] EasySurvivalRPGv3Editor.target
+[2022.01.31-05.36.30:204][933]CompilerResultsLog: Total time in Parallel executor: 10.51 seconds
+[2022.01.31-05.36.30:204][933]CompilerResultsLog: Total execution time: 21.95 seconds
+[2022.01.31-05.36.30:204][933]LogMainFrame: MainFrame: Module compiling took 22.051 seconds
+[2022.01.31-05.36.30:356][933]LogClass: Could not find existing class PennyCrawler in package /Script/EasySurvivalRPGv3 for HotReload, assuming new class
+[2022.01.31-05.36.30:360][933]LogClass: CrawlerStartPosition HotReload.
+[2022.01.31-05.36.30:364][933]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'EasySurvivalRPGv3' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2022.01.31-05.36.30:372][933]Display: HotReload successful (8 functions remapped  0 scriptstructs remapped)
+[2022.01.31-05.36.30:652][933]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0083 seconds. Added 3838 classes and 939 folders.
+[2022.01.31-05.36.30:678][933]Display: HotReload took 22.5s.
+[2022.01.31-05.36.30:690][933]Warning: HotReload operation took 22.5s.
+[2022.01.31-05.36.31:452][933]LogSlate: Window 'Add C++ Class' being destroyed
+[2022.01.31-05.36.31:462][933]LogHotReload: New module detected: UE4Editor-EasySurvivalRPGv3-1730.dll
+[2022.01.31-05.36.31:506][934]LogHotReload: Starting Hot-Reload from IDE
+[2022.01.31-05.36.31:536][934]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'EasySurvivalRPGv3' in 0.0002 seconds. Added 4 classes and 2 folders.
+[2022.01.31-05.36.31:544][934]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.01.31-05.36.31:552][934]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0078 seconds. Added 3838 classes and 939 folders.
+[2022.01.31-05.36.31:562][934]Display: HotReload took  0.1s.
+[2022.01.31-05.52.25:889][342]LogHotReload: New module detected: UE4Editor-EasySurvivalRPGv3-0004.dll
+[2022.01.31-05.52.26:240][344]LogHotReload: Starting Hot-Reload from IDE
+[2022.01.31-05.52.26:295][344]LogClass: Could not find existing class PennyCrawler in package /Script/EasySurvivalRPGv3 for HotReload, assuming new class
+[2022.01.31-05.52.26:299][344]LogClass: CrawlerStartPosition HotReload.
+[2022.01.31-05.52.26:457][344]LogHotReload: Re-instancing PennyCrawler after hot-reload.
+[2022.01.31-05.52.26:474][344]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'EasySurvivalRPGv3' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2022.01.31-05.52.26:481][344]Display: HotReload successful (8 functions remapped  0 scriptstructs remapped)
+[2022.01.31-05.52.26:746][344]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0087 seconds. Added 3838 classes and 939 folders.
+[2022.01.31-05.52.26:760][344]Display: HotReload took  0.5s.
+[2022.01.31-05.52.29:980][477]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2022.01.31-05.52.30:014][477]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Saved/ArenaTestZoneD14C28014148B72AF6525B9D063D83AA.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Content/XM/Maps/ArenaTestZone.umap'
+[2022.01.31-05.52.30:552][477]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Saved/ArenaTestZone_BuiltData602F969C4C4FCC9C956935B0FA23C6F0.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Content/XM/Maps/ArenaTestZone_BuiltData.uasset'
+[2022.01.31-05.52.30:564][477]AssetCheck: New page: Asset Save: multiple assets
+[2022.01.31-05.52.30:564][477]LogContentValidation: Display: Validating World /Game/XM/Maps/ArenaTestZone.ArenaTestZone
+[2022.01.31-05.52.30:564][477]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/XM/Maps/ArenaTestZone_BuiltData.ArenaTestZone_BuiltData
+[2022.01.31-05.52.32:761][736]Candidate modules for hot reload:
+[2022.01.31-05.52.32:761][736]  EasySurvivalRPGv3
+[2022.01.31-05.52.32:761][736]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=EasySurvivalRPGv3,8396 EasySurvivalRPGv3Editor Win64 Development -Project="C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/EasySurvivalRPGv3.uproject" "C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/EasySurvivalRPGv3.uproject"  -IgnoreJunk]
+[2022.01.31-05.52.32:764][736]Warning: Starting HotReload took  0.0s.
+[2022.01.31-05.52.34:225][867]CompilerResultsLog: New page: Compilation - Jan 30, 2022, 3:52:34 PM
+[2022.01.31-05.52.34:225][867]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Owner\Documents\Unreal Projects\EasySurvivalRPGv3).
+[2022.01.31-05.52.34:225][867]CompilerResultsLog: Building EasySurvivalRPGv3Editor...
+[2022.01.31-05.52.34:225][867]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.01.31-05.52.34:225][867]CompilerResultsLog: Building 3 actions with 16 processes...
+[2022.01.31-05.52.34:225][867]CompilerResultsLog:   [1/3] UE4Editor-EasySurvivalRPGv3-8396.lib
+[2022.01.31-05.52.34:225][867]CompilerResultsLog:      Creating library C:\Users\Owner\Documents\Unreal Projects\EasySurvivalRPGv3\Intermediate\Build\Win64\UE4Editor\Development\EasySurvivalRPGv3\UE4Editor-EasySurvivalRPGv3-8396.lib and object C:\Users\Owner\Documents\Unreal Projects\EasySurvivalRPGv3\Intermediate\Build\Win64\UE4Editor\Development\EasySurvivalRPGv3\UE4Editor-EasySurvivalRPGv3-8396.exp
+[2022.01.31-05.52.34:225][867]CompilerResultsLog:   [2/3] UE4Editor-EasySurvivalRPGv3-8396.dll
+[2022.01.31-05.52.34:225][867]CompilerResultsLog:      Creating library C:\Users\Owner\Documents\Unreal Projects\EasySurvivalRPGv3\Intermediate\Build\Win64\UE4Editor\Development\EasySurvivalRPGv3\UE4Editor-EasySurvivalRPGv3-8396.suppressed.lib and object C:\Users\Owner\Documents\Unreal Projects\EasySurvivalRPGv3\Intermediate\Build\Win64\UE4Editor\Development\EasySurvivalRPGv3\UE4Editor-EasySurvivalRPGv3-8396.suppressed.exp
+[2022.01.31-05.52.34:225][867]CompilerResultsLog:   [3/3] EasySurvivalRPGv3Editor.target
+[2022.01.31-05.52.34:225][867]CompilerResultsLog: Total time in Parallel executor: 0.69 seconds
+[2022.01.31-05.52.34:225][867]CompilerResultsLog: Total execution time: 1.40 seconds
+[2022.01.31-05.52.34:225][867]LogMainFrame: MainFrame: Module compiling took 1.467 seconds
+[2022.01.31-05.52.34:251][867]LogClass: CrawlerStartPosition HotReload.
+[2022.01.31-05.52.34:255][867]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'EasySurvivalRPGv3' in 0.0002 seconds. Added 4 classes and 2 folders.
+[2022.01.31-05.52.34:262][867]Display: HotReload successful (8 functions remapped  0 scriptstructs remapped)
+[2022.01.31-05.52.34:498][867]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0084 seconds. Added 3838 classes and 939 folders.
+[2022.01.31-05.52.34:506][867]Display: HotReload took  1.8s.
+[2022.01.31-05.52.51:581][859]LogContentBrowser: Deferred new asset file creation: PennyBasic1
+[2022.01.31-05.52.51:598][859]LogContentBrowser: Creating deferred item: PennyBasic1
+[2022.01.31-05.53.00:485][925]LogContentBrowser: Attempting asset rename: PennyBasic1 -> PenCrawler
+[2022.01.31-05.53.00:616][925]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2022.01.31-05.53.00:778][925]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/XM/ArenaGen/PenCrawler" FILE="../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Content/XM/ArenaGen/PenCrawler.uasset" SILENT=true
+[2022.01.31-05.53.00:790][925]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Saved/PenCrawler87D76E0B4CB643F4584BE5AC85A70655.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Content/XM/ArenaGen/PenCrawler.uasset'
+[2022.01.31-05.53.01:563][925]LogContentBrowser: End creating deferred item PennyBasic1
+[2022.01.31-05.53.01:571][925]AssetCheck: New page: Asset Save: PenCrawler
+[2022.01.31-05.53.01:571][925]LogContentValidation: Display: Validating Blueprint /Game/XM/ArenaGen/PenCrawler.PenCrawler
+[2022.01.31-05.53.02:608][ 45]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/XM/ArenaGen/PenCrawler.PenCrawler
+[2022.01.31-05.53.03:818][ 45]LogBlueprint: Warning: [AssetLog] C:\Users\Owner\Documents\Unreal Projects\EasySurvivalRPGv3\Content\AdvancedTaming\Blueprints\Characters\Player\BP_ATS_PlayerCharacter.uasset: [Compiler] InputAction Event references unknown Action 'Action' for  InputAction Action
+[2022.01.31-05.53.03:818][ 45]LogBlueprint: Warning: [AssetLog] C:\Users\Owner\Documents\Unreal Projects\EasySurvivalRPGv3\Content\AdvancedTaming\Blueprints\Characters\Player\BP_ATS_PlayerCharacter.uasset: [Compiler] InputAction Event references unknown Action 'Command 1' for  InputAction Command 1
+[2022.01.31-05.53.03:818][ 45]LogBlueprint: Warning: [AssetLog] C:\Users\Owner\Documents\Unreal Projects\EasySurvivalRPGv3\Content\AdvancedTaming\Blueprints\Characters\Player\BP_ATS_PlayerCharacter.uasset: [Compiler] InputAction Event references unknown Action 'Command 2' for  InputAction Command 2
+[2022.01.31-05.53.03:818][ 45]LogBlueprint: Warning: [AssetLog] C:\Users\Owner\Documents\Unreal Projects\EasySurvivalRPGv3\Content\AdvancedTaming\Blueprints\Characters\Player\BP_ATS_PlayerCharacter.uasset: [Compiler] InputAction Event references unknown Action 'Command 3' for  InputAction Command 3
+[2022.01.31-05.53.03:819][ 45]LogBlueprint: Warning: [AssetLog] C:\Users\Owner\Documents\Unreal Projects\EasySurvivalRPGv3\Content\AdvancedTaming\Blueprints\Characters\Player\BP_ATS_PlayerCharacter.uasset: [Compiler] InputAction Event references unknown Action 'Command 4' for  InputAction Command 4
+[2022.01.31-05.53.03:819][ 45]LogBlueprint: Warning: [AssetLog] C:\Users\Owner\Documents\Unreal Projects\EasySurvivalRPGv3\Content\AdvancedTaming\Blueprints\Characters\Player\BP_ATS_PlayerCharacter.uasset: [Compiler] InputAction Event references unknown Action 'Command 5' for  InputAction Command 5
+[2022.01.31-05.53.03:819][ 45]LogBlueprint: Warning: [AssetLog] C:\Users\Owner\Documents\Unreal Projects\EasySurvivalRPGv3\Content\AdvancedTaming\Blueprints\Characters\Player\BP_ATS_PlayerCharacter.uasset: [Compiler] InputAction Event references unknown Action 'SummonPet' for  InputAction SummonPet
+[2022.01.31-05.53.03:819][ 45]LogBlueprint: Warning: [AssetLog] C:\Users\Owner\Documents\Unreal Projects\EasySurvivalRPGv3\Content\AdvancedTaming\Blueprints\Characters\Player\BP_ATS_PlayerCharacter.uasset: [Compiler] InputAction Event references unknown Action 'Command 6' for  InputAction Command 6
+[2022.01.31-05.53.03:819][ 45]LogBlueprint: Warning: [AssetLog] C:\Users\Owner\Documents\Unreal Projects\EasySurvivalRPGv3\Content\AdvancedTaming\Blueprints\Characters\Player\BP_ATS_PlayerCharacter.uasset: [Compiler] InputAction Event references unknown Action 'RotateCompanions' for  InputAction RotateCompanions
+[2022.01.31-05.53.03:820][ 45]LogBlueprint: Warning: [AssetLog] C:\Users\Owner\Documents\Unreal Projects\EasySurvivalRPGv3\Content\AdvancedTaming\Blueprints\Characters\Player\BP_ATS_PlayerCharacter.uasset: [Compiler] InputAction Event references unknown Action 'ToggleGodMode' for  InputAction ToggleGodMode
+[2022.01.31-05.53.03:820][ 45]LogBlueprint: Warning: [AssetLog] C:\Users\Owner\Documents\Unreal Projects\EasySurvivalRPGv3\Content\AdvancedTaming\Blueprints\Characters\Player\BP_ATS_PlayerCharacter.uasset: [Compiler] InputAction Event references unknown Action 'Fire' for  InputAction Fire
+[2022.01.31-05.53.03:820][ 45]LogBlueprint: Warning: [AssetLog] C:\Users\Owner\Documents\Unreal Projects\EasySurvivalRPGv3\Content\AdvancedTaming\Blueprints\Characters\Player\BP_ATS_PlayerCharacter.uasset: [Compiler] InputAction Event references unknown Action 'AimMode' for  InputAction AimMode
+[2022.01.31-05.53.03:821][ 45]LogBlueprint: Warning: [AssetLog] C:\Users\Owner\Documents\Unreal Projects\EasySurvivalRPGv3\Content\AdvancedTaming\Blueprints\Characters\Player\BP_ATS_PlayerCharacter.uasset: [Compiler] InputAction Event references unknown Action 'ZoomIn' for  InputAction ZoomIn
+[2022.01.31-05.53.03:821][ 45]LogBlueprint: Warning: [AssetLog] C:\Users\Owner\Documents\Unreal Projects\EasySurvivalRPGv3\Content\AdvancedTaming\Blueprints\Characters\Player\BP_ATS_PlayerCharacter.uasset: [Compiler] InputAction Event references unknown Action 'ZoomOut' for  InputAction ZoomOut
+[2022.01.31-05.53.03:821][ 45]LogBlueprint: Warning: [AssetLog] C:\Users\Owner\Documents\Unreal Projects\EasySurvivalRPGv3\Content\AdvancedTaming\Blueprints\Characters\Player\BP_ATS_PlayerCharacter.uasset: [Compiler] InputAction Event references unknown Action 'Sprint' for  InputAction Sprint
+[2022.01.31-05.53.03:822][ 45]LogBlueprint: Warning: [AssetLog] C:\Users\Owner\Documents\Unreal Projects\EasySurvivalRPGv3\Content\AdvancedTaming\Blueprints\Characters\Player\BP_ATS_PlayerCharacter.uasset: [Compiler] InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2022.01.31-05.53.03:823][ 45]LogBlueprint: Warning: [AssetLog] C:\Users\Owner\Documents\Unreal Projects\EasySurvivalRPGv3\Content\AdvancedTaming\Blueprints\Characters\Player\BP_ATS_PlayerCharacter.uasset: [Compiler] InputAction Event references unknown Action 'ToggleVisibility' for  InputAction ToggleVisibility
+[2022.01.31-05.53.03:823][ 45]LogBlueprint: Warning: [AssetLog] C:\Users\Owner\Documents\Unreal Projects\EasySurvivalRPGv3\Content\AdvancedTaming\Blueprints\Characters\Player\BP_ATS_PlayerCharacter.uasset: [Compiler] InputAction Event references unknown Action 'ToggleBaitType' for  InputAction ToggleBaitType
+[2022.01.31-05.53.03:824][ 45]LogBlueprint: Warning: [AssetLog] C:\Users\Owner\Documents\Unreal Projects\EasySurvivalRPGv3\Content\AdvancedTaming\Blueprints\Characters\Player\BP_ATS_PlayerCharacter.uasset: [Compiler] InputAction Event references unknown Action 'ShootBait' for  InputAction ShootBait
+[2022.01.31-05.53.03:824][ 45]LogBlueprint: Warning: [AssetLog] C:\Users\Owner\Documents\Unreal Projects\EasySurvivalRPGv3\Content\AdvancedTaming\Blueprints\Characters\Player\BP_ATS_PlayerCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2022.01.31-05.53.03:824][ 45]LogBlueprint: Warning: [AssetLog] C:\Users\Owner\Documents\Unreal Projects\EasySurvivalRPGv3\Content\AdvancedTaming\Blueprints\Characters\Player\BP_ATS_PlayerCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2022.01.31-05.53.04:372][ 45]LogBlueprintEditor: Perf: 1.7 total seconds to load all 14 blueprint libraries in project. Avoid references to content in blueprint libraries to shorten this time.
+[2022.01.31-05.53.04:372][ 45]LogBlueprintEditor: Perf: 1.5 seconds loading: /Game/AdvancedTaming/Blueprints/Core/FunctionLibraries/BP_FL_ATS_CommonFunctions
+[2022.01.31-05.53.04:569][ 45]LogClass: Warning: Enum '/Game/OldVillage/Meshes/Structure/Enumerators/BP_1mx1m_enum.BP_1mx1m_enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2022.01.31-05.53.04:573][ 45]LogClass: Warning: Enum '/Game/OldVillage/Meshes/Structure/Enumerators/BP_1mx2m_enum.BP_1mx2m_enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2022.01.31-05.53.04:577][ 45]LogClass: Warning: Enum '/Game/OldVillage/Meshes/Structure/Enumerators/BP_2mx1m_enum.BP_2mx1m_enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2022.01.31-05.53.04:580][ 45]LogClass: Warning: Enum '/Game/OldVillage/Meshes/Structure/Enumerators/BP_2mx2m_enum.BP_2mx2m_enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2022.01.31-05.53.04:584][ 45]LogClass: Warning: Enum '/Game/OldVillage/Meshes/Structure/Enumerators/BP_2mx3m_enum.BP_2mx3m_enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2022.01.31-05.53.04:587][ 45]LogClass: Warning: Enum '/Game/OldVillage/Meshes/Structure/Enumerators/BP_3mx2m_Enum.BP_3mx2m_Enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2022.01.31-05.53.04:590][ 45]LogClass: Warning: Enum '/Game/OldVillage/Meshes/Structure/Enumerators/BP_3mx3m_Enum.BP_3mx3m_Enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2022.01.31-05.53.04:593][ 45]LogClass: Warning: Enum '/Game/OldVillage/Meshes/Structure/Enumerators/BP_Chimney_Enum.BP_Chimney_Enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2022.01.31-05.53.04:596][ 45]LogClass: Warning: Enum '/Game/OldVillage/Meshes/Structure/Enumerators/BP_Fence_Enum.BP_Fence_Enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2022.01.31-05.53.04:600][ 45]LogClass: Warning: Enum '/Game/OldVillage/Meshes/Structure/Enumerators/BP_Pole_Enum.BP_Pole_Enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2022.01.31-05.53.04:603][ 45]LogClass: Warning: Enum '/Game/OldVillage/Meshes/Structure/Enumerators/BP_Roof_Enum.BP_Roof_Enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2022.01.31-05.53.04:606][ 45]LogClass: Warning: Enum '/Game/OldVillage/Meshes/Structure/Enumerators/PB_Stairs_Enum.PB_Stairs_Enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2022.01.31-05.53.04:958][ 45]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 126 classes and 0 folders.
+[2022.01.31-05.53.07:227][ 46]LogSlate: Took 0.008141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.01.31-05.53.09:599][284]LogLinker: Warning: Failed to load '/Game/EasySurvivalRPG/Blueprints/InteractionObjects/BuildingObjects/BP_EBS_BuildingObject': Can't find file.
+[2022.01.31-05.53.09:599][284]LogLinker: Warning: Failed to load '/Game/EasySurvivalRPG/Blueprints/InteractionObjects/BuildingObjects/BP_EBS_BuildingObject': Can't find file.
+[2022.01.31-05.53.09:599][284]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/EasySurvivalRPG/Blueprints/InteractionObjects/BuildingObjects/BP_EBS_BuildingObject.BP_EBS_BuildingObject_C'
+[2022.01.31-05.53.09:609][285]LogLinker: Warning: Failed to load '/Game/EasySurvivalRPG/Blueprints/Abilities/BP_Ability_Base': Can't find file.
+[2022.01.31-05.53.09:609][285]LogLinker: Warning: Failed to load '/Game/EasySurvivalRPG/Blueprints/Abilities/BP_Ability_Base': Can't find file.
+[2022.01.31-05.53.09:609][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/EasySurvivalRPG/Blueprints/Abilities/BP_Ability_Base.BP_Ability_Base_C'
+[2022.01.31-05.53.09:628][287]LogLinker: Warning: Failed to load '/Game/EasySurvivalRPG/Blueprints/Dialogues/BP_Dialogue_Base': Can't find file.
+[2022.01.31-05.53.09:628][287]LogLinker: Warning: Failed to load '/Game/EasySurvivalRPG/Blueprints/Dialogues/BP_Dialogue_Base': Can't find file.
+[2022.01.31-05.53.09:628][287]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/EasySurvivalRPG/Blueprints/Dialogues/BP_Dialogue_Base.BP_Dialogue_Base_C'
+[2022.01.31-05.53.09:911][317]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.01.31-05.53.09:938][317]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:938][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/AI/Components/GroundAnimals/BP_Comp_Companion.PLACEHOLDER-CLASS__BP_Comp_Taming_CanFetch_C_0 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:938][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/AI/Components/GroundAnimals/BP_Comp_Companion.PLACEHOLDER-CLASS__BP_Comp_PlayerCanTame_C_1 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:938][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/AI/Components/GroundAnimals/BP_Comp_Companion.PLACEHOLDER-CLASS__BPI_ATS_GroundAnimal_C_2 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:938][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/AI/Components/GroundAnimals/BP_Comp_Companion.PLACEHOLDER-CLASS__WBP_ATS_AI_HUD_C_3 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:938][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/AI/Components/GroundAnimals/BP_Comp_Companion.PLACEHOLDER-CLASS__BP_AIC_Base_C_4 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:938][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/AI/Components/GroundAnimals/BP_Comp_Companion.PLACEHOLDER-CLASS__BP_ATS_AIC_Base_C_5 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:938][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/AI/Components/GroundAnimals/BP_Comp_Companion.PLACEHOLDER-CLASS__BP_Comp_PlayerHUD_ATS_C_6 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/AI/Components/GroundAnimals/BP_Comp_Companion.PLACEHOLDER-CLASS__BP_LocationMarker_C_7 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/AI/Components/GroundAnimals/BP_Comp_Companion.PLACEHOLDER-CLASS__BPI_ATS_TameAnimal_C_8 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/Characters/Player/Components/BP_Comp_PlayerCanTame.PLACEHOLDER-CLASS__BPI_ATS_HUDAccess_C_0 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/Characters/Player/Components/BP_Comp_PlayerCanTame.PLACEHOLDER-CLASS__WBP_ATS_Player_HUD_C_1 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/Characters/Player/Components/BP_Comp_PlayerCanTame.PLACEHOLDER-CLASS__BPI_ATS_GroundAnimal_C_2 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/Characters/Player/Components/BP_Comp_PlayerCanTame.PLACEHOLDER-CLASS__BP_Comp_Companion_C_3 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/Characters/Player/Components/BP_Comp_PlayerCanTame.PLACEHOLDER-CLASS__BP_LocationMarker_C_4 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/Characters/Player/Components/BP_Comp_PlayerCanTame.PLACEHOLDER-CLASS__BP_ATS_SaveGame_C_5 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/Characters/Player/Components/BP_Comp_PlayerCanTame.PLACEHOLDER-CLASS__BP_BPI_ATS_PlayerConn_C_6 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/Characters/Player/Components/BP_Comp_PlayerCanTame.PLACEHOLDER-CLASS__BP_Comp_PlayerHUD_ATS_C_7 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/Characters/Player/Components/BP_Comp_PlayerCanTame.PLACEHOLDER-CLASS__BP_Bait_Predator_C_8 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/Characters/Player/Components/BP_Comp_PlayerCanTame.PLACEHOLDER-CLASS__BP_Bait_Prey_C_9 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/Characters/Player/Components/BP_Comp_PlayerCanTame.PLACEHOLDER-CLASS__BP_Comp_Taming_CanFetch_C_10 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/Characters/Player/Components/BP_Comp_PlayerCanTame.PLACEHOLDER-CLASS__BP_Data_Component_C_11 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/Characters/Player/Components/BP_Comp_PlayerCanTame.PLACEHOLDER-CLASS__BP_BPI_ATS_DataTransmission_C_12 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/Widgets/WBP_ATS_Player_HUD.PLACEHOLDER-CLASS__BP_Comp_PlayerCanTame_C_0 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/Widgets/WBP_ATS_Player_HUD.PLACEHOLDER-CLASS__BP_BPI_ATS_PlayerConn_C_1 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/Widgets/WBP_ATS_Player_HUD.PLACEHOLDER-CLASS__WBP_Companion_C_2 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/Widgets/WBP_ATS_Player_HUD.PLACEHOLDER-CLASS__WBP_Info_C_3 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/Characters/Player/Components/BP_Comp_PlayerHUD_ATS.PLACEHOLDER-CLASS__WBP_ATS_Player_HUD_C_0 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/Characters/Player/Components/BP_Data_Component.PLACEHOLDER-CLASS__BP_BPI_ATS_DataTransmission_C_0 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/Characters/Player/BP_ATS_PlayerCharacter.PLACEHOLDER-CLASS__ATSHUD_C_0 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/Characters/Player/BP_ATS_PlayerCharacter.PLACEHOLDER-CLASS__BPI_ATS_WidgetActions_C_1 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/Characters/Player/BP_ATS_PlayerCharacter.PLACEHOLDER-CLASS__BP_Comp_Companion_C_2 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/Characters/Player/BP_ATS_PlayerCharacter.PLACEHOLDER-CLASS__BP_Comp_PlayerHUD_ATS_C_3 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/Characters/Player/BP_ATS_PlayerCharacter.PLACEHOLDER-CLASS__BP_Comp_PlayerCanTame_C_4 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/Characters/Player/BP_ATS_PlayerCharacter.PLACEHOLDER-CLASS__ABKHUD_C_5 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/Characters/Player/BP_ATS_PlayerCharacter.PLACEHOLDER-CLASS__BP_Projectile_C_6 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/Characters/Player/BP_ATS_PlayerCharacter.PLACEHOLDER-CLASS__BP_LocationMarker_C_7 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/Characters/Player/BP_ATS_PlayerCharacter.PLACEHOLDER-CLASS__BP_BPI_ATS_PlayerConn_C_8 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/Characters/Player/BP_ATS_PlayerCharacter.PLACEHOLDER-CLASS__BPI_ATS_Showcase_C_9 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/Characters/Player/BP_ATS_PlayerCharacter.PLACEHOLDER-CLASS__BPI_ATS_HUDAccess_C_10 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/EpicContent/Animations/Player/TP_Character/PlayerCharacter_AnimBlueprint.PLACEHOLDER-CLASS__BP_ATS_PlayerCharacter_C_0 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/Core/FunctionLibraries/BP_FL_ATS_CommonFunctions.PLACEHOLDER-CLASS__BP_Comp_PlayerCanTame_C_0 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/Core/FunctionLibraries/BP_FL_ATS_CommonFunctions.PLACEHOLDER-CLASS__BP_Comp_Companion_C_1 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/Core/FunctionLibraries/BP_FL_ATS_CommonFunctions.PLACEHOLDER-CLASS__BPI_ATS_TameAnimal_C_2 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AdvancedTaming/Blueprints/Core/FunctionLibraries/BP_FL_ATS_CommonFunctions.PLACEHOLDER-CLASS__BP_Comp_PlayerHUD_ATS_C_3 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AnimalBehaviorKit/Blueprints/Widgets/WBP_Player_HUD.PLACEHOLDER-CLASS__WBP_Info_C_0 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AnimalBehaviorKit/Blueprints/Characters/Player/Components/BP_Comp_PlayerHUD.PLACEHOLDER-CLASS__WBP_Player_HUD_C_0 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.09:939][317]LogEditorClassViewer: Warning: Class /Game/AnimalBehaviorKit/Blueprints/Core/FunctionLibraries/BP_FL_ABK_CommonFunctions.PLACEHOLDER-CLASS__BP_Comp_PlayerHUD_C_0 has parent None, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.31-05.53.13:760][758]LogBlueprint: Warning: Reparenting blueprint Blueprint /Game/XM/ArenaGen/PenCrawler.PenCrawler from PennyMaze to PennyCrawler...
+[2022.01.31-05.53.13:769][758]BlueprintLog: New page: Compile PenCrawler
+[2022.01.31-05.53.13:853][758]LogUObjectHash: Compacting FUObjectHashTables data took   5.60ms
+[2022.01.31-05.53.13:911][758]LogSlate: Took 0.006081 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.01.31-05.53.14:967][875]BlueprintLog: New page: Compile PenCrawler
+[2022.01.31-05.53.15:034][875]LogUObjectHash: Compacting FUObjectHashTables data took   4.22ms
+[2022.01.31-05.53.15:861][951]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/XM/ArenaGen/PenCrawler" FILE="../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Content/XM/ArenaGen/PenCrawler.uasset" SILENT=true
+[2022.01.31-05.53.15:873][951]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Saved/PenCrawlerC2978D92406AE6BDC10DA2BB0BAF43E5.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Content/XM/ArenaGen/PenCrawler.uasset'
+[2022.01.31-05.53.15:889][951]AssetCheck: New page: Asset Save: PenCrawler
+[2022.01.31-05.53.15:889][951]LogContentValidation: Display: Validating Blueprint /Game/XM/ArenaGen/PenCrawler.PenCrawler
+[2022.01.31-05.53.16:923][ 63]LogSlate: Window 'PenCrawler' being destroyed
+[2022.01.31-05.53.24:014][887]Cmd: DELETE
+[2022.01.31-05.53.24:015][887]Cmd: ACTOR DELETE
+[2022.01.31-05.53.24:024][887]LogEditorActor: Deleted Actor: PrimsDrawIn_C
+[2022.01.31-05.53.24:066][887]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
+[2022.01.31-05.53.24:068][887]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2022.01.31-05.53.29:023][451]Candidate modules for hot reload:
+[2022.01.31-05.53.29:023][451]  EasySurvivalRPGv3
+[2022.01.31-05.53.29:023][451]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=EasySurvivalRPGv3,8874 EasySurvivalRPGv3Editor Win64 Development -Project="C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/EasySurvivalRPGv3.uproject" "C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/EasySurvivalRPGv3.uproject"  -IgnoreJunk]
+[2022.01.31-05.53.29:026][451]Warning: Starting HotReload took  0.0s.
+[2022.01.31-05.53.30:643][599]CompilerResultsLog: New page: Compilation - Jan 30, 2022, 3:53:30 PM
+[2022.01.31-05.53.30:643][599]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Owner\Documents\Unreal Projects\EasySurvivalRPGv3).
+[2022.01.31-05.53.30:643][599]CompilerResultsLog: Building EasySurvivalRPGv3Editor...
+[2022.01.31-05.53.30:643][599]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.01.31-05.53.30:643][599]CompilerResultsLog: Building 3 actions with 16 processes...
+[2022.01.31-05.53.30:643][599]CompilerResultsLog:   [1/3] UE4Editor-EasySurvivalRPGv3-8874.lib
+[2022.01.31-05.53.30:643][599]CompilerResultsLog:      Creating library C:\Users\Owner\Documents\Unreal Projects\EasySurvivalRPGv3\Intermediate\Build\Win64\UE4Editor\Development\EasySurvivalRPGv3\UE4Editor-EasySurvivalRPGv3-8874.lib and object C:\Users\Owner\Documents\Unreal Projects\EasySurvivalRPGv3\Intermediate\Build\Win64\UE4Editor\Development\EasySurvivalRPGv3\UE4Editor-EasySurvivalRPGv3-8874.exp
+[2022.01.31-05.53.30:643][599]CompilerResultsLog:   [2/3] UE4Editor-EasySurvivalRPGv3-8874.dll
+[2022.01.31-05.53.30:643][599]CompilerResultsLog:      Creating library C:\Users\Owner\Documents\Unreal Projects\EasySurvivalRPGv3\Intermediate\Build\Win64\UE4Editor\Development\EasySurvivalRPGv3\UE4Editor-EasySurvivalRPGv3-8874.suppressed.lib and object C:\Users\Owner\Documents\Unreal Projects\EasySurvivalRPGv3\Intermediate\Build\Win64\UE4Editor\Development\EasySurvivalRPGv3\UE4Editor-EasySurvivalRPGv3-8874.suppressed.exp
+[2022.01.31-05.53.30:643][599]CompilerResultsLog:   [3/3] EasySurvivalRPGv3Editor.target
+[2022.01.31-05.53.30:643][599]CompilerResultsLog: Total time in Parallel executor: 0.82 seconds
+[2022.01.31-05.53.30:644][599]CompilerResultsLog: Total execution time: 1.55 seconds
+[2022.01.31-05.53.30:644][599]LogMainFrame: MainFrame: Module compiling took 1.624 seconds
+[2022.01.31-05.53.30:679][599]LogClass: CrawlerStartPosition HotReload.
+[2022.01.31-05.53.30:684][599]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'EasySurvivalRPGv3' in 0.0002 seconds. Added 4 classes and 2 folders.
+[2022.01.31-05.53.30:694][599]Display: HotReload successful (8 functions remapped  0 scriptstructs remapped)
+[2022.01.31-05.53.30:974][599]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0092 seconds. Added 3838 classes and 939 folders.
+[2022.01.31-05.53.30:987][599]Display: HotReload took  2.0s.
+[2022.01.31-05.53.33:509][822]LogEditorViewport: Clicking on Actor (LMB): Ultra_Dynamic_Sky_C (Ultra_Dynamic_Sky)
+[2022.01.31-05.53.34:722][964]LogEditorViewport: Clicking on Actor (LMB): PenCrawler_C (PenCrawler)
+[2022.01.31-05.53.38:689][436]LogTemp: Repeating last play command: Simulate
+[2022.01.31-05.53.38:698][436]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.31-05.53.38:698][436]PIE: New page: SIE session: ArenaTestZone (Jan 30, 2022, 3:53:38 PM)
+[2022.01.31-05.53.38:699][436]LogPlayLevel: Creating play world package: /Game/XM/Maps/UEDPIE_0_ArenaTestZone
+[2022.01.31-05.53.38:705][436]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006250s)
+[2022.01.31-05.53.38:706][436]LogAIModule: Creating AISystem for world ArenaTestZone
+[2022.01.31-05.53.38:706][436]LogPlayLevel: PIE: World Init took: (0.001337s)
+[2022.01.31-05.53.38:706][436]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/XM/Maps/ArenaTestZone.ArenaTestZone to /Game/XM/Maps/UEDPIE_0_ArenaTestZone.ArenaTestZone (0.007691s)
+[2022.01.31-05.53.38:834][436]LogUObjectHash: Compacting FUObjectHashTables data took   6.26ms
+[2022.01.31-05.53.38:840][436]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2022.01.31-05.53.38:840][436]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.31-05.53.38:840][436]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.31-05.53.38:840][436]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.31-05.53.38:840][436]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.31-05.53.38:840][436]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.31-05.53.38:840][436]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.31-05.53.38:840][436]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.31-05.53.38:841][436]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.31-05.53.38:841][436]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.01.31-05.53.38:841][436]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.01.31-05.53.38:841][436]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.01.31-05.53.38:841][436]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.31-05.53.38:847][436]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.31-05.53.38:847][436]LogAudioMixer: Display: 1: FrontRight
+[2022.01.31-05.53.38:856][436]LogAudioMixer: Display: Using Audio Device U32J59x (NVIDIA High Definition Audio)
+[2022.01.31-05.53.38:856][436]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.31-05.53.38:857][436]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.31-05.53.38:857][436]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.31-05.53.38:857][436]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.31-05.53.38:857][436]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.31-05.53.38:857][436]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.31-05.53.38:858][436]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.31-05.53.38:858][436]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.31-05.53.38:858][436]LogInit: FAudioDevice initialized.
+[2022.01.31-05.53.38:858][436]LogAudio: Display: Audio Device (ID: 4) registered with world 'ArenaTestZone'.
+[2022.01.31-05.53.38:868][436]LogLoad: Game class is 'BP_GameMode_Game_C'
+[2022.01.31-05.53.38:869][436]LogWorld: Bringing World /Game/XM/Maps/UEDPIE_0_ArenaTestZone.ArenaTestZone up for play (max tick rate 0) at 2022.01.30-22.53.38
+[2022.01.31-05.53.38:869][436]LogWorld: Bringing up level for play took: 0.000751
+[2022.01.31-05.53.38:869][436]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2022.01.31-05.53.38:871][436]LogTemp: Warning:  Initialize called
+[2022.01.31-05.53.38:871][436]LogBlueprintUserMessages: [PenCrawler_2] length of map array is: 900
+[2022.01.31-05.53.38:874][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:874][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:880][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:880][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:880][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:880][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:880][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:882][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:882][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:885][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:885][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:887][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:888][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:888][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:888][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:888][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:890][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:890][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:890][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:890][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:892][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:893][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:893][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:893][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:893][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:893][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:895][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:895][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:895][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:895][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:895][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:896][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:896][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:896][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:896][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:897][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:897][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:897][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:897][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:898][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:898][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:900][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:900][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:900][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:900][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:900][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:900][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:900][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:902][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:903][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:903][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:903][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:903][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:903][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:904][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:905][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:905][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:905][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:905][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:905][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:905][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:905][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:908][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:908][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:908][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:908][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:908][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:909][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:909][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:910][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:910][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:910][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:911][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:911][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:911][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:911][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:912][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:912][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:912][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:912][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:912][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:913][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:913][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:914][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:915][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:916][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:917][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:917][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:917][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:918][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:918][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:918][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:918][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:919][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:920][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:920][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:922][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:922][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:925][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:925][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:925][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:925][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:925][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:925][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:927][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:928][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:928][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:928][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:928][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:930][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:930][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:932][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:933][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:933][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:933][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:933][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:933][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:933][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:935][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:935][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:935][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:937][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:938][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:938][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:938][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:938][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:938][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:940][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:940][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:940][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:940][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:940][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:940][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:940][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:943][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:943][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:943][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:943][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:943][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:943][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:943][436]LogBlueprintUserMessages: [PenCrawler_2] Hello, not valid here
+[2022.01.31-05.53.38:947][436]Cmd: r.VolumetricCloud.DistanceToSampleMaxCount 4.0
+[2022.01.31-05.53.38:947][436]r.VolumetricCloud.DistanceToSampleMaxCount = "4"
+[2022.01.31-05.53.38:947][436]Cmd: r.VolumetricRenderTarget.Mode 2
+[2022.01.31-05.53.38:947][436]r.VolumetricRenderTarget.Mode = "2"
+[2022.01.31-05.53.38:947][436]Cmd: r.VolumetricRenderTarget 1
+[2022.01.31-05.53.38:947][436]r.VolumetricRenderTarget = "1"
+[2022.01.31-05.53.38:948][436]Cmd: r.LightFunctionQuality 1
+[2022.01.31-05.53.38:948][436]r.LightFunctionQuality = "1"
+[2022.01.31-05.53.38:948][436]Cmd: r.SkyLight.RealTimeReflectionCapture 1
+[2022.01.31-05.53.38:948][436]r.SkyLight.RealTimeReflectionCapture = "1"
+[2022.01.31-05.53.38:948][436]Cmd: r.SkyLight.RealTimeReflectionCapture.TimeSlice 1
+[2022.01.31-05.53.38:948][436]r.SkyLight.RealTimeReflectionCapture.TimeSlice = "1"
+[2022.01.31-05.53.38:948][436]Cmd: r.EyeAdaptation.BlackHistogramBucketInfluence 0.5
+[2022.01.31-05.53.38:948][436]r.EyeAdaptation.BlackHistogramBucketInfluence = "0.5"
+[2022.01.31-05.53.38:950][436]PIE: Server logged in
+[2022.01.31-05.53.38:950][436]PIE: Play in editor total start time 0.257 seconds.
+[2022.01.31-05.53.38:957][436]Cmd: r.VolumetricFog.GridPixelSize 64
+[2022.01.31-05.53.38:957][436]r.VolumetricFog.GridPixelSize = "64"
+[2022.01.31-05.53.45:474][117]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.31-05.53.45:475][117]LogWorld: BeginTearingDown for /Game/XM/Maps/UEDPIE_0_ArenaTestZone
+[2022.01.31-05.53.45:475][117]LogWorld: UWorld::CleanupWorld for ArenaTestZone, bSessionEnded=true, bCleanupResources=true
+[2022.01.31-05.53.45:478][117]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.31-05.53.45:488][117]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.31-05.53.45:501][117]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.31-05.53.45:542][117]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.01.31-05.53.45:542][117]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.31-05.53.45:543][117]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.31-05.53.45:545][117]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.31-05.53.45:563][117]LogUObjectHash: Compacting FUObjectHashTables data took   4.69ms
+[2022.01.31-05.53.46:110][118]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2022.01.31-05.54.55:834][378]LogHotReload: New module detected: UE4Editor-EasySurvivalRPGv3-0007.dll
+[2022.01.31-05.54.56:517][381]LogHotReload: Starting Hot-Reload from IDE
+[2022.01.31-05.54.56:576][381]LogClass: CrawlerStartPosition HotReload.
+[2022.01.31-05.54.56:582][381]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'EasySurvivalRPGv3' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2022.01.31-05.54.56:595][381]Display: HotReload successful (8 functions remapped  0 scriptstructs remapped)
+[2022.01.31-05.54.56:855][381]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0087 seconds. Added 3838 classes and 939 folders.
+[2022.01.31-05.54.56:870][381]Display: HotReload took  0.4s.
+[2022.01.31-05.55.41:335][599]LogUObjectHash: Compacting FUObjectHashTables data took   6.41ms
+[2022.01.31-05.55.41:369][599]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Saved/ArenaTestZoneD3E9A9714B20A6997E5493893E613393.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Content/XM/Maps/ArenaTestZone.umap'
+[2022.01.31-05.55.41:911][599]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Saved/ArenaTestZone_BuiltData36422A584B00D3D4993421ACC7E8282F.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Content/XM/Maps/ArenaTestZone_BuiltData.uasset'
+[2022.01.31-05.55.41:929][599]AssetCheck: New page: Asset Save: multiple assets
+[2022.01.31-05.55.41:929][599]LogContentValidation: Display: Validating World /Game/XM/Maps/ArenaTestZone.ArenaTestZone
+[2022.01.31-05.55.41:929][599]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/XM/Maps/ArenaTestZone_BuiltData.ArenaTestZone_BuiltData
+[2022.01.31-05.55.45:914][ 20]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.31-05.55.45:914][ 20]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/2D/Paper2D/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.31-05.55.45:914][ 20]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Editor/GeometryMode/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.31-05.55.45:914][ 20]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.31-05.55.45:914][ 20]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.31-05.55.45:914][ 20]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/FX/Niagara/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.31-05.55.45:914][ 20]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.31-05.55.45:914][ 20]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosNiagara/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.31-05.55.45:914][ 20]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.31-05.55.45:914][ 20]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.31-05.55.45:914][ 20]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.31-05.55.45:914][ 20]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/GeometryProcessing/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.31-05.55.45:914][ 20]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/MotoSynth/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/MotoSynth/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.31-05.55.45:914][ 20]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.31-05.55.45:914][ 20]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Lumin/MagicLeap/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.31-05.55.45:914][ 20]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.31-05.55.45:914][ 20]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.31-05.55.45:914][ 20]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.31-05.55.45:914][ 20]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/VirtualProduction/Takes/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.31-05.55.45:914][ 20]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXRHandTracking/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXRHandTracking/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.31-05.55.45:914][ 20]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXR/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXR/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.31-05.55.45:914][ 20]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXREyeTracker/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXREyeTracker/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.31-05.55.45:914][ 20]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/PostSplashScreen/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.31-05.55.45:914][ 20]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Synthesis/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.31-05.55.45:914][ 20]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.31-05.55.45:914][ 20]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'C:/Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3'
+[2022.01.31-05.55.47:097][ 20]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/XM/ArenaGen/PenCrawler" FILE="../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Content/XM/ArenaGen/PenCrawler.uasset" SILENT=true
+[2022.01.31-05.55.47:109][ 20]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Saved/PenCrawlerE3E5D5BD40DD127D3E8628964E2A9EFD.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Content/XM/ArenaGen/PenCrawler.uasset'
+[2022.01.31-05.55.47:174][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   8.48ms
+[2022.01.31-05.55.47:230][ 20]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Saved/ArenaTestZone77F92DA54EE34876D8B750881A6FCD96.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Content/XM/Maps/ArenaTestZone.umap'
+[2022.01.31-05.55.47:238][ 20]LogFileHelpers: Saving map 'ArenaTestZone' took 0.127
+[2022.01.31-05.55.47:247][ 20]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Saved/ArenaTestZone_BuiltDataBE49DFC143BE4EFA787AB48A988469BB.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Content/XM/Maps/ArenaTestZone_BuiltData.uasset'
+[2022.01.31-05.55.47:248][ 20]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/Owner/Documents/Unreal Projects/EasySurvivalRPGv3/Content/XM/Maps/ArenaTestZone_BuiltData.uasset', retrying in .5s...
+[2022.01.31-05.55.47:750][ 20]LogFileManager: Warning: DeleteFile recovered during retry!
+[2022.01.31-05.55.54:341][ 20]LogSlate: Window 'Submit Files' being destroyed
+[2022.01.31-05.55.56:247][ 20]LogSourceControl: commit successful: [master 9db518b1] CrawlerPennyIn
+[2022.01.31-05.55.56:367][ 20]SourceControl: [master 9db518b1] CrawlerPennyIn
+[2022.01.31-05.55.56:367][ 20]SourceControl:  3 files changed, 6 insertions(+), 3 deletions(-)
+[2022.01.31-05.55.56:367][ 20]SourceControl:  create mode 100644 Content/XM/ArenaGen/PenCrawler.uasset
+[2022.01.31-05.55.56:374][ 20]SourceControl: Commited [master 9db518b1] CrawlerPennyIn.
+[2022.01.31-05.55.56:419][ 21]AssetCheck: New page: Asset Save: multiple assets
+[2022.01.31-05.55.56:419][ 21]LogContentValidation: Display: Validating World /Game/XM/Maps/ArenaTestZone.ArenaTestZone
+[2022.01.31-05.55.56:420][ 21]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/XM/Maps/ArenaTestZone_BuiltData.ArenaTestZone_BuiltData
+[2022.01.31-05.55.56:420][ 21]LogContentValidation: Display: Validating Blueprint /Game/XM/ArenaGen/PenCrawler.PenCrawler
