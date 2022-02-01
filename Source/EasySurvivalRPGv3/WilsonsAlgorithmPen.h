@@ -28,7 +28,6 @@ void RandomWalk();
 UPROPERTY(EditAnywhere)
 int loopcount;
 
-TArray<FVector2D> directions = {FVector2D(1,0),FVector2D(0,1),FVector2D(-1,0), FVector2D(0,-1)};
 TArray<FVector2D> notUsed;
 
 };

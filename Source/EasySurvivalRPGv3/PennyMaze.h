@@ -41,11 +41,14 @@ public:
 	int SeedForRandomMap = -1;
 	FRandomStream SeedValue;
 
+	TArray<FVector2D> directions = { FVector2D(1,0),FVector2D(0,1),FVector2D(-1,0), FVector2D(0,-1) };
+
 	UFUNCTION(BlueprintCallable)
 	void InitialiseMap();
 
 	UFUNCTION(BlueprintCallable)
 	virtual void Generate();
+
 
 	int CountSquareNeighbours(int x, int z);
 	int CountDiagonalNeighbours(int x, int z);
