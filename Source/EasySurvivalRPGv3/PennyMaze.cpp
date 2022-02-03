@@ -43,6 +43,38 @@ void  APennyMaze::Generate()
 
 
 
+bool APennyMaze::Search2D(int c, int r, TArray<int> pattern)
+{
+	//counts matches with pattern
+	int count = 0;
+	//position tested
+	int pos = 0;
+
+	// 1,-1   1,0   1,1
+	// 0,-1   0,0   0,1
+	//-1,-1  -1,0  -1,1
+	for (int y = 1; y > -2; y--)
+	{
+		for (int x = -1; x < 2; x++)
+		{
+			if (pattern[pos] == 5 || pattern[pos] == map.FindRef(FVector2D(c + x, r + y)))
+			{
+				UE_LOG(LogTemp, Warning, TEXT("Value of pattern pos: %i"), pattern[pos])
+				UE_LOG(LogTemp, Warning, TEXT("Value of map location: %i"), map.FindRef(FVector2D(c + x, r + y)))
+				//match found
+				count++;
+				
+				UE_LOG(LogTemp, Warning, TEXT("Count up to %i"), count)
+			}
+			//increasing position
+			pos++;
+			UE_LOG(LogTemp, Warning, TEXT("Pos up to %i"), pos)
+		}
+	}
+	return (count == 9);// this just says if it matches the pattern coming in
+	
+}
+
 int  APennyMaze::CountSquareNeighbours(int x, int z)
 {
  		int count = 0;
