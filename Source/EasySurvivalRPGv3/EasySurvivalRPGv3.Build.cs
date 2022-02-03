@@ -1,23 +1,3 @@
-// Easy Systems
-
-using UnrealBuildTool;
-
-public class EasySurvivalRPGv3 : ModuleRules
-{
-	public EasySurvivalRPGv3(ReadOnlyTargetRules Target) : base(Target)
-	{
-		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
-	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
-
-		PrivateDependencyModuleNames.AddRange(new string[] {  });
-
-		// Uncomment if you are using Slate UI
-		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
-		
-		// Uncomment if you are using online features
-		// PrivateDependencyModuleNames.Add("OnlineSubsystem");
-
-		// To include OnlineSubsystemSteam, add it to the plugins section in your uproject file with the Enabled attribute set to true
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:980cba5b2b0f83353c30aaf5a71dfd532f6aaa9cc325505977865975e0eb0f2f
+size 944

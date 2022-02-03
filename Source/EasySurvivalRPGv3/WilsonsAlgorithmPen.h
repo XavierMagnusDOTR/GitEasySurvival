@@ -1,33 +1,3 @@
-// Easy Systems
-
-#pragma once
-
-#include "CoreMinimal.h"
-#include "PennyMaze.h"
-#include "WilsonsAlgorithmPen.generated.h"
-
-/**
- * 
- */
-UCLASS()
-class EASYSURVIVALRPGV3_API AWilsonsAlgorithmPen : public APennyMaze
-{
-	GENERATED_BODY()
-
-
-public:
-    
-
-virtual void Generate() override;
-
-int GetAvailableCells();
-
-int CountSquareMazeNeighbours(int x, int z);
-void RandomWalk();
-
-UPROPERTY(EditAnywhere)
-int loopcount;
-
-TArray<FVector2D> notUsed;
-
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:16e7543949a180de63f3c38cba998535cf0a00774092636196cdd5bdcc2328bf
+size 644

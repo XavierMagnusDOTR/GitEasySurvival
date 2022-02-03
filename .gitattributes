@@ -12,4 +12,22 @@
 *.lnk filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
 *.txt filter=lfs diff=lfs merge=lfs -text
+<<<<<<< HEAD
 *.bin filter=lfs diff=lfs merge=lfs -text
+*.log filter=lfs diff=lfs merge=lfs -text
+*.json filter=lfs diff=lfs merge=lfs -text
+*.runtime-xml filter=lfs diff=lfs merge=lfs -text
+*.dmp filter=lfs diff=lfs merge=lfs -text
+*.sav filter=lfs diff=lfs merge=lfs -text
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.part filter=lfs diff=lfs merge=lfs -text
+*.url filter=lfs diff=lfs merge=lfs -text
+*.cs filter=lfs diff=lfs merge=lfs -text
+*.cpp filter=lfs diff=lfs merge=lfs -text
+*.h filter=lfs diff=lfs merge=lfs -text
+*.FBX filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.psd filter=lfs diff=lfs merge=lfs -text
+=======
+*.bin filter=lfs diff=lfs merge=lfs -text
+>>>>>>> 4c2f13c31bfe5921030b30cf6c3e7bd226379381

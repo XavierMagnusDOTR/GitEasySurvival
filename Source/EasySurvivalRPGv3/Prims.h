@@ -1,23 +1,3 @@
-// Easy Systems
-
-#pragma once
-
-#include "CoreMinimal.h"
-#include "PennyMaze.h"
-#include "Prims.generated.h"
-
-/**
- * 
- */
-UCLASS()
-class EASYSURVIVALRPGV3_API APrims : public APennyMaze
-{
-	GENERATED_BODY()
-
-public:
-
-    virtual void Generate() override;
-
-
-    TArray<FVector2D> walls;
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:d76832e0a9a09c9adae6c51355e0f5231f2bd8f214bbbe707e5c4f0b8608d9db
+size 485

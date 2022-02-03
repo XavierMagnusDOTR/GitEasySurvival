@@ -1,15 +1,3 @@
-// Easy Systems
-
-using UnrealBuildTool;
-using System.Collections.Generic;
-
-public class EasySurvivalRPGv3EditorTarget : TargetRules
-{
-	public EasySurvivalRPGv3EditorTarget(TargetInfo Target) : base(Target)
-	{
-		Type = TargetType.Editor;
-		DefaultBuildSettings = BuildSettingsVersion.V2;
-
-		ExtraModuleNames.AddRange( new string[] { "EasySurvivalRPGv3" } );
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:77c9e54e4df161c5ee5ba6ff8d6455c35ed87943e6b5b7e19fa39c4d65710c20
+size 560
