@@ -31,3 +31,4 @@
 =======
 *.bin filter=lfs diff=lfs merge=lfs -text
 >>>>>>> 4c2f13c31bfe5921030b30cf6c3e7bd226379381
+*.mp4 filter=lfs diff=lfs merge=lfs -text
